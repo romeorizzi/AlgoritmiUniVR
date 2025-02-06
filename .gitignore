@@ -1,0 +1,39 @@
+# renditions
+#*.pdf
+
+# backups
+*~
+*.bak
+
+# signatures and cryptography
+*.sig
+
+# LaTex
+*.aux
+*.log
+*.bbl
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.vtc
+*.blg
+
+# archives
+*.zip
+*.tgz
+*.tar.gz
+*.tar
+*.7z
+
+# MacOS X
+.DS_Store
+
+# Byte-compiled / optimized / DLL files
+a.out
+__pycache__/
+*.py[cod]
+*$py.class
+*.class
+
