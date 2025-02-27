@@ -23,7 +23,6 @@ Typst è un linguaggio moderno per la formattazione dei documenti, facile da usa
 
 Di seguito un'immagine di esempio:
 
-#figure(
-  image("fig1.png", width: 100%),
-)
+#image("fig1.png", width: 100%)
+
 
