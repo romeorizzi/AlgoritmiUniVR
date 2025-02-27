@@ -1,0 +1,80 @@
+The server has proposed to play the game:
+ - n=2
+ - d=[6132, 33698]
+ - p=[59894, 46473]
+our disinterested advice would be to go first.
+
+The problem solver wants to go first. Ok, the server will be second to move.
+
+Good choice! The problem solver is ahead.
+
+# The problem solver is now facing the position:
+# p=[59894, 46473] (keep in mind that d=[6132, 33698], to grasp the whole situation).
+The problem solver moves from [59894, 46473] to [59894, 38396].
+Move {time}: it appears that the problem solver has made a serious mistake here with his move form {p} to {next_ps[0]}!!! The server is now ahead and on the go to win this match.
+
+# The server is now facing the position:
+# p=[59894, 38396] (keep in mind that d=[6132, 33698], to grasp the whole situation).
+The server reluctancty moves from [59894, 38396] to [53762, 38396].
+# The problem solver is now facing the position:
+# p=[53762, 38396] (keep in mind that d=[6132, 33698], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[53761, 38396] (keep in mind that d=[6132, 33698], to grasp the whole situation).
+The server reluctancty moves from [53761, 38396] to [47629, 38396].
+# The problem solver is now facing the position:
+# p=[47629, 38396] (keep in mind that d=[6132, 33698], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[47628, 38396] (keep in mind that d=[6132, 33698], to grasp the whole situation).
+The server reluctancty moves from [47628, 38396] to [41496, 38396].
+# The problem solver is now facing the position:
+# p=[41496, 38396] (keep in mind that d=[6132, 33698], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[41495, 38396] (keep in mind that d=[6132, 33698], to grasp the whole situation).
+The server reluctancty moves from [41495, 38396] to [35363, 38396].
+# The problem solver is now facing the position:
+# p=[35363, 38396] (keep in mind that d=[6132, 33698], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[35363, 4698] (keep in mind that d=[6132, 33698], to grasp the whole situation).
+The server reluctancty moves from [35363, 4698] to [29231, 4698].
+# The problem solver is now facing the position:
+# p=[29231, 4698] (keep in mind that d=[6132, 33698], to grasp the whole situation).
+The problem solver moves from [29231, 4698] to [29230, 4698].
+# The server is now facing the position:
+# p=[29230, 4698] (keep in mind that d=[6132, 33698], to grasp the whole situation).
+The server reluctancty moves from [29230, 4698] to [23098, 4698].
+# The problem solver is now facing the position:
+# p=[23098, 4698] (keep in mind that d=[6132, 33698], to grasp the whole situation).
+The problem solver moves from [23098, 4698] to [23097, 4698].
+# The server is now facing the position:
+# p=[23097, 4698] (keep in mind that d=[6132, 33698], to grasp the whole situation).
+The server reluctancty moves from [23097, 4698] to [16965, 4698].
+# The problem solver is now facing the position:
+# p=[16965, 4698] (keep in mind that d=[6132, 33698], to grasp the whole situation).
+The problem solver moves from [16965, 4698] to [16964, 4698].
+# The server is now facing the position:
+# p=[16964, 4698] (keep in mind that d=[6132, 33698], to grasp the whole situation).
+The server reluctancty moves from [16964, 4698] to [10832, 4698].
+# The problem solver is now facing the position:
+# p=[10832, 4698] (keep in mind that d=[6132, 33698], to grasp the whole situation).
+The problem solver moves from [10832, 4698] to [10831, 4698].
+# The server is now facing the position:
+# p=[10831, 4698] (keep in mind that d=[6132, 33698], to grasp the whole situation).
+The server reluctancty moves from [10831, 4698] to [4699, 4698].
+# The problem solver is now facing the position:
+# p=[4699, 4698] (keep in mind that d=[6132, 33698], to grasp the whole situation).
+The problem solver moves from [4699, 4698] to [4698, 4698].
+# The server is now facing the position:
+# p=[4698, 4698] (keep in mind that d=[6132, 33698], to grasp the whole situation).
+The server reluctancty moves from [4698, 4698] to [0, 4698].
+# The problem solver is now facing the position:
+# p=[0, 4698] (keep in mind that d=[6132, 33698], to grasp the whole situation).
+The problem solver moves from [0, 4698] to [0, 0].
+

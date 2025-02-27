@@ -1,0 +1,41 @@
+The server has proposed to play the game:
+ - n=2
+ - d=[26720, 24070]
+ - p=[33721, 95639]
+our disinterested advice would be to go first.
+
+The problem solver wants to go first. Ok, the server will be second to move.
+
+Good choice! The problem solver is ahead.
+
+# The problem solver is now facing the position:
+# p=[33721, 95639] (keep in mind that d=[26720, 24070], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+Move {time}: it appears that the problem solver has made a serious mistake here with his move form {p} to {next_ps[0]}!!! The server is now ahead and on the go to win this match.
+
+# The server is now facing the position:
+# p=[23426, 95639] (keep in mind that d=[26720, 24070], to grasp the whole situation).
+The server reluctancty moves from [23426, 95639] to [0, 95639].
+# The problem solver is now facing the position:
+# p=[0, 95639] (keep in mind that d=[26720, 24070], to grasp the whole situation).
+The problem solver moves from [0, 95639] to [0, 72213].
+# The server is now facing the position:
+# p=[0, 72213] (keep in mind that d=[26720, 24070], to grasp the whole situation).
+The server reluctancty moves from [0, 72213] to [0, 48143].
+# The problem solver is now facing the position:
+# p=[0, 48143] (keep in mind that d=[26720, 24070], to grasp the whole situation).
+The problem solver moves from [0, 48143] to [0, 48142].
+# The server is now facing the position:
+# p=[0, 48142] (keep in mind that d=[26720, 24070], to grasp the whole situation).
+The server reluctancty moves from [0, 48142] to [0, 24072].
+# The problem solver is now facing the position:
+# p=[0, 24072] (keep in mind that d=[26720, 24070], to grasp the whole situation).
+The problem solver moves from [0, 24072] to [0, 24071].
+# The server is now facing the position:
+# p=[0, 24071] (keep in mind that d=[26720, 24070], to grasp the whole situation).
+The server reluctancty moves from [0, 24071] to [0, 1].
+# The problem solver is now facing the position:
+# p=[0, 1] (keep in mind that d=[26720, 24070], to grasp the whole situation).
+The problem solver moves from [0, 1] to [0, 0].
+

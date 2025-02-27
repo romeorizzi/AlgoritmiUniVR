@@ -1,0 +1,37 @@
+---
+public_folder: public
+services:
+    solve:
+        evaluator: [python, services/manager.py]
+        args:
+            size:
+                regex: ^(esempi_testo|practice|tiny|small|medium|big|large|extra_large|huge)$
+                default: colossal
+            download_inst:
+                regex: ^(0|1)$
+                default: 0
+            download_corr_answ:
+                regex: ^(0|1)$
+                default: 0
+            one_instance_source:
+                regex: ^(esempi_testo|practice|rand_gen|rand_gen2)$
+                default: rand_gen
+                explain: "you can ask to face one single and specific instance of the problem (or to download it, or to see what would be a correct answer for it). To do so, use this argument to select its source (whether a random generator or an archive of hardcoded instances). For instances from an archive you must also specify the <instanceID> argument (progressive numbers starting from 1). For those produced by a random generator you need to specify the random <seed> and the other arguments as required by that specific generator. The generator `rand_gen` reconstructs an instance from its instance descriptor <n_min,n_max,seed>."
+            instanceID:
+                regex: ^([1-9][0-9]{0,2})$
+                default: 1
+                explain: specify the number of the hardcoded instance in the archive selected via argument <one_instance_source>.
+            seed:
+                regex: ^(random|[1-9][0-9]{5,5})$
+                default: random
+                explain: to require a specific random instance select its random generator in the <one_instance_source> argument and its numeric code in <seed>. You also need to specify the precise values for each of the other arguments comprising the instance descriptor.
+            n_min:
+                regex: ^(0|[1-9][0-9]{0,100})$
+                default: 0
+                explain: argument needed by the random instance generation process. Used to define the range [n_min, n_max] for the argument n of the function f you must implement.
+            n_max:
+                regex: ^(0|[1-9][0-9]{0,100})$
+                default: 0
+                explain: argument needed by the random instance generation process. Used to define the range [n_min, n_max] for the argument n of the function f you must implement.
+        files:
+            - source   # explain: when you are submitting your solution in order to get scores assigned to you, then you need to put in attachment the sources comprising your solution.

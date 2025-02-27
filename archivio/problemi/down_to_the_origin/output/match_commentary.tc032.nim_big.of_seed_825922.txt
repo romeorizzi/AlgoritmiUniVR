@@ -1,0 +1,253 @@
+The server has proposed to play the game:
+ - n=10
+ - d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184]
+ - p=[138841, 114956, 147208, 138148, 136160, 143211, 91636, 188839, 152908, 196578]
+our disinterested advice would be to go first.
+
+The problem solver wants to go first. Ok, the server will be second to move.
+
+Good choice! The problem solver is ahead.
+
+# The problem solver is now facing the position:
+# p=[138841, 114956, 147208, 138148, 136160, 143211, 91636, 188839, 152908, 196578] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+Move {time}: it appears that the problem solver has made a serious mistake here with his move form {p} to {next_ps[0]}!!! The server is now ahead and on the go to win this match.
+
+# The server is now facing the position:
+# p=[138841, 114956, 147208, 138148, 136160, 143211, 80644, 188839, 152908, 196578] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+The server reluctancty moves from [138841, 114956, 147208, 138148, 136160, 143211, 80644, 188839, 152908, 196578] to [94822, 114956, 147208, 138148, 136160, 143211, 80644, 188839, 152908, 196578].
+# The problem solver is now facing the position:
+# p=[94822, 114956, 147208, 138148, 136160, 143211, 80644, 188839, 152908, 196578] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[94822, 114956, 147208, 138148, 136160, 143211, 80643, 188839, 152908, 196578] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+The server reluctancty moves from [94822, 114956, 147208, 138148, 136160, 143211, 80643, 188839, 152908, 196578] to [50803, 114956, 147208, 138148, 136160, 143211, 80643, 188839, 152908, 196578].
+# The problem solver is now facing the position:
+# p=[50803, 114956, 147208, 138148, 136160, 143211, 80643, 188839, 152908, 196578] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[50803, 114956, 147208, 138148, 136160, 143211, 80643, 188839, 117751, 196578] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+The server reluctancty moves from [50803, 114956, 147208, 138148, 136160, 143211, 80643, 188839, 117751, 196578] to [6784, 114956, 147208, 138148, 136160, 143211, 80643, 188839, 117751, 196578].
+# The problem solver is now facing the position:
+# p=[6784, 114956, 147208, 138148, 136160, 143211, 80643, 188839, 117751, 196578] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[6784, 114956, 147208, 138148, 136071, 143211, 80643, 188839, 117751, 196578] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+The server reluctancty moves from [6784, 114956, 147208, 138148, 136071, 143211, 80643, 188839, 117751, 196578] to [0, 114956, 147208, 138148, 136071, 143211, 80643, 188839, 117751, 196578].
+# The problem solver is now facing the position:
+# p=[0, 114956, 147208, 138148, 136071, 143211, 80643, 188839, 117751, 196578] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 114956, 147208, 138148, 112314, 143211, 80643, 188839, 117751, 196578] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+The server reluctancty moves from [0, 114956, 147208, 138148, 112314, 143211, 80643, 188839, 117751, 196578] to [0, 84169, 147208, 138148, 112314, 143211, 80643, 188839, 117751, 196578].
+# The problem solver is now facing the position:
+# p=[0, 84169, 147208, 138148, 112314, 143211, 80643, 188839, 117751, 196578] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 84169, 147208, 138148, 112314, 143210, 80643, 188839, 117751, 196578] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+The server reluctancty moves from [0, 84169, 147208, 138148, 112314, 143210, 80643, 188839, 117751, 196578] to [0, 53382, 147208, 138148, 112314, 143210, 80643, 188839, 117751, 196578].
+# The problem solver is now facing the position:
+# p=[0, 53382, 147208, 138148, 112314, 143210, 80643, 188839, 117751, 196578] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 53382, 147208, 138148, 112311, 143210, 80643, 188839, 117751, 196578] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+The server reluctancty moves from [0, 53382, 147208, 138148, 112311, 143210, 80643, 188839, 117751, 196578] to [0, 22595, 147208, 138148, 112311, 143210, 80643, 188839, 117751, 196578].
+# The problem solver is now facing the position:
+# p=[0, 22595, 147208, 138148, 112311, 143210, 80643, 188839, 117751, 196578] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 22595, 147208, 138148, 82795, 143210, 80643, 188839, 117751, 196578] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+The server reluctancty moves from [0, 22595, 147208, 138148, 82795, 143210, 80643, 188839, 117751, 196578] to [0, 0, 147208, 138148, 82795, 143210, 80643, 188839, 117751, 196578].
+# The problem solver is now facing the position:
+# p=[0, 0, 147208, 138148, 82795, 143210, 80643, 188839, 117751, 196578] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 147208, 129634, 82795, 143210, 80643, 188839, 117751, 196578] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 147208, 129634, 82795, 143210, 80643, 188839, 117751, 196578] to [0, 0, 109451, 129634, 82795, 143210, 80643, 188839, 117751, 196578].
+# The problem solver is now facing the position:
+# p=[0, 0, 109451, 129634, 82795, 143210, 80643, 188839, 117751, 196578] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 109451, 129634, 82795, 143210, 80643, 188838, 117751, 196578] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 109451, 129634, 82795, 143210, 80643, 188838, 117751, 196578] to [0, 0, 71694, 129634, 82795, 143210, 80643, 188838, 117751, 196578].
+# The problem solver is now facing the position:
+# p=[0, 0, 71694, 129634, 82795, 143210, 80643, 188838, 117751, 196578] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 71694, 129634, 82795, 143210, 80643, 188838, 117751, 196549] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 71694, 129634, 82795, 143210, 80643, 188838, 117751, 196549] to [0, 0, 33937, 129634, 82795, 143210, 80643, 188838, 117751, 196549].
+# The problem solver is now facing the position:
+# p=[0, 0, 33937, 129634, 82795, 143210, 80643, 188838, 117751, 196549] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 33937, 102624, 82795, 143210, 80643, 188838, 117751, 196549] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 33937, 102624, 82795, 143210, 80643, 188838, 117751, 196549] to [0, 0, 0, 102624, 82795, 143210, 80643, 188838, 117751, 196549].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 102624, 82795, 143210, 80643, 188838, 117751, 196549] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 102624, 82795, 143210, 80643, 188838, 117751, 164692] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 102624, 82795, 143210, 80643, 188838, 117751, 164692] to [0, 0, 0, 75614, 82795, 143210, 80643, 188838, 117751, 164692].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 75614, 82795, 143210, 80643, 188838, 117751, 164692] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 75614, 82795, 143210, 80643, 188825, 117751, 164692] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 75614, 82795, 143210, 80643, 188825, 117751, 164692] to [0, 0, 0, 48604, 82795, 143210, 80643, 188825, 117751, 164692].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 48604, 82795, 143210, 80643, 188825, 117751, 164692] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 48604, 82795, 143210, 80643, 188824, 117751, 164692] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 48604, 82795, 143210, 80643, 188824, 117751, 164692] to [0, 0, 0, 21594, 82795, 143210, 80643, 188824, 117751, 164692].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 21594, 82795, 143210, 80643, 188824, 117751, 164692] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 21594, 82795, 143210, 57270, 188824, 117751, 164692] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 21594, 82795, 143210, 57270, 188824, 117751, 164692] to [0, 0, 0, 0, 82795, 143210, 57270, 188824, 117751, 164692].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 82795, 143210, 57270, 188824, 117751, 164692] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 82795, 143210, 57270, 188824, 117751, 143893] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 82795, 143210, 57270, 188824, 117751, 143893] to [0, 0, 0, 0, 53279, 143210, 57270, 188824, 117751, 143893].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 53279, 143210, 57270, 188824, 117751, 143893] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 53278, 143210, 57270, 188824, 117751, 143893] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 53278, 143210, 57270, 188824, 117751, 143893] to [0, 0, 0, 0, 23762, 143210, 57270, 188824, 117751, 143893].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 23762, 143210, 57270, 188824, 117751, 143893] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 23762, 143210, 57269, 188824, 117751, 143893] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 23762, 143210, 57269, 188824, 117751, 143893] to [0, 0, 0, 0, 0, 143210, 57269, 188824, 117751, 143893].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 143210, 57269, 188824, 117751, 143893] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 143210, 57269, 188824, 117751, 122595] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 143210, 57269, 188824, 117751, 122595] to [0, 0, 0, 0, 0, 98537, 57269, 188824, 117751, 122595].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 98537, 57269, 188824, 117751, 122595] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 98537, 57269, 188824, 117751, 82411] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 98537, 57269, 188824, 117751, 82411] to [0, 0, 0, 0, 0, 53864, 57269, 188824, 117751, 82411].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 53864, 57269, 188824, 117751, 82411] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 53864, 57269, 188824, 82594, 82411] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 53864, 57269, 188824, 82594, 82411] to [0, 0, 0, 0, 0, 9191, 57269, 188824, 82594, 82411].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 9191, 57269, 188824, 82594, 82411] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 9191, 57268, 188824, 82594, 82411] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 9191, 57268, 188824, 82594, 82411] to [0, 0, 0, 0, 0, 0, 57268, 188824, 82594, 82411].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 57268, 188824, 82594, 82411] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 49563, 188824, 82594, 82411] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 0, 49563, 188824, 82594, 82411] to [0, 0, 0, 0, 0, 0, 26190, 188824, 82594, 82411].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 26190, 188824, 82594, 82411] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 26190, 188824, 82594, 81912] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 0, 26190, 188824, 82594, 81912] to [0, 0, 0, 0, 0, 0, 2817, 188824, 82594, 81912].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 2817, 188824, 82594, 81912] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 2817, 188824, 47437, 81912] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 0, 2817, 188824, 47437, 81912] to [0, 0, 0, 0, 0, 0, 0, 188824, 47437, 81912].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 188824, 47437, 81912] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 154641, 47437, 81912] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 0, 0, 154641, 47437, 81912] to [0, 0, 0, 0, 0, 0, 0, 118666, 47437, 81912].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 118666, 47437, 81912] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 118666, 47437, 81911] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 0, 0, 118666, 47437, 81911] to [0, 0, 0, 0, 0, 0, 0, 82691, 47437, 81911].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 82691, 47437, 81911] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 82691, 47437, 81910] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 0, 0, 82691, 47437, 81910] to [0, 0, 0, 0, 0, 0, 0, 46716, 47437, 81910].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 46716, 47437, 81910] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 46716, 47430, 81910] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 0, 0, 46716, 47430, 81910] to [0, 0, 0, 0, 0, 0, 0, 10741, 47430, 81910].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 10741, 47430, 81910] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 10740, 47430, 81910] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 0, 0, 10740, 47430, 81910] to [0, 0, 0, 0, 0, 0, 0, 0, 47430, 81910].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 0, 47430, 81910] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 0, 36698, 81910] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 0, 0, 0, 36698, 81910] to [0, 0, 0, 0, 0, 0, 0, 0, 1541, 81910].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 0, 1541, 81910] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 0, 1541, 41726] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 0, 0, 0, 1541, 41726] to [0, 0, 0, 0, 0, 0, 0, 0, 0, 41726].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 0, 0, 41726] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 0, 0, 0, 0, 0, 0, 41726] to [0, 0, 0, 0, 0, 0, 0, 0, 0, 40185].
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 0, 0, 40185] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 0, 0, 0, 0, 40185] to [0, 0, 0, 0, 0, 0, 0, 0, 0, 1].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 0, 0, 1] (keep in mind that d=[44019, 30787, 37757, 27010, 29516, 44673, 23373, 35975, 35157, 40184], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 0, 0, 0, 0, 0, 0, 1] to [0, 0, 0, 0, 0, 0, 0, 0, 0, 0].
+

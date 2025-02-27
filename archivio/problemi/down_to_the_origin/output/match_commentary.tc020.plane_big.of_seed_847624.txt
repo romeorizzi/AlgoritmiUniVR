@@ -1,0 +1,36 @@
+The server has proposed to play the game:
+ - n=2
+ - d=[29509, 45992]
+ - p=[83733, 98576]
+our disinterested advice would be to go first.
+
+The problem solver wants to go first. Ok, the server will be second to move.
+
+Good choice! The problem solver is ahead.
+
+# The problem solver is now facing the position:
+# p=[83733, 98576] (keep in mind that d=[29509, 45992], to grasp the whole situation).
+The {winning move =} is missing from your list of all the winning moves:
+{next_ps} (I will not check and report on the alternative winning moves for the rest of this one match.)
+The problem solver moves from [83733, 98576] to [83733, 70706].
+Move {time}: it appears that the problem solver has made a serious mistake here with his move form {p} to {next_ps[0]}!!! The server is now ahead and on the go to win this match.
+
+# The server is now facing the position:
+# p=[83733, 70706] (keep in mind that d=[29509, 45992], to grasp the whole situation).
+The server reluctancty moves from [83733, 70706] to [54224, 70706].
+# The problem solver is now facing the position:
+# p=[54224, 70706] (keep in mind that d=[29509, 45992], to grasp the whole situation).
+The problem solver moves from [54224, 70706] to [54223, 70706].
+# The server is now facing the position:
+# p=[54223, 70706] (keep in mind that d=[29509, 45992], to grasp the whole situation).
+The server reluctancty moves from [54223, 70706] to [24714, 70706].
+# The problem solver is now facing the position:
+# p=[24714, 70706] (keep in mind that d=[29509, 45992], to grasp the whole situation).
+The problem solver moves from [24714, 70706] to [24714, 24714].
+# The server is now facing the position:
+# p=[24714, 24714] (keep in mind that d=[29509, 45992], to grasp the whole situation).
+The server reluctancty moves from [24714, 24714] to [0, 24714].
+# The problem solver is now facing the position:
+# p=[0, 24714] (keep in mind that d=[29509, 45992], to grasp the whole situation).
+The problem solver moves from [0, 24714] to [0, 0].
+

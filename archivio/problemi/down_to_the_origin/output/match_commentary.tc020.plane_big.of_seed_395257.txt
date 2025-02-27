@@ -1,0 +1,42 @@
+The server has proposed to play the game:
+ - n=2
+ - d=[49732, 40575]
+ - p=[86934, 91928]
+our disinterested advice would be to go first.
+
+The problem solver wants to go first. Ok, the server will be second to move.
+
+Good choice! The problem solver is ahead.
+
+# The problem solver is now facing the position:
+# p=[86934, 91928] (keep in mind that d=[49732, 40575], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   [[60509, 91928], [86934, 77777]]
+Move 1: it appears that the problem solver has made a serious mistake here with his move form [86934, 91928] to [60509, 91928]!!! The server is now ahead and on the go to win this match.
+
+# The server is now facing the position:
+# p=[60509, 91928] (keep in mind that d=[49732, 40575], to grasp the whole situation).
+The server reluctancty moves from [60509, 91928] to [10777, 91928].
+# The problem solver is now facing the position:
+# p=[10777, 91928] (keep in mind that d=[49732, 40575], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   [[10776, 91928], [10777, 51353]]
+# The server is now facing the position:
+# p=[10776, 91928] (keep in mind that d=[49732, 40575], to grasp the whole situation).
+The server reluctancty moves from [10776, 91928] to [0, 91928].
+# The problem solver is now facing the position:
+# p=[0, 91928] (keep in mind that d=[49732, 40575], to grasp the whole situation).
+The problem solver moves from [0, 91928] to [0, 81152].
+# The server is now facing the position:
+# p=[0, 81152] (keep in mind that d=[49732, 40575], to grasp the whole situation).
+The server reluctancty moves from [0, 81152] to [0, 40577].
+# The problem solver is now facing the position:
+# p=[0, 40577] (keep in mind that d=[49732, 40575], to grasp the whole situation).
+The problem solver moves from [0, 40577] to [0, 40576].
+# The server is now facing the position:
+# p=[0, 40576] (keep in mind that d=[49732, 40575], to grasp the whole situation).
+The server reluctancty moves from [0, 40576] to [0, 1].
+# The problem solver is now facing the position:
+# p=[0, 1] (keep in mind that d=[49732, 40575], to grasp the whole situation).
+The problem solver moves from [0, 1] to [0, 0].
+

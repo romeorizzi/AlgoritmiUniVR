@@ -1,0 +1,28 @@
+The server has proposed to play the game:
+ - n=2
+ - d=[40823, 34702]
+ - p=[68225, 17672]
+our disinterested advice would be to go first.
+
+The problem solver wants to go first. Ok, the server will be second to move.
+
+Good choice! The problem solver is ahead.
+
+# The problem solver is now facing the position:
+# p=[68225, 17672] (keep in mind that d=[40823, 34702], to grasp the whole situation).
+The problem solver moves from [68225, 17672] to [58496, 17672].
+Move 1: it appears that the problem solver has made a serious mistake here with his move form [68225, 17672] to [58496, 17672]!!! The server is now ahead and on the go to win this match.
+
+# The server is now facing the position:
+# p=[58496, 17672] (keep in mind that d=[40823, 34702], to grasp the whole situation).
+The server reluctancty moves from [58496, 17672] to [17673, 17672].
+# The problem solver is now facing the position:
+# p=[17673, 17672] (keep in mind that d=[40823, 34702], to grasp the whole situation).
+The problem solver moves from [17673, 17672] to [17672, 17672].
+# The server is now facing the position:
+# p=[17672, 17672] (keep in mind that d=[40823, 34702], to grasp the whole situation).
+The server reluctancty moves from [17672, 17672] to [0, 17672].
+# The problem solver is now facing the position:
+# p=[0, 17672] (keep in mind that d=[40823, 34702], to grasp the whole situation).
+The problem solver moves from [0, 17672] to [0, 0].
+

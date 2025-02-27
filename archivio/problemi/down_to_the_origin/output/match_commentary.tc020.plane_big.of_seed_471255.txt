@@ -1,0 +1,60 @@
+The server has proposed to play the game:
+ - n=2
+ - d=[12309, 18170]
+ - p=[77245, 49334]
+our disinterested advice would be to go first.
+
+The problem solver wants to go first. Ok, the server will be second to move.
+
+Good choice! The problem solver is ahead.
+
+# The problem solver is now facing the position:
+# p=[77245, 49334] (keep in mind that d=[12309, 18170], to grasp the whole situation).
+The problem solver moves from [77245, 49334] to [77245, 39727].
+Move {time}: it appears that the problem solver has made a serious mistake here with his move form {p} to {next_ps[0]}!!! The server is now ahead and on the go to win this match.
+
+# The server is now facing the position:
+# p=[77245, 39727] (keep in mind that d=[12309, 18170], to grasp the whole situation).
+The server reluctancty moves from [77245, 39727] to [64936, 39727].
+# The problem solver is now facing the position:
+# p=[64936, 39727] (keep in mind that d=[12309, 18170], to grasp the whole situation).
+The {winning move =} is missing from your list of all the winning moves:
+{next_ps} (I will not check and report on the alternative winning moves for the rest of this one match.)
+The problem solver moves from [64936, 39727] to [64935, 39727].
+# The server is now facing the position:
+# p=[64935, 39727] (keep in mind that d=[12309, 18170], to grasp the whole situation).
+The server reluctancty moves from [64935, 39727] to [52626, 39727].
+# The problem solver is now facing the position:
+# p=[52626, 39727] (keep in mind that d=[12309, 18170], to grasp the whole situation).
+The problem solver moves from [52626, 39727] to [52626, 21557].
+# The server is now facing the position:
+# p=[52626, 21557] (keep in mind that d=[12309, 18170], to grasp the whole situation).
+The server reluctancty moves from [52626, 21557] to [40317, 21557].
+# The problem solver is now facing the position:
+# p=[40317, 21557] (keep in mind that d=[12309, 18170], to grasp the whole situation).
+The problem solver moves from [40317, 21557] to [40317, 3387].
+# The server is now facing the position:
+# p=[40317, 3387] (keep in mind that d=[12309, 18170], to grasp the whole situation).
+The server reluctancty moves from [40317, 3387] to [28008, 3387].
+# The problem solver is now facing the position:
+# p=[28008, 3387] (keep in mind that d=[12309, 18170], to grasp the whole situation).
+The problem solver moves from [28008, 3387] to [28007, 3387].
+# The server is now facing the position:
+# p=[28007, 3387] (keep in mind that d=[12309, 18170], to grasp the whole situation).
+The server reluctancty moves from [28007, 3387] to [15698, 3387].
+# The problem solver is now facing the position:
+# p=[15698, 3387] (keep in mind that d=[12309, 18170], to grasp the whole situation).
+The problem solver moves from [15698, 3387] to [15697, 3387].
+# The server is now facing the position:
+# p=[15697, 3387] (keep in mind that d=[12309, 18170], to grasp the whole situation).
+The server reluctancty moves from [15697, 3387] to [3388, 3387].
+# The problem solver is now facing the position:
+# p=[3388, 3387] (keep in mind that d=[12309, 18170], to grasp the whole situation).
+The problem solver moves from [3388, 3387] to [3387, 3387].
+# The server is now facing the position:
+# p=[3387, 3387] (keep in mind that d=[12309, 18170], to grasp the whole situation).
+The server reluctancty moves from [3387, 3387] to [0, 3387].
+# The problem solver is now facing the position:
+# p=[0, 3387] (keep in mind that d=[12309, 18170], to grasp the whole situation).
+The problem solver moves from [0, 3387] to [0, 0].
+

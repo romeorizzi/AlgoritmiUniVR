@@ -1,0 +1,36 @@
+The server has proposed to play the game:
+ - n=2
+ - d=[34214, 47964]
+ - p=[34677, 50108]
+our disinterested advice would be to go first.
+
+The problem solver wants to go first. Ok, the server will be second to move.
+
+Good choice! The problem solver is ahead.
+
+# The problem solver is now facing the position:
+# p=[34677, 50108] (keep in mind that d=[34214, 47964], to grasp the whole situation).
+The winning move [2143, 50108] is missing from your list of all the winning moves:
+[[34677, 48427]] (I will not check and report on the alternative winning moves for the rest of this one match.)
+The problem solver moves from [34677, 50108] to [34677, 48427].
+Move 1: it appears that the problem solver has made a serious mistake here with his move form [34677, 50108] to [34677, 48427]!!! The server is now ahead and on the go to win this match.
+
+# The server is now facing the position:
+# p=[34677, 48427] (keep in mind that d=[34214, 47964], to grasp the whole situation).
+The server reluctancty moves from [34677, 48427] to [463, 48427].
+# The problem solver is now facing the position:
+# p=[463, 48427] (keep in mind that d=[34214, 47964], to grasp the whole situation).
+The problem solver moves from [463, 48427] to [462, 48427].
+# The server is now facing the position:
+# p=[462, 48427] (keep in mind that d=[34214, 47964], to grasp the whole situation).
+The server reluctancty moves from [462, 48427] to [0, 48427].
+# The problem solver is now facing the position:
+# p=[0, 48427] (keep in mind that d=[34214, 47964], to grasp the whole situation).
+The problem solver moves from [0, 48427] to [0, 47965].
+# The server is now facing the position:
+# p=[0, 47965] (keep in mind that d=[34214, 47964], to grasp the whole situation).
+The server reluctancty moves from [0, 47965] to [0, 1].
+# The problem solver is now facing the position:
+# p=[0, 1] (keep in mind that d=[34214, 47964], to grasp the whole situation).
+The problem solver moves from [0, 1] to [0, 0].
+

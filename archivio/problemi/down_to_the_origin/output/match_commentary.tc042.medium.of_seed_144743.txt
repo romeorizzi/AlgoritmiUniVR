@@ -1,0 +1,432 @@
+The server has proposed to play the game:
+ - n=10
+ - d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22]
+ - p=[107, 260, 168, 236, 204, 155, 282, 272, 184, 263]
+our disinterested advice would be to go first.
+
+The problem solver wants to go first. Ok, the server will be second to move.
+
+Good choice! The problem solver is ahead.
+
+# The problem solver is now facing the position:
+# p=[107, 260, 168, 236, 204, 155, 282, 272, 184, 263] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+Move {time}: it appears that the problem solver has made a serious mistake here with his move form {p} to {next_ps[0]}!!! The server is now ahead and on the go to win this match.
+
+# The server is now facing the position:
+# p=[107, 260, 168, 236, 204, 133, 282, 272, 184, 263] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+The server reluctancty moves from [107, 260, 168, 236, 204, 133, 282, 272, 184, 263] to [78, 260, 168, 236, 204, 133, 282, 272, 184, 263].
+# The problem solver is now facing the position:
+# p=[78, 260, 168, 236, 204, 133, 282, 272, 184, 263] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[78, 260, 168, 236, 204, 133, 282, 271, 184, 263] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+The server reluctancty moves from [78, 260, 168, 236, 204, 133, 282, 271, 184, 263] to [49, 260, 168, 236, 204, 133, 282, 271, 184, 263].
+# The problem solver is now facing the position:
+# p=[49, 260, 168, 236, 204, 133, 282, 271, 184, 263] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[49, 260, 168, 236, 204, 133, 282, 271, 184, 241] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+The server reluctancty moves from [49, 260, 168, 236, 204, 133, 282, 271, 184, 241] to [20, 260, 168, 236, 204, 133, 282, 271, 184, 241].
+# The problem solver is now facing the position:
+# p=[20, 260, 168, 236, 204, 133, 282, 271, 184, 241] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[20, 259, 168, 236, 204, 133, 282, 271, 184, 241] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+The server reluctancty moves from [20, 259, 168, 236, 204, 133, 282, 271, 184, 241] to [0, 259, 168, 236, 204, 133, 282, 271, 184, 241].
+# The problem solver is now facing the position:
+# p=[0, 259, 168, 236, 204, 133, 282, 271, 184, 241] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 259, 168, 216, 204, 133, 282, 271, 184, 241] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 259, 168, 216, 204, 133, 282, 271, 184, 241] to [0, 228, 168, 216, 204, 133, 282, 271, 184, 241].
+# The problem solver is now facing the position:
+# p=[0, 228, 168, 216, 204, 133, 282, 271, 184, 241] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 227, 168, 216, 204, 133, 282, 271, 184, 241] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 227, 168, 216, 204, 133, 282, 271, 184, 241] to [0, 196, 168, 216, 204, 133, 282, 271, 184, 241].
+# The problem solver is now facing the position:
+# p=[0, 196, 168, 216, 204, 133, 282, 271, 184, 241] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 196, 168, 216, 199, 133, 282, 271, 184, 241] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 196, 168, 216, 199, 133, 282, 271, 184, 241] to [0, 165, 168, 216, 199, 133, 282, 271, 184, 241].
+# The problem solver is now facing the position:
+# p=[0, 165, 168, 216, 199, 133, 282, 271, 184, 241] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 164, 168, 216, 199, 133, 282, 271, 184, 241] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 164, 168, 216, 199, 133, 282, 271, 184, 241] to [0, 133, 168, 216, 199, 133, 282, 271, 184, 241].
+# The problem solver is now facing the position:
+# p=[0, 133, 168, 216, 199, 133, 282, 271, 184, 241] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 133, 168, 216, 199, 133, 282, 271, 184, 240] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 133, 168, 216, 199, 133, 282, 271, 184, 240] to [0, 102, 168, 216, 199, 133, 282, 271, 184, 240].
+# The problem solver is now facing the position:
+# p=[0, 102, 168, 216, 199, 133, 282, 271, 184, 240] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 102, 168, 216, 199, 133, 282, 271, 184, 239] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 102, 168, 216, 199, 133, 282, 271, 184, 239] to [0, 71, 168, 216, 199, 133, 282, 271, 184, 239].
+# The problem solver is now facing the position:
+# p=[0, 71, 168, 216, 199, 133, 282, 271, 184, 239] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 71, 168, 216, 199, 133, 245, 271, 184, 239] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 71, 168, 216, 199, 133, 245, 271, 184, 239] to [0, 40, 168, 216, 199, 133, 245, 271, 184, 239].
+# The problem solver is now facing the position:
+# p=[0, 40, 168, 216, 199, 133, 245, 271, 184, 239] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 40, 168, 216, 199, 133, 220, 271, 184, 239] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 40, 168, 216, 199, 133, 220, 271, 184, 239] to [0, 9, 168, 216, 199, 133, 220, 271, 184, 239].
+# The problem solver is now facing the position:
+# p=[0, 9, 168, 216, 199, 133, 220, 271, 184, 239] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 9, 168, 216, 198, 133, 220, 271, 184, 239] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 9, 168, 216, 198, 133, 220, 271, 184, 239] to [0, 0, 168, 216, 198, 133, 220, 271, 184, 239].
+# The problem solver is now facing the position:
+# p=[0, 0, 168, 216, 198, 133, 220, 271, 184, 239] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 168, 216, 198, 133, 220, 271, 184, 230] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 168, 216, 198, 133, 220, 271, 184, 230] to [0, 0, 147, 216, 198, 133, 220, 271, 184, 230].
+# The problem solver is now facing the position:
+# p=[0, 0, 147, 216, 198, 133, 220, 271, 184, 230] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 147, 216, 198, 133, 220, 270, 184, 230] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 147, 216, 198, 133, 220, 270, 184, 230] to [0, 0, 126, 216, 198, 133, 220, 270, 184, 230].
+# The problem solver is now facing the position:
+# p=[0, 0, 126, 216, 198, 133, 220, 270, 184, 230] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 126, 199, 198, 133, 220, 270, 184, 230] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 126, 199, 198, 133, 220, 270, 184, 230] to [0, 0, 105, 199, 198, 133, 220, 270, 184, 230].
+# The problem solver is now facing the position:
+# p=[0, 0, 105, 199, 198, 133, 220, 270, 184, 230] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 104, 199, 198, 133, 220, 270, 184, 230] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 104, 199, 198, 133, 220, 270, 184, 230] to [0, 0, 83, 199, 198, 133, 220, 270, 184, 230].
+# The problem solver is now facing the position:
+# p=[0, 0, 83, 199, 198, 133, 220, 270, 184, 230] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 83, 199, 198, 133, 220, 241, 184, 230] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 83, 199, 198, 133, 220, 241, 184, 230] to [0, 0, 62, 199, 198, 133, 220, 241, 184, 230].
+# The problem solver is now facing the position:
+# p=[0, 0, 62, 199, 198, 133, 220, 241, 184, 230] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 62, 199, 198, 133, 220, 212, 184, 230] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 62, 199, 198, 133, 220, 212, 184, 230] to [0, 0, 41, 199, 198, 133, 220, 212, 184, 230].
+# The problem solver is now facing the position:
+# p=[0, 0, 41, 199, 198, 133, 220, 212, 184, 230] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 41, 199, 198, 132, 220, 212, 184, 230] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 41, 199, 198, 132, 220, 212, 184, 230] to [0, 0, 20, 199, 198, 132, 220, 212, 184, 230].
+# The problem solver is now facing the position:
+# p=[0, 0, 20, 199, 198, 132, 220, 212, 184, 230] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 20, 199, 198, 132, 220, 212, 183, 230] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 20, 199, 198, 132, 220, 212, 183, 230] to [0, 0, 0, 199, 198, 132, 220, 212, 183, 230].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 199, 198, 132, 220, 212, 183, 230] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 199, 198, 132, 220, 202, 183, 230] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 199, 198, 132, 220, 202, 183, 230] to [0, 0, 0, 168, 198, 132, 220, 202, 183, 230].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 168, 198, 132, 220, 202, 183, 230] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 168, 198, 132, 220, 202, 183, 222] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 168, 198, 132, 220, 202, 183, 222] to [0, 0, 0, 137, 198, 132, 220, 202, 183, 222].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 137, 198, 132, 220, 202, 183, 222] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 137, 198, 132, 220, 173, 183, 222] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 137, 198, 132, 220, 173, 183, 222] to [0, 0, 0, 106, 198, 132, 220, 173, 183, 222].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 106, 198, 132, 220, 173, 183, 222] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 106, 198, 111, 220, 173, 183, 222] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 106, 198, 111, 220, 173, 183, 222] to [0, 0, 0, 75, 198, 111, 220, 173, 183, 222].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 75, 198, 111, 220, 173, 183, 222] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 74, 198, 111, 220, 173, 183, 222] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 74, 198, 111, 220, 173, 183, 222] to [0, 0, 0, 43, 198, 111, 220, 173, 183, 222].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 43, 198, 111, 220, 173, 183, 222] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 42, 198, 111, 220, 173, 183, 222] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 42, 198, 111, 220, 173, 183, 222] to [0, 0, 0, 11, 198, 111, 220, 173, 183, 222].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 11, 198, 111, 220, 173, 183, 222] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 10, 198, 111, 220, 173, 183, 222] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 10, 198, 111, 220, 173, 183, 222] to [0, 0, 0, 0, 198, 111, 220, 173, 183, 222].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 198, 111, 220, 173, 183, 222] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 198, 111, 220, 149, 183, 222] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 198, 111, 220, 149, 183, 222] to [0, 0, 0, 0, 177, 111, 220, 149, 183, 222].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 177, 111, 220, 149, 183, 222] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 177, 111, 220, 149, 183, 221] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 177, 111, 220, 149, 183, 221] to [0, 0, 0, 0, 156, 111, 220, 149, 183, 221].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 156, 111, 220, 149, 183, 221] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 156, 111, 220, 149, 183, 220] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 156, 111, 220, 149, 183, 220] to [0, 0, 0, 0, 135, 111, 220, 149, 183, 220].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 135, 111, 220, 149, 183, 220] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 135, 110, 220, 149, 183, 220] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 135, 110, 220, 149, 183, 220] to [0, 0, 0, 0, 114, 110, 220, 149, 183, 220].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 114, 110, 220, 149, 183, 220] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 114, 110, 220, 149, 183, 217] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 114, 110, 220, 149, 183, 217] to [0, 0, 0, 0, 93, 110, 220, 149, 183, 217].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 93, 110, 220, 149, 183, 217] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 93, 87, 220, 149, 183, 217] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 93, 87, 220, 149, 183, 217] to [0, 0, 0, 0, 72, 87, 220, 149, 183, 217].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 72, 87, 220, 149, 183, 217] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 72, 87, 219, 149, 183, 217] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 72, 87, 219, 149, 183, 217] to [0, 0, 0, 0, 51, 87, 219, 149, 183, 217].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 51, 87, 219, 149, 183, 217] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 51, 87, 219, 149, 182, 217] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 51, 87, 219, 149, 182, 217] to [0, 0, 0, 0, 30, 87, 219, 149, 182, 217].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 30, 87, 219, 149, 182, 217] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 30, 87, 208, 149, 182, 217] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 30, 87, 208, 149, 182, 217] to [0, 0, 0, 0, 9, 87, 208, 149, 182, 217].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 9, 87, 208, 149, 182, 217] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 9, 87, 208, 149, 153, 217] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 9, 87, 208, 149, 153, 217] to [0, 0, 0, 0, 0, 87, 208, 149, 153, 217].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 87, 208, 149, 153, 217] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 87, 179, 149, 153, 217] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 87, 179, 149, 153, 217] to [0, 0, 0, 0, 0, 64, 179, 149, 153, 217].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 64, 179, 149, 153, 217] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 64, 179, 149, 153, 205] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 64, 179, 149, 153, 205] to [0, 0, 0, 0, 0, 41, 179, 149, 153, 205].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 41, 179, 149, 153, 205] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 41, 179, 148, 153, 205] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 41, 179, 148, 153, 205] to [0, 0, 0, 0, 0, 18, 179, 148, 153, 205].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 18, 179, 148, 153, 205] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 18, 179, 148, 153, 183] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 18, 179, 148, 153, 183] to [0, 0, 0, 0, 0, 0, 179, 148, 153, 183].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 179, 148, 153, 183] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 179, 148, 153, 165] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 0, 179, 148, 153, 165] to [0, 0, 0, 0, 0, 0, 142, 148, 153, 165].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 142, 148, 153, 165] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 141, 148, 153, 165] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 0, 141, 148, 153, 165] to [0, 0, 0, 0, 0, 0, 104, 148, 153, 165].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 104, 148, 153, 165] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 104, 148, 153, 164] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 0, 104, 148, 153, 164] to [0, 0, 0, 0, 0, 0, 67, 148, 153, 164].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 67, 148, 153, 164] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 66, 148, 153, 164] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 0, 66, 148, 153, 164] to [0, 0, 0, 0, 0, 0, 29, 148, 153, 164].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 29, 148, 153, 164] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 29, 148, 153, 163] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 0, 29, 148, 153, 163] to [0, 0, 0, 0, 0, 0, 0, 148, 153, 163].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 148, 153, 163] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 0, 0, 0, 0, 148, 153, 163] to [0, 0, 0, 0, 0, 0, 0, 121, 153, 163].
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 121, 153, 163] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 0, 0, 121, 153, 163] to [0, 0, 0, 0, 0, 0, 0, 92, 153, 163].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 92, 153, 163] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 92, 153, 162] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 0, 0, 92, 153, 162] to [0, 0, 0, 0, 0, 0, 0, 63, 153, 162].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 63, 153, 162] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 63, 152, 162] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 0, 0, 63, 152, 162] to [0, 0, 0, 0, 0, 0, 0, 34, 152, 162].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 34, 152, 162] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 34, 152, 144] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 0, 0, 34, 152, 144] to [0, 0, 0, 0, 0, 0, 0, 5, 152, 144].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 5, 152, 144] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 5, 152, 122] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 0, 0, 5, 152, 122] to [0, 0, 0, 0, 0, 0, 0, 0, 152, 122].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 0, 152, 122] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 0, 127, 122] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 0, 0, 0, 127, 122] to [0, 0, 0, 0, 0, 0, 0, 0, 98, 122].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 0, 98, 122] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 0, 98, 100] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 0, 0, 0, 98, 100] to [0, 0, 0, 0, 0, 0, 0, 0, 69, 100].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 0, 69, 100] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 0, 68, 100] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 0, 0, 0, 68, 100] to [0, 0, 0, 0, 0, 0, 0, 0, 39, 100].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 0, 39, 100] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 0, 38, 100] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 0, 0, 0, 38, 100] to [0, 0, 0, 0, 0, 0, 0, 0, 9, 100].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 0, 9, 100] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 0, 9, 78] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 0, 0, 0, 9, 78] to [0, 0, 0, 0, 0, 0, 0, 0, 0, 78].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 0, 0, 78] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 0, 0, 0, 0, 0, 0, 78] to [0, 0, 0, 0, 0, 0, 0, 0, 0, 69].
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 0, 0, 69] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 0, 0, 0, 0, 69] to [0, 0, 0, 0, 0, 0, 0, 0, 0, 47].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 0, 0, 47] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 0, 0, 0, 0, 0, 0, 47] to [0, 0, 0, 0, 0, 0, 0, 0, 0, 46].
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 0, 0, 46] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 0, 0, 0, 0, 46] to [0, 0, 0, 0, 0, 0, 0, 0, 0, 24].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 0, 0, 24] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 0, 0, 0, 0, 0, 0, 24] to [0, 0, 0, 0, 0, 0, 0, 0, 0, 23].
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 0, 0, 23] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 0, 0, 0, 0, 23] to [0, 0, 0, 0, 0, 0, 0, 0, 0, 1].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 0, 0, 1] (keep in mind that d=[29, 31, 21, 31, 21, 23, 37, 29, 29, 22], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 0, 0, 0, 0, 0, 0, 1] to [0, 0, 0, 0, 0, 0, 0, 0, 0, 0].
+

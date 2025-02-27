@@ -1,0 +1,69 @@
+The server has proposed to play the game:
+ - n=2
+ - d=[15, 13]
+ - p=[69, 73]
+our disinterested advice would be to go first.
+
+The problem solver wants to go first. Ok, the server will be second to move.
+
+Good choice! The problem solver is ahead.
+
+# The problem solver is now facing the position:
+# p=[69, 73] (keep in mind that d=[15, 13], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   [[67, 73], [69, 61]]
+Move 1: it appears that the problem solver has made a serious mistake here with his move form [69, 73] to [67, 73]!!! The server is now ahead and on the go to win this match.
+
+# The server is now facing the position:
+# p=[67, 73] (keep in mind that d=[15, 13], to grasp the whole situation).
+The server reluctancty moves from [67, 73] to [52, 73].
+# The problem solver is now facing the position:
+# p=[52, 73] (keep in mind that d=[15, 13], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   [[51, 73], [52, 60]]
+# The server is now facing the position:
+# p=[51, 73] (keep in mind that d=[15, 13], to grasp the whole situation).
+The server reluctancty moves from [51, 73] to [36, 73].
+# The problem solver is now facing the position:
+# p=[36, 73] (keep in mind that d=[15, 13], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   [[35, 73], [36, 60]]
+# The server is now facing the position:
+# p=[35, 73] (keep in mind that d=[15, 13], to grasp the whole situation).
+The server reluctancty moves from [35, 73] to [20, 73].
+# The problem solver is now facing the position:
+# p=[20, 73] (keep in mind that d=[15, 13], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   [[20, 60], [19, 73]]
+# The server is now facing the position:
+# p=[20, 60] (keep in mind that d=[15, 13], to grasp the whole situation).
+The server reluctancty moves from [20, 60] to [5, 60].
+# The problem solver is now facing the position:
+# p=[5, 60] (keep in mind that d=[15, 13], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   [[5, 47], [4, 60]]
+# The server is now facing the position:
+# p=[5, 47] (keep in mind that d=[15, 13], to grasp the whole situation).
+The server reluctancty moves from [5, 47] to [0, 47].
+# The problem solver is now facing the position:
+# p=[0, 47] (keep in mind that d=[15, 13], to grasp the whole situation).
+The problem solver moves from [0, 47] to [0, 42].
+# The server is now facing the position:
+# p=[0, 42] (keep in mind that d=[15, 13], to grasp the whole situation).
+The server reluctancty moves from [0, 42] to [0, 29].
+# The problem solver is now facing the position:
+# p=[0, 29] (keep in mind that d=[15, 13], to grasp the whole situation).
+The problem solver moves from [0, 29] to [0, 28].
+# The server is now facing the position:
+# p=[0, 28] (keep in mind that d=[15, 13], to grasp the whole situation).
+The server reluctancty moves from [0, 28] to [0, 15].
+# The problem solver is now facing the position:
+# p=[0, 15] (keep in mind that d=[15, 13], to grasp the whole situation).
+The problem solver moves from [0, 15] to [0, 14].
+# The server is now facing the position:
+# p=[0, 14] (keep in mind that d=[15, 13], to grasp the whole situation).
+The server reluctancty moves from [0, 14] to [0, 1].
+# The problem solver is now facing the position:
+# p=[0, 1] (keep in mind that d=[15, 13], to grasp the whole situation).
+The problem solver moves from [0, 1] to [0, 0].
+

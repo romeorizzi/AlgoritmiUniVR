@@ -1,0 +1,63 @@
+The server has proposed to play the game:
+ - n=2
+ - d=[4592238, 3234840]
+ - p=[27331838, 15940216]
+our disinterested advice would be to go first.
+
+The problem solver wants to go first. Ok, the server will be second to move.
+
+Good choice! The problem solver is ahead.
+
+# The problem solver is now facing the position:
+# p=[27331838, 15940216] (keep in mind that d=[4592238, 3234840], to grasp the whole situation).
+The problem solver moves from [27331838, 15940216] to [25962047, 15940216].
+Move {time}: it appears that the problem solver has made a serious mistake here with his move form {p} to {next_ps[0]}!!! The server is now ahead and on the go to win this match.
+
+# The server is now facing the position:
+# p=[25962047, 15940216] (keep in mind that d=[4592238, 3234840], to grasp the whole situation).
+The server reluctancty moves from [25962047, 15940216] to [21369809, 15940216].
+# The problem solver is now facing the position:
+# p=[21369809, 15940216] (keep in mind that d=[4592238, 3234840], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[21369809, 12705376] (keep in mind that d=[4592238, 3234840], to grasp the whole situation).
+The server reluctancty moves from [21369809, 12705376] to [16777571, 12705376].
+# The problem solver is now facing the position:
+# p=[16777571, 12705376] (keep in mind that d=[4592238, 3234840], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[16777570, 12705376] (keep in mind that d=[4592238, 3234840], to grasp the whole situation).
+The server reluctancty moves from [16777570, 12705376] to [12185332, 12705376].
+# The problem solver is now facing the position:
+# p=[12185332, 12705376] (keep in mind that d=[4592238, 3234840], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[12185332, 9470536] (keep in mind that d=[4592238, 3234840], to grasp the whole situation).
+The server reluctancty moves from [12185332, 9470536] to [7593094, 9470536].
+# The problem solver is now facing the position:
+# p=[7593094, 9470536] (keep in mind that d=[4592238, 3234840], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[7593093, 9470536] (keep in mind that d=[4592238, 3234840], to grasp the whole situation).
+The server reluctancty moves from [7593093, 9470536] to [3000855, 9470536].
+# The problem solver is now facing the position:
+# p=[3000855, 9470536] (keep in mind that d=[4592238, 3234840], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[3000855, 6235696] (keep in mind that d=[4592238, 3234840], to grasp the whole situation).
+The server reluctancty moves from [3000855, 6235696] to [0, 6235696].
+# The problem solver is now facing the position:
+# p=[0, 6235696] (keep in mind that d=[4592238, 3234840], to grasp the whole situation).
+The problem solver moves from [0, 6235696] to [0, 3234841].
+# The server is now facing the position:
+# p=[0, 3234841] (keep in mind that d=[4592238, 3234840], to grasp the whole situation).
+The server reluctancty moves from [0, 3234841] to [0, 1].
+# The problem solver is now facing the position:
+# p=[0, 1] (keep in mind that d=[4592238, 3234840], to grasp the whole situation).
+The problem solver moves from [0, 1] to [0, 0].
+

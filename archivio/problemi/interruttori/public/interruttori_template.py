@@ -1,0 +1,1 @@
+../sol/interruttori_template.py

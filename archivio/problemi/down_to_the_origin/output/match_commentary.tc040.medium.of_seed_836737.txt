@@ -1,0 +1,324 @@
+The server has proposed to play the game:
+ - n=10
+ - d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22]
+ - p=[220, 176, 259, 121, 234, 176, 234, 231, 129, 105]
+our disinterested advice would be to go first.
+
+The problem solver wants to go first. Ok, the server will be second to move.
+
+Good choice! The problem solver is ahead.
+
+# The problem solver is now facing the position:
+# p=[220, 176, 259, 121, 234, 176, 234, 231, 129, 105] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The winning move [196, 176, 259, 121, 234, 176, 234, 231, 129, 105] is missing from your list of all the winning moves:
+[[220, 176, 259, 121, 234, 176, 234, 231, 129, 90]] (I will not check and report on the alternative winning moves for the rest of this one match.)
+The problem solver moves from [220, 176, 259, 121, 234, 176, 234, 231, 129, 105] to [220, 176, 259, 121, 234, 176, 234, 231, 129, 90].
+Move 1: it appears that the problem solver has made a serious mistake here with his move form [220, 176, 259, 121, 234, 176, 234, 231, 129, 105] to [220, 176, 259, 121, 234, 176, 234, 231, 129, 90]!!! The server is now ahead and on the go to win this match.
+
+# The server is now facing the position:
+# p=[220, 176, 259, 121, 234, 176, 234, 231, 129, 90] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The server reluctancty moves from [220, 176, 259, 121, 234, 176, 234, 231, 129, 90] to [189, 176, 259, 121, 234, 176, 234, 231, 129, 90].
+# The problem solver is now facing the position:
+# p=[189, 176, 259, 121, 234, 176, 234, 231, 129, 90] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The problem solver moves from [189, 176, 259, 121, 234, 176, 234, 231, 129, 90] to [189, 139, 259, 121, 234, 176, 234, 231, 129, 90].
+# The server is now facing the position:
+# p=[189, 139, 259, 121, 234, 176, 234, 231, 129, 90] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The server reluctancty moves from [189, 139, 259, 121, 234, 176, 234, 231, 129, 90] to [158, 139, 259, 121, 234, 176, 234, 231, 129, 90].
+# The problem solver is now facing the position:
+# p=[158, 139, 259, 121, 234, 176, 234, 231, 129, 90] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The problem solver moves from [158, 139, 259, 121, 234, 176, 234, 231, 129, 90] to [158, 139, 259, 121, 234, 176, 234, 231, 129, 68].
+# The server is now facing the position:
+# p=[158, 139, 259, 121, 234, 176, 234, 231, 129, 68] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The server reluctancty moves from [158, 139, 259, 121, 234, 176, 234, 231, 129, 68] to [127, 139, 259, 121, 234, 176, 234, 231, 129, 68].
+# The problem solver is now facing the position:
+# p=[127, 139, 259, 121, 234, 176, 234, 231, 129, 68] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The problem solver moves from [127, 139, 259, 121, 234, 176, 234, 231, 129, 68] to [126, 139, 259, 121, 234, 176, 234, 231, 129, 68].
+# The server is now facing the position:
+# p=[126, 139, 259, 121, 234, 176, 234, 231, 129, 68] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The server reluctancty moves from [126, 139, 259, 121, 234, 176, 234, 231, 129, 68] to [95, 139, 259, 121, 234, 176, 234, 231, 129, 68].
+# The problem solver is now facing the position:
+# p=[95, 139, 259, 121, 234, 176, 234, 231, 129, 68] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The problem solver moves from [95, 139, 259, 121, 234, 176, 234, 231, 129, 68] to [95, 138, 259, 121, 234, 176, 234, 231, 129, 68].
+# The server is now facing the position:
+# p=[95, 138, 259, 121, 234, 176, 234, 231, 129, 68] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The server reluctancty moves from [95, 138, 259, 121, 234, 176, 234, 231, 129, 68] to [64, 138, 259, 121, 234, 176, 234, 231, 129, 68].
+# The problem solver is now facing the position:
+# p=[64, 138, 259, 121, 234, 176, 234, 231, 129, 68] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The problem solver moves from [64, 138, 259, 121, 234, 176, 234, 231, 129, 68] to [64, 121, 259, 121, 234, 176, 234, 231, 129, 68].
+# The server is now facing the position:
+# p=[64, 121, 259, 121, 234, 176, 234, 231, 129, 68] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The server reluctancty moves from [64, 121, 259, 121, 234, 176, 234, 231, 129, 68] to [33, 121, 259, 121, 234, 176, 234, 231, 129, 68].
+# The problem solver is now facing the position:
+# p=[33, 121, 259, 121, 234, 176, 234, 231, 129, 68] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The problem solver moves from [33, 121, 259, 121, 234, 176, 234, 231, 129, 68] to [33, 120, 259, 121, 234, 176, 234, 231, 129, 68].
+# The server is now facing the position:
+# p=[33, 120, 259, 121, 234, 176, 234, 231, 129, 68] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The server reluctancty moves from [33, 120, 259, 121, 234, 176, 234, 231, 129, 68] to [2, 120, 259, 121, 234, 176, 234, 231, 129, 68].
+# The problem solver is now facing the position:
+# p=[2, 120, 259, 121, 234, 176, 234, 231, 129, 68] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The problem solver moves from [2, 120, 259, 121, 234, 176, 234, 231, 129, 68] to [2, 120, 259, 121, 234, 176, 234, 231, 129, 67].
+# The server is now facing the position:
+# p=[2, 120, 259, 121, 234, 176, 234, 231, 129, 67] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The server reluctancty moves from [2, 120, 259, 121, 234, 176, 234, 231, 129, 67] to [0, 120, 259, 121, 234, 176, 234, 231, 129, 67].
+# The problem solver is now facing the position:
+# p=[0, 120, 259, 121, 234, 176, 234, 231, 129, 67] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The problem solver moves from [0, 120, 259, 121, 234, 176, 234, 231, 129, 67] to [0, 120, 259, 88, 234, 176, 234, 231, 129, 67].
+# The server is now facing the position:
+# p=[0, 120, 259, 88, 234, 176, 234, 231, 129, 67] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 120, 259, 88, 234, 176, 234, 231, 129, 67] to [0, 83, 259, 88, 234, 176, 234, 231, 129, 67].
+# The problem solver is now facing the position:
+# p=[0, 83, 259, 88, 234, 176, 234, 231, 129, 67] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The problem solver moves from [0, 83, 259, 88, 234, 176, 234, 231, 129, 67] to [0, 83, 258, 88, 234, 176, 234, 231, 129, 67].
+# The server is now facing the position:
+# p=[0, 83, 258, 88, 234, 176, 234, 231, 129, 67] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 83, 258, 88, 234, 176, 234, 231, 129, 67] to [0, 46, 258, 88, 234, 176, 234, 231, 129, 67].
+# The problem solver is now facing the position:
+# p=[0, 46, 258, 88, 234, 176, 234, 231, 129, 67] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The problem solver moves from [0, 46, 258, 88, 234, 176, 234, 231, 129, 67] to [0, 46, 258, 88, 234, 176, 234, 206, 129, 67].
+# The server is now facing the position:
+# p=[0, 46, 258, 88, 234, 176, 234, 206, 129, 67] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 46, 258, 88, 234, 176, 234, 206, 129, 67] to [0, 9, 258, 88, 234, 176, 234, 206, 129, 67].
+# The problem solver is now facing the position:
+# p=[0, 9, 258, 88, 234, 176, 234, 206, 129, 67] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The problem solver moves from [0, 9, 258, 88, 234, 176, 234, 206, 129, 67] to [0, 9, 258, 88, 234, 176, 234, 206, 128, 67].
+# The server is now facing the position:
+# p=[0, 9, 258, 88, 234, 176, 234, 206, 128, 67] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 9, 258, 88, 234, 176, 234, 206, 128, 67] to [0, 0, 258, 88, 234, 176, 234, 206, 128, 67].
+# The problem solver is now facing the position:
+# p=[0, 0, 258, 88, 234, 176, 234, 206, 128, 67] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The problem solver moves from [0, 0, 258, 88, 234, 176, 234, 206, 128, 67] to [0, 0, 258, 88, 234, 176, 234, 199, 128, 67].
+# The server is now facing the position:
+# p=[0, 0, 258, 88, 234, 176, 234, 199, 128, 67] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 258, 88, 234, 176, 234, 199, 128, 67] to [0, 0, 225, 88, 234, 176, 234, 199, 128, 67].
+# The problem solver is now facing the position:
+# p=[0, 0, 225, 88, 234, 176, 234, 199, 128, 67] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The problem solver moves from [0, 0, 225, 88, 234, 176, 234, 199, 128, 67] to [0, 0, 225, 88, 234, 176, 234, 198, 128, 67].
+# The server is now facing the position:
+# p=[0, 0, 225, 88, 234, 176, 234, 198, 128, 67] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 225, 88, 234, 176, 234, 198, 128, 67] to [0, 0, 192, 88, 234, 176, 234, 198, 128, 67].
+# The problem solver is now facing the position:
+# p=[0, 0, 192, 88, 234, 176, 234, 198, 128, 67] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The problem solver moves from [0, 0, 192, 88, 234, 176, 234, 198, 128, 67] to [0, 0, 192, 87, 234, 176, 234, 198, 128, 67].
+# The server is now facing the position:
+# p=[0, 0, 192, 87, 234, 176, 234, 198, 128, 67] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 192, 87, 234, 176, 234, 198, 128, 67] to [0, 0, 159, 87, 234, 176, 234, 198, 128, 67].
+# The problem solver is now facing the position:
+# p=[0, 0, 159, 87, 234, 176, 234, 198, 128, 67] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The problem solver moves from [0, 0, 159, 87, 234, 176, 234, 198, 128, 67] to [0, 0, 159, 87, 211, 176, 234, 198, 128, 67].
+# The server is now facing the position:
+# p=[0, 0, 159, 87, 211, 176, 234, 198, 128, 67] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 159, 87, 211, 176, 234, 198, 128, 67] to [0, 0, 126, 87, 211, 176, 234, 198, 128, 67].
+# The problem solver is now facing the position:
+# p=[0, 0, 126, 87, 211, 176, 234, 198, 128, 67] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The problem solver moves from [0, 0, 126, 87, 211, 176, 234, 198, 128, 67] to [0, 0, 126, 87, 211, 158, 234, 198, 128, 67].
+# The server is now facing the position:
+# p=[0, 0, 126, 87, 211, 158, 234, 198, 128, 67] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 126, 87, 211, 158, 234, 198, 128, 67] to [0, 0, 93, 87, 211, 158, 234, 198, 128, 67].
+# The problem solver is now facing the position:
+# p=[0, 0, 93, 87, 211, 158, 234, 198, 128, 67] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The problem solver moves from [0, 0, 93, 87, 211, 158, 234, 198, 128, 67] to [0, 0, 93, 87, 211, 158, 234, 173, 128, 67].
+# The server is now facing the position:
+# p=[0, 0, 93, 87, 211, 158, 234, 173, 128, 67] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 93, 87, 211, 158, 234, 173, 128, 67] to [0, 0, 60, 87, 211, 158, 234, 173, 128, 67].
+# The problem solver is now facing the position:
+# p=[0, 0, 60, 87, 211, 158, 234, 173, 128, 67] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The problem solver moves from [0, 0, 60, 87, 211, 158, 234, 173, 128, 67] to [0, 0, 60, 87, 211, 130, 234, 173, 128, 67].
+# The server is now facing the position:
+# p=[0, 0, 60, 87, 211, 130, 234, 173, 128, 67] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 60, 87, 211, 130, 234, 173, 128, 67] to [0, 0, 27, 87, 211, 130, 234, 173, 128, 67].
+# The problem solver is now facing the position:
+# p=[0, 0, 27, 87, 211, 130, 234, 173, 128, 67] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The problem solver moves from [0, 0, 27, 87, 211, 130, 234, 173, 128, 67] to [0, 0, 27, 87, 210, 130, 234, 173, 128, 67].
+# The server is now facing the position:
+# p=[0, 0, 27, 87, 210, 130, 234, 173, 128, 67] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 27, 87, 210, 130, 234, 173, 128, 67] to [0, 0, 0, 87, 210, 130, 234, 173, 128, 67].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 87, 210, 130, 234, 173, 128, 67] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 87, 210, 130, 234, 173, 128, 67] to [0, 0, 0, 87, 210, 108, 234, 173, 128, 67].
+# The server is now facing the position:
+# p=[0, 0, 0, 87, 210, 108, 234, 173, 128, 67] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 87, 210, 108, 234, 173, 128, 67] to [0, 0, 0, 53, 210, 108, 234, 173, 128, 67].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 53, 210, 108, 234, 173, 128, 67] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 53, 210, 108, 234, 173, 128, 67] to [0, 0, 0, 53, 209, 108, 234, 173, 128, 67].
+# The server is now facing the position:
+# p=[0, 0, 0, 53, 209, 108, 234, 173, 128, 67] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 53, 209, 108, 234, 173, 128, 67] to [0, 0, 0, 19, 209, 108, 234, 173, 128, 67].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 19, 209, 108, 234, 173, 128, 67] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 19, 209, 108, 234, 173, 128, 67] to [0, 0, 0, 19, 209, 107, 234, 173, 128, 67].
+# The server is now facing the position:
+# p=[0, 0, 0, 19, 209, 107, 234, 173, 128, 67] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 19, 209, 107, 234, 173, 128, 67] to [0, 0, 0, 0, 209, 107, 234, 173, 128, 67].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 209, 107, 234, 173, 128, 67] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 0, 209, 107, 234, 173, 128, 67] to [0, 0, 0, 0, 209, 107, 234, 173, 115, 67].
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 209, 107, 234, 173, 115, 67] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 209, 107, 234, 173, 115, 67] to [0, 0, 0, 0, 186, 107, 234, 173, 115, 67].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 186, 107, 234, 173, 115, 67] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 0, 186, 107, 234, 173, 115, 67] to [0, 0, 0, 0, 185, 107, 234, 173, 115, 67].
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 185, 107, 234, 173, 115, 67] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 185, 107, 234, 173, 115, 67] to [0, 0, 0, 0, 162, 107, 234, 173, 115, 67].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 162, 107, 234, 173, 115, 67] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 0, 162, 107, 234, 173, 115, 67] to [0, 0, 0, 0, 162, 81, 234, 173, 115, 67].
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 162, 81, 234, 173, 115, 67] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 162, 81, 234, 173, 115, 67] to [0, 0, 0, 0, 139, 81, 234, 173, 115, 67].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 139, 81, 234, 173, 115, 67] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 0, 139, 81, 234, 173, 115, 67] to [0, 0, 0, 0, 139, 81, 234, 173, 114, 67].
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 139, 81, 234, 173, 114, 67] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 139, 81, 234, 173, 114, 67] to [0, 0, 0, 0, 116, 81, 234, 173, 114, 67].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 116, 81, 234, 173, 114, 67] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 0, 116, 81, 234, 173, 114, 67] to [0, 0, 0, 0, 116, 81, 234, 152, 114, 67].
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 116, 81, 234, 152, 114, 67] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 116, 81, 234, 152, 114, 67] to [0, 0, 0, 0, 93, 81, 234, 152, 114, 67].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 93, 81, 234, 152, 114, 67] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 0, 93, 81, 234, 152, 114, 67] to [0, 0, 0, 0, 93, 80, 234, 152, 114, 67].
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 93, 80, 234, 152, 114, 67] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 93, 80, 234, 152, 114, 67] to [0, 0, 0, 0, 70, 80, 234, 152, 114, 67].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 70, 80, 234, 152, 114, 67] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 0, 70, 80, 234, 152, 114, 67] to [0, 0, 0, 0, 69, 80, 234, 152, 114, 67].
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 69, 80, 234, 152, 114, 67] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 69, 80, 234, 152, 114, 67] to [0, 0, 0, 0, 46, 80, 234, 152, 114, 67].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 46, 80, 234, 152, 114, 67] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 0, 46, 80, 234, 152, 114, 67] to [0, 0, 0, 0, 46, 80, 234, 152, 113, 67].
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 46, 80, 234, 152, 113, 67] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 46, 80, 234, 152, 113, 67] to [0, 0, 0, 0, 23, 80, 234, 152, 113, 67].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 23, 80, 234, 152, 113, 67] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 0, 23, 80, 234, 152, 113, 67] to [0, 0, 0, 0, 23, 80, 234, 152, 112, 67].
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 23, 80, 234, 152, 112, 67] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 23, 80, 234, 152, 112, 67] to [0, 0, 0, 0, 0, 80, 234, 152, 112, 67].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 80, 234, 152, 112, 67] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 0, 0, 80, 234, 152, 112, 67] to [0, 0, 0, 0, 0, 80, 221, 152, 112, 67].
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 80, 221, 152, 112, 67] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 80, 221, 152, 112, 67] to [0, 0, 0, 0, 0, 52, 221, 152, 112, 67].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 52, 221, 152, 112, 67] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 0, 0, 52, 221, 152, 112, 67] to [0, 0, 0, 0, 0, 52, 221, 152, 81, 67].
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 52, 221, 152, 81, 67] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 52, 221, 152, 81, 67] to [0, 0, 0, 0, 0, 24, 221, 152, 81, 67].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 24, 221, 152, 81, 67] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 0, 0, 24, 221, 152, 81, 67] to [0, 0, 0, 0, 0, 24, 221, 129, 81, 67].
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 24, 221, 129, 81, 67] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 24, 221, 129, 81, 67] to [0, 0, 0, 0, 0, 0, 221, 129, 81, 67].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 221, 129, 81, 67] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 0, 0, 0, 221, 129, 81, 67] to [0, 0, 0, 0, 0, 0, 221, 105, 81, 67].
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 221, 105, 81, 67] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 0, 221, 105, 81, 67] to [0, 0, 0, 0, 0, 0, 198, 105, 81, 67].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 198, 105, 81, 67] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 0, 0, 0, 198, 105, 81, 67] to [0, 0, 0, 0, 0, 0, 198, 105, 81, 45].
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 198, 105, 81, 45] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 0, 198, 105, 81, 45] to [0, 0, 0, 0, 0, 0, 175, 105, 81, 45].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 175, 105, 81, 45] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 0, 0, 0, 175, 105, 81, 45] to [0, 0, 0, 0, 0, 0, 175, 104, 81, 45].
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 175, 104, 81, 45] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 0, 175, 104, 81, 45] to [0, 0, 0, 0, 0, 0, 152, 104, 81, 45].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 152, 104, 81, 45] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 0, 0, 0, 152, 104, 81, 45] to [0, 0, 0, 0, 0, 0, 151, 104, 81, 45].
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 151, 104, 81, 45] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 0, 151, 104, 81, 45] to [0, 0, 0, 0, 0, 0, 128, 104, 81, 45].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 128, 104, 81, 45] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 0, 0, 0, 128, 104, 81, 45] to [0, 0, 0, 0, 0, 0, 128, 93, 81, 45].
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 128, 93, 81, 45] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 0, 128, 93, 81, 45] to [0, 0, 0, 0, 0, 0, 105, 93, 81, 45].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 105, 93, 81, 45] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 0, 0, 0, 105, 93, 81, 45] to [0, 0, 0, 0, 0, 0, 104, 93, 81, 45].
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 104, 93, 81, 45] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 0, 104, 93, 81, 45] to [0, 0, 0, 0, 0, 0, 81, 93, 81, 45].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 81, 93, 81, 45] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 0, 0, 0, 81, 93, 81, 45] to [0, 0, 0, 0, 0, 0, 81, 93, 80, 45].
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 81, 93, 80, 45] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 0, 81, 93, 80, 45] to [0, 0, 0, 0, 0, 0, 58, 93, 80, 45].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 58, 93, 80, 45] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 0, 0, 0, 58, 93, 80, 45] to [0, 0, 0, 0, 0, 0, 58, 93, 51, 45].
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 58, 93, 51, 45] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 0, 58, 93, 51, 45] to [0, 0, 0, 0, 0, 0, 35, 93, 51, 45].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 35, 93, 51, 45] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 0, 0, 0, 35, 93, 51, 45] to [0, 0, 0, 0, 0, 0, 35, 93, 50, 45].
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 35, 93, 50, 45] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 0, 35, 93, 50, 45] to [0, 0, 0, 0, 0, 0, 12, 93, 50, 45].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 12, 93, 50, 45] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 0, 0, 0, 12, 93, 50, 45] to [0, 0, 0, 0, 0, 0, 11, 93, 50, 45].
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 11, 93, 50, 45] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 0, 11, 93, 50, 45] to [0, 0, 0, 0, 0, 0, 0, 93, 50, 45].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 93, 50, 45] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 0, 0, 0, 0, 93, 50, 45] to [0, 0, 0, 0, 0, 0, 0, 93, 25, 45].
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 93, 25, 45] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 0, 0, 93, 25, 45] to [0, 0, 0, 0, 0, 0, 0, 68, 25, 45].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 68, 25, 45] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 0, 0, 0, 0, 68, 25, 45] to [0, 0, 0, 0, 0, 0, 0, 68, 25, 32].
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 68, 25, 32] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 0, 0, 68, 25, 32] to [0, 0, 0, 0, 0, 0, 0, 43, 25, 32].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 43, 25, 32] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 0, 0, 0, 0, 43, 25, 32] to [0, 0, 0, 0, 0, 0, 0, 42, 25, 32].
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 42, 25, 32] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 0, 0, 42, 25, 32] to [0, 0, 0, 0, 0, 0, 0, 17, 25, 32].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 17, 25, 32] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 0, 0, 0, 0, 17, 25, 32] to [0, 0, 0, 0, 0, 0, 0, 17, 25, 31].
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 17, 25, 31] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 0, 0, 17, 25, 31] to [0, 0, 0, 0, 0, 0, 0, 0, 25, 31].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 0, 25, 31] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 0, 0, 0, 0, 0, 25, 31] to [0, 0, 0, 0, 0, 0, 0, 0, 8, 31].
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 0, 8, 31] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 0, 0, 0, 8, 31] to [0, 0, 0, 0, 0, 0, 0, 0, 0, 31].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 0, 0, 31] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 0, 0, 0, 0, 0, 0, 31] to [0, 0, 0, 0, 0, 0, 0, 0, 0, 23].
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 0, 0, 23] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 0, 0, 0, 0, 23] to [0, 0, 0, 0, 0, 0, 0, 0, 0, 1].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 0, 0, 1] (keep in mind that d=[31, 37, 33, 34, 23, 28, 23, 25, 31, 22], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 0, 0, 0, 0, 0, 0, 1] to [0, 0, 0, 0, 0, 0, 0, 0, 0, 0].
+

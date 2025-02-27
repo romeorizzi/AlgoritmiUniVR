@@ -1,0 +1,31 @@
+> 3         # numero di testcase/istanze/partite
+> 2         # la prima partita si svolge nel piano (n=2)
+> 3 3       # Delta=(3,3)
+> 8 9       # p=(8,9)
+< 2         # il problem solver (o il suo programma) sceglie di muovere per secondo (un errore!)
+> 5 9  8 8  # il server passa all'avversario la configurazione p=(5,9) e riporta ogni mossa vincente
+< 5 6       # il problem solver passa all'avversario la configurazione p=(5,6), manca di mosse vincenti
+> 5 5  2 6  # il server passa all'avversario la configurazione p=(5,9) menzionando anche l'alternativa che ha
+< 2 5       # il problem solver passa all'avversario la configurazione p=(2,5), manca di mosse vincenti
+< 2 2 1 5   # il server passa all'avversario la configurazione p=(2,2), con l'unica alternativa che ha per vincere
+< 2 0       # il problem solver passa all'avversario la configurazione p=(2,0), manca di mosse vincenti
+< 0 0       # il server effettua l'unica mossa vincente e vince, nessun punto per i problem solver!
+> 2         # anche la seconda partita si svolgerà nel piano 
+> 2 2       # Delta=(2,2)
+> 4 6       # p=(4,6)
+< 2         # il problem solver sceglie di muovere per secondo (la scelta vincente!)
+< 4 4 3 6   # e passa al server la configurazione p=(4,4), dice che l'unica sua alternativa era passare p=(3,6)
+> 2 4       # il server muove restituendo la configurazione p=(2,4)
+< 1 4  2 2  # il problem solver passa all'avversario la configurazione p=(1,3), con unica alternativa p=(2,2) 
+> 0 4       # il server muove restituendo la configurazione p=(0,4)
+< 0 3       # il problem solver passa all'avversario la configurazione p=(0,3), dice che non aveva alternative
+> 0 1       # il server muove restituisce la configurazione p=(0,1)
+< 0 0       # il problem solver effettua l'unica mossa vincente e chiude la partita aggiudicandosi entrambi i goal
+> 0 4       # il server passa all'avversario la configurazione p=(0,4)
+> 2         # anche la terza partita si svolgerà nel piano 
+> 9 7       # Delta=(9,7)
+> 4 6       # p=(4,6) come nella seconda partita ma ora si può ridurre arbitrariamente una coordinata a scelta
+< 1         # il problem solver sceglie di muovere per primo (la scelta vincente!)
+< 4 4       # ed effettua l'unica mossa vincente passando all'avversario la configurazione p=(4,4)
+> 0 4       # il server passa all'avversario la configurazione p=(0,4)
+< 0 0       # il problem solver effettua l'unica mossa vincente e chiude la partita aggiudicandosi entrambi i goal

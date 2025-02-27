@@ -1,0 +1,59 @@
+The server has proposed to play the game:
+ - n=2
+ - d=[28156, 7020]
+ - p=[49319, 42598]
+our disinterested advice would be to go first.
+
+The problem solver wants to go first. Ok, the server will be second to move.
+
+Good choice! The problem solver is ahead.
+
+# The problem solver is now facing the position:
+# p=[49319, 42598] (keep in mind that d=[28156, 7020], to grasp the whole situation).
+The problem solver moves from [49319, 42598] to [28629, 42598].
+Move 1: it appears that the problem solver has made a serious mistake here with his move form [49319, 42598] to [28629, 42598]!!! The server is now ahead and on the go to win this match.
+
+# The server is now facing the position:
+# p=[28629, 42598] (keep in mind that d=[28156, 7020], to grasp the whole situation).
+The server reluctancty moves from [28629, 42598] to [473, 42598].
+# The problem solver is now facing the position:
+# p=[473, 42598] (keep in mind that d=[28156, 7020], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   [[473, 35578], [472, 42598]]
+# The server is now facing the position:
+# p=[473, 35578] (keep in mind that d=[28156, 7020], to grasp the whole situation).
+The server reluctancty moves from [473, 35578] to [0, 35578].
+# The problem solver is now facing the position:
+# p=[0, 35578] (keep in mind that d=[28156, 7020], to grasp the whole situation).
+The problem solver moves from [0, 35578] to [0, 35105].
+# The server is now facing the position:
+# p=[0, 35105] (keep in mind that d=[28156, 7020], to grasp the whole situation).
+The server reluctancty moves from [0, 35105] to [0, 28085].
+# The problem solver is now facing the position:
+# p=[0, 28085] (keep in mind that d=[28156, 7020], to grasp the whole situation).
+The problem solver moves from [0, 28085] to [0, 28084].
+# The server is now facing the position:
+# p=[0, 28084] (keep in mind that d=[28156, 7020], to grasp the whole situation).
+The server reluctancty moves from [0, 28084] to [0, 21064].
+# The problem solver is now facing the position:
+# p=[0, 21064] (keep in mind that d=[28156, 7020], to grasp the whole situation).
+The problem solver moves from [0, 21064] to [0, 21063].
+# The server is now facing the position:
+# p=[0, 21063] (keep in mind that d=[28156, 7020], to grasp the whole situation).
+The server reluctancty moves from [0, 21063] to [0, 14043].
+# The problem solver is now facing the position:
+# p=[0, 14043] (keep in mind that d=[28156, 7020], to grasp the whole situation).
+The problem solver moves from [0, 14043] to [0, 14042].
+# The server is now facing the position:
+# p=[0, 14042] (keep in mind that d=[28156, 7020], to grasp the whole situation).
+The server reluctancty moves from [0, 14042] to [0, 7022].
+# The problem solver is now facing the position:
+# p=[0, 7022] (keep in mind that d=[28156, 7020], to grasp the whole situation).
+The problem solver moves from [0, 7022] to [0, 7021].
+# The server is now facing the position:
+# p=[0, 7021] (keep in mind that d=[28156, 7020], to grasp the whole situation).
+The server reluctancty moves from [0, 7021] to [0, 1].
+# The problem solver is now facing the position:
+# p=[0, 1] (keep in mind that d=[28156, 7020], to grasp the whole situation).
+The problem solver moves from [0, 1] to [0, 0].
+

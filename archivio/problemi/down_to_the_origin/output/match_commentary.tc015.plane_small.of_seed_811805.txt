@@ -1,0 +1,41 @@
+The server has proposed to play the game:
+ - n=2
+ - d=[4, 3]
+ - p=[5, 13]
+our disinterested advice would be to go first.
+
+The problem solver wants to go first. Ok, the server will be second to move.
+
+Good choice! The problem solver is ahead.
+
+# The problem solver is now facing the position:
+# p=[5, 13] (keep in mind that d=[4, 3], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   [[1, 13], [5, 12]]
+Move 1: it appears that the problem solver has made a serious mistake here with his move form [5, 13] to [1, 13]!!! The server is now ahead and on the go to win this match.
+
+# The server is now facing the position:
+# p=[1, 13] (keep in mind that d=[4, 3], to grasp the whole situation).
+The server reluctancty moves from [1, 13] to [0, 13].
+# The problem solver is now facing the position:
+# p=[0, 13] (keep in mind that d=[4, 3], to grasp the whole situation).
+The problem solver moves from [0, 13] to [0, 12].
+# The server is now facing the position:
+# p=[0, 12] (keep in mind that d=[4, 3], to grasp the whole situation).
+The server reluctancty moves from [0, 12] to [0, 9].
+# The problem solver is now facing the position:
+# p=[0, 9] (keep in mind that d=[4, 3], to grasp the whole situation).
+The problem solver moves from [0, 9] to [0, 8].
+# The server is now facing the position:
+# p=[0, 8] (keep in mind that d=[4, 3], to grasp the whole situation).
+The server reluctancty moves from [0, 8] to [0, 5].
+# The problem solver is now facing the position:
+# p=[0, 5] (keep in mind that d=[4, 3], to grasp the whole situation).
+The problem solver moves from [0, 5] to [0, 4].
+# The server is now facing the position:
+# p=[0, 4] (keep in mind that d=[4, 3], to grasp the whole situation).
+The server reluctancty moves from [0, 4] to [0, 1].
+# The problem solver is now facing the position:
+# p=[0, 1] (keep in mind that d=[4, 3], to grasp the whole situation).
+The problem solver moves from [0, 1] to [0, 0].
+

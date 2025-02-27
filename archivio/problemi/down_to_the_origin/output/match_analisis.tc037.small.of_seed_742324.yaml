@@ -1,0 +1,2143 @@
+0:
+  situation:
+  - &id001
+    - 6
+    - 5
+    - 2
+    - 3
+    - 4
+    - 6
+    - 4
+    - 6
+    - 5
+    - 3
+  - &id002
+    - 16
+    - 20
+    - 18
+    - 4
+    - 4
+    - 13
+    - 8
+    - 8
+    - 9
+    - 15
+  - game on the table
+  analysis:
+    better_to_move_as: 2
+    is_ahead: problem solver
+    winning_moves: []
+    a_looser_move: &id003
+    - 10
+    - 20
+    - 18
+    - 4
+    - 4
+    - 13
+    - 8
+    - 8
+    - 9
+    - 15
+    a_wrong_move:
+1:
+  situation:
+  - *id001
+  - *id002
+  - server to move
+  analysis:
+    better_to_move_as: 2
+    is_ahead: problem solver
+    winning_moves: []
+    a_looser_move: *id003
+    a_wrong_move:
+2:
+  situation:
+  - *id001
+  - &id004
+    - 10
+    - 20
+    - 18
+    - 4
+    - 4
+    - 13
+    - 8
+    - 8
+    - 9
+    - 15
+  - problem solver to move
+  analysis:
+    better_to_move_as: 1
+    is_ahead: problem solver
+    winning_moves:
+    - - 9
+      - 20
+      - 18
+      - 4
+      - 4
+      - 13
+      - 8
+      - 8
+      - 9
+      - 15
+    - - 10
+      - 15
+      - 18
+      - 4
+      - 4
+      - 13
+      - 8
+      - 8
+      - 9
+      - 15
+    - - 10
+      - 20
+      - 16
+      - 4
+      - 4
+      - 13
+      - 8
+      - 8
+      - 9
+      - 15
+    - - 10
+      - 20
+      - 18
+      - 1
+      - 4
+      - 13
+      - 8
+      - 8
+      - 9
+      - 15
+    - - 10
+      - 20
+      - 18
+      - 4
+      - 4
+      - 13
+      - 7
+      - 8
+      - 9
+      - 15
+    - - 10
+      - 20
+      - 18
+      - 4
+      - 4
+      - 13
+      - 8
+      - 7
+      - 9
+      - 15
+    - - 10
+      - 20
+      - 18
+      - 4
+      - 4
+      - 13
+      - 8
+      - 8
+      - 8
+      - 15
+    - - 10
+      - 20
+      - 18
+      - 4
+      - 4
+      - 13
+      - 8
+      - 8
+      - 9
+      - 14
+    a_looser_move: *id004
+    a_wrong_move:
+    - 10
+    - 20
+    - 18
+    - 4
+    - 0
+    - 13
+    - 8
+    - 8
+    - 9
+    - 15
+3:
+  situation:
+  - *id001
+  - - 10
+    - 20
+    - 16
+    - 4
+    - 4
+    - 13
+    - 8
+    - 8
+    - 9
+    - 15
+  - server to move
+  analysis:
+    better_to_move_as: 2
+    is_ahead: server
+    winning_moves: []
+    a_looser_move: *id004
+    a_wrong_move:
+4:
+  situation:
+  - *id001
+  - &id005
+    - 4
+    - 20
+    - 16
+    - 4
+    - 4
+    - 13
+    - 8
+    - 8
+    - 9
+    - 15
+  - problem solver to move
+  analysis:
+    better_to_move_as: 1
+    is_ahead: server
+    winning_moves:
+    - - 3
+      - 20
+      - 16
+      - 4
+      - 4
+      - 13
+      - 8
+      - 8
+      - 9
+      - 15
+    - - 4
+      - 17
+      - 16
+      - 4
+      - 4
+      - 13
+      - 8
+      - 8
+      - 9
+      - 15
+    - - 4
+      - 20
+      - 16
+      - 4
+      - 3
+      - 13
+      - 8
+      - 8
+      - 9
+      - 15
+    - - 4
+      - 20
+      - 16
+      - 4
+      - 4
+      - 8
+      - 8
+      - 8
+      - 9
+      - 15
+    - - 4
+      - 20
+      - 16
+      - 4
+      - 4
+      - 13
+      - 4
+      - 8
+      - 9
+      - 15
+    - - 4
+      - 20
+      - 16
+      - 4
+      - 4
+      - 13
+      - 8
+      - 6
+      - 9
+      - 15
+    - - 4
+      - 20
+      - 16
+      - 4
+      - 4
+      - 13
+      - 8
+      - 8
+      - 4
+      - 15
+    a_looser_move: *id005
+    a_wrong_move:
+    - 4
+    - 20
+    - 14
+    - 4
+    - 4
+    - 13
+    - 8
+    - 8
+    - 9
+    - 15
+5:
+  situation:
+  - *id001
+  - - 3
+    - 20
+    - 16
+    - 4
+    - 4
+    - 13
+    - 8
+    - 8
+    - 9
+    - 15
+  - server to move
+  analysis:
+    better_to_move_as: 2
+    is_ahead: server
+    winning_moves: []
+    a_looser_move: *id005
+    a_wrong_move:
+6:
+  situation:
+  - *id001
+  - &id006
+    - 0
+    - 20
+    - 16
+    - 4
+    - 4
+    - 13
+    - 8
+    - 8
+    - 9
+    - 15
+  - problem solver to move
+  analysis:
+    better_to_move_as: 1
+    is_ahead: server
+    winning_moves:
+    - - 0
+      - 19
+      - 16
+      - 4
+      - 4
+      - 13
+      - 8
+      - 8
+      - 9
+      - 15
+    - - 0
+      - 20
+      - 14
+      - 4
+      - 4
+      - 13
+      - 8
+      - 8
+      - 9
+      - 15
+    - - 0
+      - 20
+      - 16
+      - 3
+      - 4
+      - 13
+      - 8
+      - 8
+      - 9
+      - 15
+    - - 0
+      - 20
+      - 16
+      - 4
+      - 4
+      - 12
+      - 8
+      - 8
+      - 9
+      - 15
+    - - 0
+      - 20
+      - 16
+      - 4
+      - 4
+      - 13
+      - 5
+      - 8
+      - 9
+      - 15
+    - - 0
+      - 20
+      - 16
+      - 4
+      - 4
+      - 13
+      - 8
+      - 2
+      - 9
+      - 15
+    - - 0
+      - 20
+      - 16
+      - 4
+      - 4
+      - 13
+      - 8
+      - 8
+      - 6
+      - 15
+    - - 0
+      - 20
+      - 16
+      - 4
+      - 4
+      - 13
+      - 8
+      - 8
+      - 9
+      - 12
+    a_looser_move: *id006
+    a_wrong_move:
+    - 0
+    - 20
+    - 16
+    - 4
+    - 4
+    - 13
+    - 8
+    - 8
+    - 9
+    - 15
+7:
+  situation:
+  - *id001
+  - - 0
+    - 20
+    - 16
+    - 4
+    - 4
+    - 13
+    - 5
+    - 8
+    - 9
+    - 15
+  - server to move
+  analysis:
+    better_to_move_as: 2
+    is_ahead: server
+    winning_moves: []
+    a_looser_move: *id006
+    a_wrong_move:
+8:
+  situation:
+  - *id001
+  - &id007
+    - 0
+    - 15
+    - 16
+    - 4
+    - 4
+    - 13
+    - 5
+    - 8
+    - 9
+    - 15
+  - problem solver to move
+  analysis:
+    better_to_move_as: 1
+    is_ahead: server
+    winning_moves:
+    - - 0
+      - 14
+      - 16
+      - 4
+      - 4
+      - 13
+      - 5
+      - 8
+      - 9
+      - 15
+    - - 0
+      - 15
+      - 15
+      - 4
+      - 4
+      - 13
+      - 5
+      - 8
+      - 9
+      - 15
+    - - 0
+      - 15
+      - 16
+      - 1
+      - 4
+      - 13
+      - 5
+      - 8
+      - 9
+      - 15
+    - - 0
+      - 15
+      - 16
+      - 4
+      - 4
+      - 13
+      - 1
+      - 8
+      - 9
+      - 15
+    - - 0
+      - 15
+      - 16
+      - 4
+      - 4
+      - 13
+      - 5
+      - 7
+      - 9
+      - 15
+    - - 0
+      - 15
+      - 16
+      - 4
+      - 4
+      - 13
+      - 5
+      - 8
+      - 8
+      - 15
+    - - 0
+      - 15
+      - 16
+      - 4
+      - 4
+      - 13
+      - 5
+      - 8
+      - 9
+      - 14
+    a_looser_move: *id007
+    a_wrong_move:
+    - 0
+    - 15
+    - 16
+    - 4
+    - 4
+    - 13
+    - 5
+    - 8
+    - 9
+    - 15
+9:
+  situation:
+  - *id001
+  - - 0
+    - 15
+    - 16
+    - 4
+    - 4
+    - 13
+    - 5
+    - 8
+    - 9
+    - 14
+  - server to move
+  analysis:
+    better_to_move_as: 2
+    is_ahead: server
+    winning_moves: []
+    a_looser_move: *id007
+    a_wrong_move:
+10:
+  situation:
+  - *id001
+  - &id008
+    - 0
+    - 10
+    - 16
+    - 4
+    - 4
+    - 13
+    - 5
+    - 8
+    - 9
+    - 14
+  - problem solver to move
+  analysis:
+    better_to_move_as: 1
+    is_ahead: server
+    winning_moves:
+    - - 0
+      - 9
+      - 16
+      - 4
+      - 4
+      - 13
+      - 5
+      - 8
+      - 9
+      - 14
+    - - 0
+      - 10
+      - 16
+      - 4
+      - 3
+      - 13
+      - 5
+      - 8
+      - 9
+      - 14
+    - - 0
+      - 10
+      - 16
+      - 4
+      - 4
+      - 8
+      - 5
+      - 8
+      - 9
+      - 14
+    - - 0
+      - 10
+      - 16
+      - 4
+      - 4
+      - 13
+      - 5
+      - 6
+      - 9
+      - 14
+    - - 0
+      - 10
+      - 16
+      - 4
+      - 4
+      - 13
+      - 5
+      - 8
+      - 4
+      - 14
+    a_looser_move: *id008
+    a_wrong_move:
+    - 0
+    - 10
+    - 16
+    - 4
+    - 4
+    - 13
+    - 5
+    - 8
+    - 9
+    - 14
+11:
+  situation:
+  - *id001
+  - - 0
+    - 10
+    - 16
+    - 4
+    - 3
+    - 13
+    - 5
+    - 8
+    - 9
+    - 14
+  - server to move
+  analysis:
+    better_to_move_as: 2
+    is_ahead: server
+    winning_moves: []
+    a_looser_move: *id008
+    a_wrong_move:
+12:
+  situation:
+  - *id001
+  - &id009
+    - 0
+    - 5
+    - 16
+    - 4
+    - 3
+    - 13
+    - 5
+    - 8
+    - 9
+    - 14
+  - problem solver to move
+  analysis:
+    better_to_move_as: 1
+    is_ahead: server
+    winning_moves:
+    - - 0
+      - 4
+      - 16
+      - 4
+      - 3
+      - 13
+      - 5
+      - 8
+      - 9
+      - 14
+    - - 0
+      - 5
+      - 15
+      - 4
+      - 3
+      - 13
+      - 5
+      - 8
+      - 9
+      - 14
+    - - 0
+      - 5
+      - 16
+      - 1
+      - 3
+      - 13
+      - 5
+      - 8
+      - 9
+      - 14
+    - - 0
+      - 5
+      - 16
+      - 4
+      - 2
+      - 13
+      - 5
+      - 8
+      - 9
+      - 14
+    - - 0
+      - 5
+      - 16
+      - 4
+      - 3
+      - 13
+      - 1
+      - 8
+      - 9
+      - 14
+    - - 0
+      - 5
+      - 16
+      - 4
+      - 3
+      - 13
+      - 5
+      - 7
+      - 9
+      - 14
+    - - 0
+      - 5
+      - 16
+      - 4
+      - 3
+      - 13
+      - 5
+      - 8
+      - 8
+      - 14
+    - - 0
+      - 5
+      - 16
+      - 4
+      - 3
+      - 13
+      - 5
+      - 8
+      - 9
+      - 11
+    a_looser_move: *id009
+    a_wrong_move:
+    - 0
+    - 5
+    - 16
+    - 4
+    - 3
+    - 13
+    - 5
+    - 8
+    - 9
+    - 14
+13:
+  situation:
+  - *id001
+  - - 0
+    - 5
+    - 16
+    - 4
+    - 3
+    - 13
+    - 1
+    - 8
+    - 9
+    - 14
+  - server to move
+  analysis:
+    better_to_move_as: 2
+    is_ahead: server
+    winning_moves: []
+    a_looser_move: *id009
+    a_wrong_move:
+14:
+  situation:
+  - *id001
+  - &id010
+    - 0
+    - 0
+    - 16
+    - 4
+    - 3
+    - 13
+    - 1
+    - 8
+    - 9
+    - 14
+  - problem solver to move
+  analysis:
+    better_to_move_as: 1
+    is_ahead: server
+    winning_moves:
+    - - 0
+      - 0
+      - 16
+      - 4
+      - 3
+      - 10
+      - 1
+      - 8
+      - 9
+      - 14
+    - - 0
+      - 0
+      - 16
+      - 4
+      - 3
+      - 13
+      - 1
+      - 4
+      - 9
+      - 14
+    a_looser_move: *id010
+    a_wrong_move:
+    - 0
+    - 0
+    - 16
+    - 4
+    - 3
+    - 13
+    - 1
+    - 8
+    - 9
+    - 14
+15:
+  situation:
+  - *id001
+  - - 0
+    - 0
+    - 16
+    - 4
+    - 3
+    - 13
+    - 1
+    - 4
+    - 9
+    - 14
+  - server to move
+  analysis:
+    better_to_move_as: 2
+    is_ahead: server
+    winning_moves: []
+    a_looser_move: *id010
+    a_wrong_move:
+16:
+  situation:
+  - *id001
+  - &id011
+    - 0
+    - 0
+    - 14
+    - 4
+    - 3
+    - 13
+    - 1
+    - 4
+    - 9
+    - 14
+  - problem solver to move
+  analysis:
+    better_to_move_as: 1
+    is_ahead: server
+    winning_moves:
+    - - 0
+      - 0
+      - 13
+      - 4
+      - 3
+      - 13
+      - 1
+      - 4
+      - 9
+      - 14
+    - - 0
+      - 0
+      - 14
+      - 3
+      - 3
+      - 13
+      - 1
+      - 4
+      - 9
+      - 14
+    - - 0
+      - 0
+      - 14
+      - 4
+      - 0
+      - 13
+      - 1
+      - 4
+      - 9
+      - 14
+    - - 0
+      - 0
+      - 14
+      - 4
+      - 3
+      - 12
+      - 1
+      - 4
+      - 9
+      - 14
+    - - 0
+      - 0
+      - 14
+      - 4
+      - 3
+      - 13
+      - 1
+      - 4
+      - 6
+      - 14
+    - - 0
+      - 0
+      - 14
+      - 4
+      - 3
+      - 13
+      - 1
+      - 4
+      - 9
+      - 13
+    a_looser_move: *id011
+    a_wrong_move:
+    - 0
+    - 0
+    - 14
+    - 4
+    - 3
+    - 13
+    - 1
+    - 4
+    - 9
+    - 14
+17:
+  situation:
+  - *id001
+  - - 0
+    - 0
+    - 14
+    - 4
+    - 3
+    - 13
+    - 1
+    - 4
+    - 9
+    - 13
+  - server to move
+  analysis:
+    better_to_move_as: 2
+    is_ahead: server
+    winning_moves: []
+    a_looser_move: *id011
+    a_wrong_move:
+18:
+  situation:
+  - *id001
+  - &id012
+    - 0
+    - 0
+    - 12
+    - 4
+    - 3
+    - 13
+    - 1
+    - 4
+    - 9
+    - 13
+  - problem solver to move
+  analysis:
+    better_to_move_as: 1
+    is_ahead: server
+    winning_moves:
+    - - 0
+      - 0
+      - 11
+      - 4
+      - 3
+      - 13
+      - 1
+      - 4
+      - 9
+      - 13
+    - - 0
+      - 0
+      - 12
+      - 2
+      - 3
+      - 13
+      - 1
+      - 4
+      - 9
+      - 13
+    - - 0
+      - 0
+      - 12
+      - 4
+      - 1
+      - 13
+      - 1
+      - 4
+      - 9
+      - 13
+    - - 0
+      - 0
+      - 12
+      - 4
+      - 3
+      - 11
+      - 1
+      - 4
+      - 9
+      - 13
+    - - 0
+      - 0
+      - 12
+      - 4
+      - 3
+      - 13
+      - 1
+      - 4
+      - 7
+      - 13
+    - - 0
+      - 0
+      - 12
+      - 4
+      - 3
+      - 13
+      - 1
+      - 4
+      - 9
+      - 11
+    a_looser_move: *id012
+    a_wrong_move:
+    - 0
+    - 0
+    - 12
+    - 4
+    - 3
+    - 13
+    - 1
+    - 4
+    - 9
+    - 13
+19:
+  situation:
+  - *id001
+  - - 0
+    - 0
+    - 12
+    - 4
+    - 3
+    - 11
+    - 1
+    - 4
+    - 9
+    - 13
+  - server to move
+  analysis:
+    better_to_move_as: 2
+    is_ahead: server
+    winning_moves: []
+    a_looser_move: *id012
+    a_wrong_move:
+20:
+  situation:
+  - *id001
+  - &id013
+    - 0
+    - 0
+    - 10
+    - 4
+    - 3
+    - 11
+    - 1
+    - 4
+    - 9
+    - 13
+  - problem solver to move
+  analysis:
+    better_to_move_as: 1
+    is_ahead: server
+    winning_moves:
+    - - 0
+      - 0
+      - 9
+      - 4
+      - 3
+      - 11
+      - 1
+      - 4
+      - 9
+      - 13
+    - - 0
+      - 0
+      - 10
+      - 1
+      - 3
+      - 11
+      - 1
+      - 4
+      - 9
+      - 13
+    - - 0
+      - 0
+      - 10
+      - 4
+      - 2
+      - 11
+      - 1
+      - 4
+      - 9
+      - 13
+    - - 0
+      - 0
+      - 10
+      - 4
+      - 3
+      - 5
+      - 1
+      - 4
+      - 9
+      - 13
+    - - 0
+      - 0
+      - 10
+      - 4
+      - 3
+      - 11
+      - 0
+      - 4
+      - 9
+      - 13
+    - - 0
+      - 0
+      - 10
+      - 4
+      - 3
+      - 11
+      - 1
+      - 4
+      - 8
+      - 13
+    - - 0
+      - 0
+      - 10
+      - 4
+      - 3
+      - 11
+      - 1
+      - 4
+      - 9
+      - 12
+    a_looser_move: *id013
+    a_wrong_move:
+    - 0
+    - 0
+    - 10
+    - 4
+    - 3
+    - 11
+    - 1
+    - 4
+    - 9
+    - 13
+21:
+  situation:
+  - *id001
+  - - 0
+    - 0
+    - 9
+    - 4
+    - 3
+    - 11
+    - 1
+    - 4
+    - 9
+    - 13
+  - server to move
+  analysis:
+    better_to_move_as: 2
+    is_ahead: server
+    winning_moves: []
+    a_looser_move: *id013
+    a_wrong_move:
+22:
+  situation:
+  - *id001
+  - &id014
+    - 0
+    - 0
+    - 7
+    - 4
+    - 3
+    - 11
+    - 1
+    - 4
+    - 9
+    - 13
+  - problem solver to move
+  analysis:
+    better_to_move_as: 1
+    is_ahead: server
+    winning_moves:
+    - - 0
+      - 0
+      - 6
+      - 4
+      - 3
+      - 11
+      - 1
+      - 4
+      - 9
+      - 13
+    - - 0
+      - 0
+      - 7
+      - 1
+      - 3
+      - 11
+      - 1
+      - 4
+      - 9
+      - 13
+    - - 0
+      - 0
+      - 7
+      - 4
+      - 2
+      - 11
+      - 1
+      - 4
+      - 9
+      - 13
+    - - 0
+      - 0
+      - 7
+      - 4
+      - 3
+      - 5
+      - 1
+      - 4
+      - 9
+      - 13
+    - - 0
+      - 0
+      - 7
+      - 4
+      - 3
+      - 11
+      - 0
+      - 4
+      - 9
+      - 13
+    - - 0
+      - 0
+      - 7
+      - 4
+      - 3
+      - 11
+      - 1
+      - 4
+      - 8
+      - 13
+    - - 0
+      - 0
+      - 7
+      - 4
+      - 3
+      - 11
+      - 1
+      - 4
+      - 9
+      - 12
+    a_looser_move: *id014
+    a_wrong_move:
+    - 0
+    - 0
+    - 7
+    - 4
+    - 3
+    - 11
+    - 1
+    - 4
+    - 9
+    - 13
+23:
+  situation:
+  - *id001
+  - - 0
+    - 0
+    - 7
+    - 4
+    - 3
+    - 11
+    - 0
+    - 4
+    - 9
+    - 13
+  - server to move
+  analysis:
+    better_to_move_as: 2
+    is_ahead: server
+    winning_moves: []
+    a_looser_move: *id014
+    a_wrong_move:
+24:
+  situation:
+  - *id001
+  - &id015
+    - 0
+    - 0
+    - 5
+    - 4
+    - 3
+    - 11
+    - 0
+    - 4
+    - 9
+    - 13
+  - problem solver to move
+  analysis:
+    better_to_move_as: 1
+    is_ahead: server
+    winning_moves:
+    - - 0
+      - 0
+      - 4
+      - 4
+      - 3
+      - 11
+      - 0
+      - 4
+      - 9
+      - 13
+    - - 0
+      - 0
+      - 5
+      - 3
+      - 3
+      - 11
+      - 0
+      - 4
+      - 9
+      - 13
+    - - 0
+      - 0
+      - 5
+      - 4
+      - 0
+      - 11
+      - 0
+      - 4
+      - 9
+      - 13
+    - - 0
+      - 0
+      - 5
+      - 4
+      - 3
+      - 11
+      - 0
+      - 4
+      - 6
+      - 13
+    - - 0
+      - 0
+      - 5
+      - 4
+      - 3
+      - 11
+      - 0
+      - 4
+      - 9
+      - 10
+    a_looser_move: *id015
+    a_wrong_move:
+    - 0
+    - 0
+    - 5
+    - 4
+    - 3
+    - 11
+    - 0
+    - 4
+    - 9
+    - 13
+25:
+  situation:
+  - *id001
+  - - 0
+    - 0
+    - 5
+    - 4
+    - 3
+    - 11
+    - 0
+    - 4
+    - 9
+    - 10
+  - server to move
+  analysis:
+    better_to_move_as: 2
+    is_ahead: server
+    winning_moves: []
+    a_looser_move: *id015
+    a_wrong_move:
+26:
+  situation:
+  - *id001
+  - &id016
+    - 0
+    - 0
+    - 3
+    - 4
+    - 3
+    - 11
+    - 0
+    - 4
+    - 9
+    - 10
+  - problem solver to move
+  analysis:
+    better_to_move_as: 1
+    is_ahead: server
+    winning_moves:
+    - - 0
+      - 0
+      - 2
+      - 4
+      - 3
+      - 11
+      - 0
+      - 4
+      - 9
+      - 10
+    - - 0
+      - 0
+      - 3
+      - 2
+      - 3
+      - 11
+      - 0
+      - 4
+      - 9
+      - 10
+    - - 0
+      - 0
+      - 3
+      - 4
+      - 1
+      - 11
+      - 0
+      - 4
+      - 9
+      - 10
+    - - 0
+      - 0
+      - 3
+      - 4
+      - 3
+      - 6
+      - 0
+      - 4
+      - 9
+      - 10
+    - - 0
+      - 0
+      - 3
+      - 4
+      - 3
+      - 11
+      - 0
+      - 4
+      - 7
+      - 10
+    - - 0
+      - 0
+      - 3
+      - 4
+      - 3
+      - 11
+      - 0
+      - 4
+      - 9
+      - 8
+    a_looser_move: *id016
+    a_wrong_move:
+    - 0
+    - 0
+    - 3
+    - 4
+    - 3
+    - 11
+    - 0
+    - 4
+    - 9
+    - 10
+27:
+  situation:
+  - *id001
+  - - 0
+    - 0
+    - 3
+    - 4
+    - 3
+    - 6
+    - 0
+    - 4
+    - 9
+    - 10
+  - server to move
+  analysis:
+    better_to_move_as: 2
+    is_ahead: server
+    winning_moves: []
+    a_looser_move: *id016
+    a_wrong_move:
+28:
+  situation:
+  - *id001
+  - &id017
+    - 0
+    - 0
+    - 1
+    - 4
+    - 3
+    - 6
+    - 0
+    - 4
+    - 9
+    - 10
+  - problem solver to move
+  analysis:
+    better_to_move_as: 1
+    is_ahead: server
+    winning_moves:
+    - - 0
+      - 0
+      - 0
+      - 4
+      - 3
+      - 6
+      - 0
+      - 4
+      - 9
+      - 10
+    - - 0
+      - 0
+      - 1
+      - 1
+      - 3
+      - 6
+      - 0
+      - 4
+      - 9
+      - 10
+    - - 0
+      - 0
+      - 1
+      - 4
+      - 2
+      - 6
+      - 0
+      - 4
+      - 9
+      - 10
+    - - 0
+      - 0
+      - 1
+      - 4
+      - 3
+      - 6
+      - 0
+      - 4
+      - 8
+      - 10
+    - - 0
+      - 0
+      - 1
+      - 4
+      - 3
+      - 6
+      - 0
+      - 4
+      - 9
+      - 7
+    a_looser_move: *id017
+    a_wrong_move:
+    - 0
+    - 0
+    - 1
+    - 4
+    - 3
+    - 6
+    - 0
+    - 4
+    - 9
+    - 10
+29:
+  situation:
+  - *id001
+  - - 0
+    - 0
+    - 1
+    - 4
+    - 3
+    - 6
+    - 0
+    - 4
+    - 8
+    - 10
+  - server to move
+  analysis:
+    better_to_move_as: 2
+    is_ahead: server
+    winning_moves: []
+    a_looser_move: *id017
+    a_wrong_move:
+30:
+  situation:
+  - *id001
+  - &id018
+    - 0
+    - 0
+    - 0
+    - 4
+    - 3
+    - 6
+    - 0
+    - 4
+    - 8
+    - 10
+  - problem solver to move
+  analysis:
+    better_to_move_as: 1
+    is_ahead: server
+    winning_moves:
+    - - 0
+      - 0
+      - 0
+      - 1
+      - 3
+      - 6
+      - 0
+      - 4
+      - 8
+      - 10
+    - - 0
+      - 0
+      - 0
+      - 4
+      - 2
+      - 6
+      - 0
+      - 4
+      - 8
+      - 10
+    - - 0
+      - 0
+      - 0
+      - 4
+      - 3
+      - 6
+      - 0
+      - 4
+      - 3
+      - 10
+    - - 0
+      - 0
+      - 0
+      - 4
+      - 3
+      - 6
+      - 0
+      - 4
+      - 8
+      - 7
+    a_looser_move: *id018
+    a_wrong_move:
+    - 0
+    - 0
+    - 0
+    - 4
+    - 3
+    - 6
+    - 0
+    - 4
+    - 8
+    - 10
+31:
+  situation:
+  - *id001
+  - - 0
+    - 0
+    - 0
+    - 1
+    - 3
+    - 6
+    - 0
+    - 4
+    - 8
+    - 10
+  - server to move
+  analysis:
+    better_to_move_as: 2
+    is_ahead: server
+    winning_moves: []
+    a_looser_move: *id018
+    a_wrong_move:
+32:
+  situation:
+  - *id001
+  - &id019
+    - 0
+    - 0
+    - 0
+    - 0
+    - 3
+    - 6
+    - 0
+    - 4
+    - 8
+    - 10
+  - problem solver to move
+  analysis:
+    better_to_move_as: 1
+    is_ahead: server
+    winning_moves:
+    - - 0
+      - 0
+      - 0
+      - 0
+      - 2
+      - 6
+      - 0
+      - 4
+      - 8
+      - 10
+    - - 0
+      - 0
+      - 0
+      - 0
+      - 3
+      - 6
+      - 0
+      - 4
+      - 3
+      - 10
+    - - 0
+      - 0
+      - 0
+      - 0
+      - 3
+      - 6
+      - 0
+      - 4
+      - 8
+      - 7
+    a_looser_move: *id019
+    a_wrong_move:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 3
+    - 6
+    - 0
+    - 4
+    - 8
+    - 10
+33:
+  situation:
+  - *id001
+  - - 0
+    - 0
+    - 0
+    - 0
+    - 3
+    - 6
+    - 0
+    - 4
+    - 3
+    - 10
+  - server to move
+  analysis:
+    better_to_move_as: 2
+    is_ahead: server
+    winning_moves: []
+    a_looser_move: *id019
+    a_wrong_move:
+34:
+  situation:
+  - *id001
+  - &id020
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 6
+    - 0
+    - 4
+    - 3
+    - 10
+  - problem solver to move
+  analysis:
+    better_to_move_as: 1
+    is_ahead: server
+    winning_moves:
+    - - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 5
+      - 0
+      - 4
+      - 3
+      - 10
+    - - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 6
+      - 0
+      - 4
+      - 0
+      - 10
+    - - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 6
+      - 0
+      - 4
+      - 3
+      - 9
+    a_looser_move: *id020
+    a_wrong_move:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 6
+    - 0
+    - 4
+    - 3
+    - 10
+35:
+  situation:
+  - *id001
+  - - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 6
+    - 0
+    - 4
+    - 3
+    - 9
+  - server to move
+  analysis:
+    better_to_move_as: 2
+    is_ahead: server
+    winning_moves: []
+    a_looser_move: *id020
+    a_wrong_move:
+36:
+  situation:
+  - *id001
+  - &id021
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 4
+    - 3
+    - 9
+  - problem solver to move
+  analysis:
+    better_to_move_as: 1
+    is_ahead: server
+    winning_moves:
+    - - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 2
+      - 3
+      - 9
+    a_looser_move: *id021
+    a_wrong_move:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 4
+    - 3
+    - 9
+37:
+  situation:
+  - *id001
+  - - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 2
+    - 3
+    - 9
+  - server to move
+  analysis:
+    better_to_move_as: 2
+    is_ahead: server
+    winning_moves: []
+    a_looser_move: *id021
+    a_wrong_move:
+38:
+  situation:
+  - *id001
+  - &id022
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 3
+    - 9
+  - problem solver to move
+  analysis:
+    better_to_move_as: 1
+    is_ahead: server
+    winning_moves:
+    - - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 1
+      - 9
+    - - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 3
+      - 7
+    a_looser_move: *id022
+    a_wrong_move:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 3
+    - 9
+39:
+  situation:
+  - *id001
+  - - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 3
+    - 7
+  - server to move
+  analysis:
+    better_to_move_as: 2
+    is_ahead: server
+    winning_moves: []
+    a_looser_move: *id022
+    a_wrong_move:
+40:
+  situation:
+  - *id001
+  - &id023
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 7
+  - problem solver to move
+  analysis:
+    better_to_move_as: 1
+    is_ahead: server
+    winning_moves:
+    - - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 4
+    a_looser_move: *id023
+    a_wrong_move:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 7
+41:
+  situation:
+  - *id001
+  - - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 4
+  - server to move
+  analysis:
+    better_to_move_as: 2
+    is_ahead: server
+    winning_moves: []
+    a_looser_move: *id023
+    a_wrong_move:
+42:
+  situation:
+  - *id001
+  - &id024
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+  - problem solver to move
+  analysis:
+    better_to_move_as: 1
+    is_ahead: server
+    winning_moves:
+    - - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    a_looser_move: *id024
+    a_wrong_move:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+43:
+  situation:
+  - *id001
+  - - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - server to move
+  analysis:
+    better_to_move_as: 2
+    is_ahead: server
+    winning_moves: []
+    a_looser_move: *id024
+    a_wrong_move:

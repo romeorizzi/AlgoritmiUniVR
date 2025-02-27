@@ -1,0 +1,155 @@
+The server has proposed to play the game:
+ - n=10
+ - d=[3, 3, 5, 5, 5, 5, 6, 2, 6, 5]
+ - p=[10, 9, 8, 4, 20, 16, 11, 13, 6, 16]
+our disinterested advice would be to go first.
+
+The problem solver wants to go first. Ok, the server will be second to move.
+
+Good choice! The problem solver is ahead.
+
+# The problem solver is now facing the position:
+# p=[10, 9, 8, 4, 20, 16, 11, 13, 6, 16] (keep in mind that d=[3, 3, 5, 5, 5, 5, 6, 2, 6, 5], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+Move {time}: it appears that the problem solver has made a serious mistake here with his move form {p} to {next_ps[0]}!!! The server is now ahead and on the go to win this match.
+
+# The server is now facing the position:
+# p=[10, 9, 8, 4, 20, 16, 11, 13, 6, 12] (keep in mind that d=[3, 3, 5, 5, 5, 5, 6, 2, 6, 5], to grasp the whole situation).
+The server reluctancty moves from [10, 9, 8, 4, 20, 16, 11, 13, 6, 12] to [7, 9, 8, 4, 20, 16, 11, 13, 6, 12].
+# The problem solver is now facing the position:
+# p=[7, 9, 8, 4, 20, 16, 11, 13, 6, 12] (keep in mind that d=[3, 3, 5, 5, 5, 5, 6, 2, 6, 5], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[7, 9, 3, 4, 20, 16, 11, 13, 6, 12] (keep in mind that d=[3, 3, 5, 5, 5, 5, 6, 2, 6, 5], to grasp the whole situation).
+The server reluctancty moves from [7, 9, 3, 4, 20, 16, 11, 13, 6, 12] to [4, 9, 3, 4, 20, 16, 11, 13, 6, 12].
+# The problem solver is now facing the position:
+# p=[4, 9, 3, 4, 20, 16, 11, 13, 6, 12] (keep in mind that d=[3, 3, 5, 5, 5, 5, 6, 2, 6, 5], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[3, 9, 3, 4, 20, 16, 11, 13, 6, 12] (keep in mind that d=[3, 3, 5, 5, 5, 5, 6, 2, 6, 5], to grasp the whole situation).
+The server reluctancty moves from [3, 9, 3, 4, 20, 16, 11, 13, 6, 12] to [0, 9, 3, 4, 20, 16, 11, 13, 6, 12].
+# The problem solver is now facing the position:
+# p=[0, 9, 3, 4, 20, 16, 11, 13, 6, 12] (keep in mind that d=[3, 3, 5, 5, 5, 5, 6, 2, 6, 5], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 9, 3, 4, 20, 16, 11, 13, 5, 12] (keep in mind that d=[3, 3, 5, 5, 5, 5, 6, 2, 6, 5], to grasp the whole situation).
+The server reluctancty moves from [0, 9, 3, 4, 20, 16, 11, 13, 5, 12] to [0, 6, 3, 4, 20, 16, 11, 13, 5, 12].
+# The problem solver is now facing the position:
+# p=[0, 6, 3, 4, 20, 16, 11, 13, 5, 12] (keep in mind that d=[3, 3, 5, 5, 5, 5, 6, 2, 6, 5], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 6, 3, 4, 20, 16, 11, 11, 5, 12] (keep in mind that d=[3, 3, 5, 5, 5, 5, 6, 2, 6, 5], to grasp the whole situation).
+The server reluctancty moves from [0, 6, 3, 4, 20, 16, 11, 11, 5, 12] to [0, 3, 3, 4, 20, 16, 11, 11, 5, 12].
+# The problem solver is now facing the position:
+# p=[0, 3, 3, 4, 20, 16, 11, 11, 5, 12] (keep in mind that d=[3, 3, 5, 5, 5, 5, 6, 2, 6, 5], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 3, 2, 4, 20, 16, 11, 11, 5, 12] (keep in mind that d=[3, 3, 5, 5, 5, 5, 6, 2, 6, 5], to grasp the whole situation).
+The server reluctancty moves from [0, 3, 2, 4, 20, 16, 11, 11, 5, 12] to [0, 0, 2, 4, 20, 16, 11, 11, 5, 12].
+# The problem solver is now facing the position:
+# p=[0, 0, 2, 4, 20, 16, 11, 11, 5, 12] (keep in mind that d=[3, 3, 5, 5, 5, 5, 6, 2, 6, 5], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 2, 4, 20, 16, 11, 10, 5, 12] (keep in mind that d=[3, 3, 5, 5, 5, 5, 6, 2, 6, 5], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 2, 4, 20, 16, 11, 10, 5, 12] to [0, 0, 0, 4, 20, 16, 11, 10, 5, 12].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 4, 20, 16, 11, 10, 5, 12] (keep in mind that d=[3, 3, 5, 5, 5, 5, 6, 2, 6, 5], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 4, 20, 16, 6, 10, 5, 12] (keep in mind that d=[3, 3, 5, 5, 5, 5, 6, 2, 6, 5], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 4, 20, 16, 6, 10, 5, 12] to [0, 0, 0, 0, 20, 16, 6, 10, 5, 12].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 20, 16, 6, 10, 5, 12] (keep in mind that d=[3, 3, 5, 5, 5, 5, 6, 2, 6, 5], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 20, 16, 6, 10, 1, 12] (keep in mind that d=[3, 3, 5, 5, 5, 5, 6, 2, 6, 5], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 20, 16, 6, 10, 1, 12] to [0, 0, 0, 0, 15, 16, 6, 10, 1, 12].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 15, 16, 6, 10, 1, 12] (keep in mind that d=[3, 3, 5, 5, 5, 5, 6, 2, 6, 5], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 15, 11, 6, 10, 1, 12] (keep in mind that d=[3, 3, 5, 5, 5, 5, 6, 2, 6, 5], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 15, 11, 6, 10, 1, 12] to [0, 0, 0, 0, 10, 11, 6, 10, 1, 12].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 10, 11, 6, 10, 1, 12] (keep in mind that d=[3, 3, 5, 5, 5, 5, 6, 2, 6, 5], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 10, 8, 6, 10, 1, 12] (keep in mind that d=[3, 3, 5, 5, 5, 5, 6, 2, 6, 5], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 10, 8, 6, 10, 1, 12] to [0, 0, 0, 0, 5, 8, 6, 10, 1, 12].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 5, 8, 6, 10, 1, 12] (keep in mind that d=[3, 3, 5, 5, 5, 5, 6, 2, 6, 5], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 5, 8, 6, 9, 1, 12] (keep in mind that d=[3, 3, 5, 5, 5, 5, 6, 2, 6, 5], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 5, 8, 6, 9, 1, 12] to [0, 0, 0, 0, 0, 8, 6, 9, 1, 12].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 8, 6, 9, 1, 12] (keep in mind that d=[3, 3, 5, 5, 5, 5, 6, 2, 6, 5], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 8, 3, 9, 1, 12] (keep in mind that d=[3, 3, 5, 5, 5, 5, 6, 2, 6, 5], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 8, 3, 9, 1, 12] to [0, 0, 0, 0, 0, 3, 3, 9, 1, 12].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 3, 3, 9, 1, 12] (keep in mind that d=[3, 3, 5, 5, 5, 5, 6, 2, 6, 5], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 2, 3, 9, 1, 12] (keep in mind that d=[3, 3, 5, 5, 5, 5, 6, 2, 6, 5], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 2, 3, 9, 1, 12] to [0, 0, 0, 0, 0, 0, 3, 9, 1, 12].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 3, 9, 1, 12] (keep in mind that d=[3, 3, 5, 5, 5, 5, 6, 2, 6, 5], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 1, 9, 1, 12] (keep in mind that d=[3, 3, 5, 5, 5, 5, 6, 2, 6, 5], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 0, 1, 9, 1, 12] to [0, 0, 0, 0, 0, 0, 0, 9, 1, 12].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 9, 1, 12] (keep in mind that d=[3, 3, 5, 5, 5, 5, 6, 2, 6, 5], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 9, 1, 7] (keep in mind that d=[3, 3, 5, 5, 5, 5, 6, 2, 6, 5], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 0, 0, 9, 1, 7] to [0, 0, 0, 0, 0, 0, 0, 7, 1, 7].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 7, 1, 7] (keep in mind that d=[3, 3, 5, 5, 5, 5, 6, 2, 6, 5], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 7, 0, 7] (keep in mind that d=[3, 3, 5, 5, 5, 5, 6, 2, 6, 5], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 0, 0, 7, 0, 7] to [0, 0, 0, 0, 0, 0, 0, 5, 0, 7].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 5, 0, 7] (keep in mind that d=[3, 3, 5, 5, 5, 5, 6, 2, 6, 5], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 4, 0, 7] (keep in mind that d=[3, 3, 5, 5, 5, 5, 6, 2, 6, 5], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 0, 0, 4, 0, 7] to [0, 0, 0, 0, 0, 0, 0, 2, 0, 7].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 2, 0, 7] (keep in mind that d=[3, 3, 5, 5, 5, 5, 6, 2, 6, 5], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 1, 0, 7] (keep in mind that d=[3, 3, 5, 5, 5, 5, 6, 2, 6, 5], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 0, 0, 1, 0, 7] to [0, 0, 0, 0, 0, 0, 0, 0, 0, 7].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 0, 0, 7] (keep in mind that d=[3, 3, 5, 5, 5, 5, 6, 2, 6, 5], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 0, 0, 0, 0, 0, 0, 7] to [0, 0, 0, 0, 0, 0, 0, 0, 0, 6].
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 0, 0, 6] (keep in mind that d=[3, 3, 5, 5, 5, 5, 6, 2, 6, 5], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 0, 0, 0, 0, 6] to [0, 0, 0, 0, 0, 0, 0, 0, 0, 1].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 0, 0, 1] (keep in mind that d=[3, 3, 5, 5, 5, 5, 6, 2, 6, 5], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 0, 0, 0, 0, 0, 0, 1] to [0, 0, 0, 0, 0, 0, 0, 0, 0, 0].
+

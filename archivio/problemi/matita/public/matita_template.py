@@ -1,0 +1,1 @@
+../sol/matita_template.py

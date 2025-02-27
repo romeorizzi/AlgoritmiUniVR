@@ -1,0 +1,66 @@
+The server has proposed to play the game:
+ - n=2
+ - d=[16, 9]
+ - p=[59, 71]
+our disinterested advice would be to go first.
+
+The problem solver wants to go first. Ok, the server will be second to move.
+
+Good choice! The problem solver is ahead.
+
+# The problem solver is now facing the position:
+# p=[59, 71] (keep in mind that d=[16, 9], to grasp the whole situation).
+The winning move [59, 68] is missing from your list of all the winning moves:
+[[52, 71]] (I will not check and report on the alternative winning moves for the rest of this one match.)
+The problem solver moves from [59, 71] to [52, 71].
+Move 1: it appears that the problem solver has made a serious mistake here with his move form [59, 71] to [52, 71]!!! The server is now ahead and on the go to win this match.
+
+# The server is now facing the position:
+# p=[52, 71] (keep in mind that d=[16, 9], to grasp the whole situation).
+The server reluctancty moves from [52, 71] to [36, 71].
+# The problem solver is now facing the position:
+# p=[36, 71] (keep in mind that d=[16, 9], to grasp the whole situation).
+The problem solver moves from [36, 71] to [36, 62].
+# The server is now facing the position:
+# p=[36, 62] (keep in mind that d=[16, 9], to grasp the whole situation).
+The server reluctancty moves from [36, 62] to [20, 62].
+# The problem solver is now facing the position:
+# p=[20, 62] (keep in mind that d=[16, 9], to grasp the whole situation).
+The problem solver moves from [20, 62] to [20, 53].
+# The server is now facing the position:
+# p=[20, 53] (keep in mind that d=[16, 9], to grasp the whole situation).
+The server reluctancty moves from [20, 53] to [4, 53].
+# The problem solver is now facing the position:
+# p=[4, 53] (keep in mind that d=[16, 9], to grasp the whole situation).
+The problem solver moves from [4, 53] to [4, 44].
+# The server is now facing the position:
+# p=[4, 44] (keep in mind that d=[16, 9], to grasp the whole situation).
+The server reluctancty moves from [4, 44] to [0, 44].
+# The problem solver is now facing the position:
+# p=[0, 44] (keep in mind that d=[16, 9], to grasp the whole situation).
+The problem solver moves from [0, 44] to [0, 40].
+# The server is now facing the position:
+# p=[0, 40] (keep in mind that d=[16, 9], to grasp the whole situation).
+The server reluctancty moves from [0, 40] to [0, 31].
+# The problem solver is now facing the position:
+# p=[0, 31] (keep in mind that d=[16, 9], to grasp the whole situation).
+The problem solver moves from [0, 31] to [0, 30].
+# The server is now facing the position:
+# p=[0, 30] (keep in mind that d=[16, 9], to grasp the whole situation).
+The server reluctancty moves from [0, 30] to [0, 21].
+# The problem solver is now facing the position:
+# p=[0, 21] (keep in mind that d=[16, 9], to grasp the whole situation).
+The problem solver moves from [0, 21] to [0, 20].
+# The server is now facing the position:
+# p=[0, 20] (keep in mind that d=[16, 9], to grasp the whole situation).
+The server reluctancty moves from [0, 20] to [0, 11].
+# The problem solver is now facing the position:
+# p=[0, 11] (keep in mind that d=[16, 9], to grasp the whole situation).
+The problem solver moves from [0, 11] to [0, 10].
+# The server is now facing the position:
+# p=[0, 10] (keep in mind that d=[16, 9], to grasp the whole situation).
+The server reluctancty moves from [0, 10] to [0, 1].
+# The problem solver is now facing the position:
+# p=[0, 1] (keep in mind that d=[16, 9], to grasp the whole situation).
+The problem solver moves from [0, 1] to [0, 0].
+

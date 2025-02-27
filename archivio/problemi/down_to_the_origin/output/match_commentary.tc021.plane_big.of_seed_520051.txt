@@ -1,0 +1,47 @@
+The server has proposed to play the game:
+ - n=2
+ - d=[19247, 47310]
+ - p=[90771, 58323]
+our disinterested advice would be to go first.
+
+The problem solver wants to go first. Ok, the server will be second to move.
+
+Good choice! The problem solver is ahead.
+
+# The problem solver is now facing the position:
+# p=[90771, 58323] (keep in mind that d=[19247, 47310], to grasp the whole situation).
+ He actually shows off with a wider range of candidates for his winning moves:
+   {next_ps}
+Move {time}: it appears that the problem solver has made a serious mistake here with his move form {p} to {next_ps[0]}!!! The server is now ahead and on the go to win this match.
+
+# The server is now facing the position:
+# p=[90771, 13779] (keep in mind that d=[19247, 47310], to grasp the whole situation).
+The server reluctancty moves from [90771, 13779] to [71524, 13779].
+# The problem solver is now facing the position:
+# p=[71524, 13779] (keep in mind that d=[19247, 47310], to grasp the whole situation).
+The problem solver moves from [71524, 13779] to [71523, 13779].
+# The server is now facing the position:
+# p=[71523, 13779] (keep in mind that d=[19247, 47310], to grasp the whole situation).
+The server reluctancty moves from [71523, 13779] to [52276, 13779].
+# The problem solver is now facing the position:
+# p=[52276, 13779] (keep in mind that d=[19247, 47310], to grasp the whole situation).
+The problem solver moves from [52276, 13779] to [52275, 13779].
+# The server is now facing the position:
+# p=[52275, 13779] (keep in mind that d=[19247, 47310], to grasp the whole situation).
+The server reluctancty moves from [52275, 13779] to [33028, 13779].
+# The problem solver is now facing the position:
+# p=[33028, 13779] (keep in mind that d=[19247, 47310], to grasp the whole situation).
+The problem solver moves from [33028, 13779] to [33027, 13779].
+# The server is now facing the position:
+# p=[33027, 13779] (keep in mind that d=[19247, 47310], to grasp the whole situation).
+The server reluctancty moves from [33027, 13779] to [13780, 13779].
+# The problem solver is now facing the position:
+# p=[13780, 13779] (keep in mind that d=[19247, 47310], to grasp the whole situation).
+The problem solver moves from [13780, 13779] to [13779, 13779].
+# The server is now facing the position:
+# p=[13779, 13779] (keep in mind that d=[19247, 47310], to grasp the whole situation).
+The server reluctancty moves from [13779, 13779] to [0, 13779].
+# The problem solver is now facing the position:
+# p=[0, 13779] (keep in mind that d=[19247, 47310], to grasp the whole situation).
+The problem solver moves from [0, 13779] to [0, 0].
+

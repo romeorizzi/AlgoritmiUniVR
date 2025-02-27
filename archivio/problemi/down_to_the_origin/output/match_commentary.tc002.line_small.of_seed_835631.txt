@@ -1,0 +1,28 @@
+The server has proposed to play the game:
+ - n=1
+ - d=[5]
+ - p=[17]
+our disinterested advice would be to go first.
+
+The problem solver wants to go first. Ok, the server will be second to move.
+
+Good choice! The problem solver is ahead.
+
+# The problem solver is now facing the position:
+# p=[17] (keep in mind that d=[5], to grasp the whole situation).
+The problem solver moves from [17] to [12].
+Move 1: it appears that the problem solver has made a serious mistake here with his move form [17] to [12]!!! The server is now ahead and on the go to win this match.
+
+# The server is now facing the position:
+# p=[12] (keep in mind that d=[5], to grasp the whole situation).
+The server reluctancty moves from [12] to [7].
+# The problem solver is now facing the position:
+# p=[7] (keep in mind that d=[5], to grasp the whole situation).
+The problem solver moves from [7] to [6].
+# The server is now facing the position:
+# p=[6] (keep in mind that d=[5], to grasp the whole situation).
+The server reluctancty moves from [6] to [1].
+# The problem solver is now facing the position:
+# p=[1] (keep in mind that d=[5], to grasp the whole situation).
+Match suspended: your move next_p=[4] is illegal (it should hold that [0] <= next_p <= [1] = p.) We close this match here. We restart both the server and the client for the next match/testcase.
+

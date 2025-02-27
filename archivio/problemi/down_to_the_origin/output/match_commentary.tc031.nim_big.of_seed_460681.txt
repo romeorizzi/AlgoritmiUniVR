@@ -1,0 +1,234 @@
+The server has proposed to play the game:
+ - n=10
+ - d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782]
+ - p=[92361, 109548, 99317, 129191, 169379, 127601, 177706, 155282, 193142, 160387]
+our disinterested advice would be to go first.
+
+The problem solver wants to go first. Ok, the server will be second to move.
+
+Good choice! The problem solver is ahead.
+
+# The problem solver is now facing the position:
+# p=[92361, 109548, 99317, 129191, 169379, 127601, 177706, 155282, 193142, 160387] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The winning move [92361, 109548, 99317, 129191, 169379, 127601, 156047, 155282, 193142, 160387] is missing from your list of all the winning moves:
+[[92361, 80426, 99317, 129191, 169379, 127601, 177706, 155282, 193142, 160387]] (I will not check and report on the alternative winning moves for the rest of this one match.)
+The problem solver moves from [92361, 109548, 99317, 129191, 169379, 127601, 177706, 155282, 193142, 160387] to [92361, 80426, 99317, 129191, 169379, 127601, 177706, 155282, 193142, 160387].
+Move 1: it appears that the problem solver has made a serious mistake here with his move form [92361, 109548, 99317, 129191, 169379, 127601, 177706, 155282, 193142, 160387] to [92361, 80426, 99317, 129191, 169379, 127601, 177706, 155282, 193142, 160387]!!! The server is now ahead and on the go to win this match.
+
+# The server is now facing the position:
+# p=[92361, 80426, 99317, 129191, 169379, 127601, 177706, 155282, 193142, 160387] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The server reluctancty moves from [92361, 80426, 99317, 129191, 169379, 127601, 177706, 155282, 193142, 160387] to [48296, 80426, 99317, 129191, 169379, 127601, 177706, 155282, 193142, 160387].
+# The problem solver is now facing the position:
+# p=[48296, 80426, 99317, 129191, 169379, 127601, 177706, 155282, 193142, 160387] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The problem solver moves from [48296, 80426, 99317, 129191, 169379, 127601, 177706, 155282, 193142, 160387] to [48296, 80426, 99317, 129191, 169379, 127601, 177706, 155282, 193142, 160386].
+# The server is now facing the position:
+# p=[48296, 80426, 99317, 129191, 169379, 127601, 177706, 155282, 193142, 160386] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The server reluctancty moves from [48296, 80426, 99317, 129191, 169379, 127601, 177706, 155282, 193142, 160386] to [4231, 80426, 99317, 129191, 169379, 127601, 177706, 155282, 193142, 160386].
+# The problem solver is now facing the position:
+# p=[4231, 80426, 99317, 129191, 169379, 127601, 177706, 155282, 193142, 160386] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The problem solver moves from [4231, 80426, 99317, 129191, 169379, 127601, 177706, 155282, 193142, 160386] to [4231, 80426, 99317, 129191, 169379, 127601, 177706, 155282, 193142, 160385].
+# The server is now facing the position:
+# p=[4231, 80426, 99317, 129191, 169379, 127601, 177706, 155282, 193142, 160385] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The server reluctancty moves from [4231, 80426, 99317, 129191, 169379, 127601, 177706, 155282, 193142, 160385] to [0, 80426, 99317, 129191, 169379, 127601, 177706, 155282, 193142, 160385].
+# The problem solver is now facing the position:
+# p=[0, 80426, 99317, 129191, 169379, 127601, 177706, 155282, 193142, 160385] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The problem solver moves from [0, 80426, 99317, 129191, 169379, 127601, 177706, 155282, 193142, 160385] to [0, 80426, 99317, 124968, 169379, 127601, 177706, 155282, 193142, 160385].
+# The server is now facing the position:
+# p=[0, 80426, 99317, 124968, 169379, 127601, 177706, 155282, 193142, 160385] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The server reluctancty moves from [0, 80426, 99317, 124968, 169379, 127601, 177706, 155282, 193142, 160385] to [0, 37142, 99317, 124968, 169379, 127601, 177706, 155282, 193142, 160385].
+# The problem solver is now facing the position:
+# p=[0, 37142, 99317, 124968, 169379, 127601, 177706, 155282, 193142, 160385] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The problem solver moves from [0, 37142, 99317, 124968, 169379, 127601, 177706, 155282, 193142, 160385] to [0, 37142, 99317, 124968, 169379, 127601, 177706, 155282, 193142, 118605].
+# The server is now facing the position:
+# p=[0, 37142, 99317, 124968, 169379, 127601, 177706, 155282, 193142, 118605] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The server reluctancty moves from [0, 37142, 99317, 124968, 169379, 127601, 177706, 155282, 193142, 118605] to [0, 0, 99317, 124968, 169379, 127601, 177706, 155282, 193142, 118605].
+# The problem solver is now facing the position:
+# p=[0, 0, 99317, 124968, 169379, 127601, 177706, 155282, 193142, 118605] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The problem solver moves from [0, 0, 99317, 124968, 169379, 127601, 177706, 155282, 193142, 118605] to [0, 0, 99317, 124968, 169379, 127601, 177706, 155282, 193142, 90167].
+# The server is now facing the position:
+# p=[0, 0, 99317, 124968, 169379, 127601, 177706, 155282, 193142, 90167] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 99317, 124968, 169379, 127601, 177706, 155282, 193142, 90167] to [0, 0, 73638, 124968, 169379, 127601, 177706, 155282, 193142, 90167].
+# The problem solver is now facing the position:
+# p=[0, 0, 73638, 124968, 169379, 127601, 177706, 155282, 193142, 90167] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The problem solver moves from [0, 0, 73638, 124968, 169379, 127601, 177706, 155282, 193142, 90167] to [0, 0, 73638, 124968, 169379, 127601, 177706, 155282, 193142, 48385].
+# The server is now facing the position:
+# p=[0, 0, 73638, 124968, 169379, 127601, 177706, 155282, 193142, 48385] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 73638, 124968, 169379, 127601, 177706, 155282, 193142, 48385] to [0, 0, 47959, 124968, 169379, 127601, 177706, 155282, 193142, 48385].
+# The problem solver is now facing the position:
+# p=[0, 0, 47959, 124968, 169379, 127601, 177706, 155282, 193142, 48385] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The problem solver moves from [0, 0, 47959, 124968, 169379, 127601, 177706, 155282, 193142, 48385] to [0, 0, 47959, 124968, 169379, 127601, 177706, 155282, 170592, 48385].
+# The server is now facing the position:
+# p=[0, 0, 47959, 124968, 169379, 127601, 177706, 155282, 170592, 48385] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 47959, 124968, 169379, 127601, 177706, 155282, 170592, 48385] to [0, 0, 22280, 124968, 169379, 127601, 177706, 155282, 170592, 48385].
+# The problem solver is now facing the position:
+# p=[0, 0, 22280, 124968, 169379, 127601, 177706, 155282, 170592, 48385] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The problem solver moves from [0, 0, 22280, 124968, 169379, 127601, 177706, 155282, 170592, 48385] to [0, 0, 22280, 124968, 169379, 127601, 177706, 155282, 170577, 48385].
+# The server is now facing the position:
+# p=[0, 0, 22280, 124968, 169379, 127601, 177706, 155282, 170577, 48385] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 22280, 124968, 169379, 127601, 177706, 155282, 170577, 48385] to [0, 0, 0, 124968, 169379, 127601, 177706, 155282, 170577, 48385].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 124968, 169379, 127601, 177706, 155282, 170577, 48385] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 124968, 169379, 127601, 177706, 155282, 170577, 48385] to [0, 0, 0, 124968, 169379, 127601, 177706, 155282, 170577, 20162].
+# The server is now facing the position:
+# p=[0, 0, 0, 124968, 169379, 127601, 177706, 155282, 170577, 20162] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 124968, 169379, 127601, 177706, 155282, 170577, 20162] to [0, 0, 0, 98720, 169379, 127601, 177706, 155282, 170577, 20162].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 98720, 169379, 127601, 177706, 155282, 170577, 20162] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 98720, 169379, 127601, 177706, 155282, 170577, 20162] to [0, 0, 0, 98720, 169379, 127601, 137821, 155282, 170577, 20162].
+# The server is now facing the position:
+# p=[0, 0, 0, 98720, 169379, 127601, 137821, 155282, 170577, 20162] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 98720, 169379, 127601, 137821, 155282, 170577, 20162] to [0, 0, 0, 72472, 169379, 127601, 137821, 155282, 170577, 20162].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 72472, 169379, 127601, 137821, 155282, 170577, 20162] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 72472, 169379, 127601, 137821, 155282, 170577, 20162] to [0, 0, 0, 72472, 169379, 127601, 137818, 155282, 170577, 20162].
+# The server is now facing the position:
+# p=[0, 0, 0, 72472, 169379, 127601, 137818, 155282, 170577, 20162] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 72472, 169379, 127601, 137818, 155282, 170577, 20162] to [0, 0, 0, 46224, 169379, 127601, 137818, 155282, 170577, 20162].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 46224, 169379, 127601, 137818, 155282, 170577, 20162] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 46224, 169379, 127601, 137818, 155282, 170577, 20162] to [0, 0, 0, 46223, 169379, 127601, 137818, 155282, 170577, 20162].
+# The server is now facing the position:
+# p=[0, 0, 0, 46223, 169379, 127601, 137818, 155282, 170577, 20162] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 46223, 169379, 127601, 137818, 155282, 170577, 20162] to [0, 0, 0, 19975, 169379, 127601, 137818, 155282, 170577, 20162].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 19975, 169379, 127601, 137818, 155282, 170577, 20162] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 19975, 169379, 127601, 137818, 155282, 170577, 20162] to [0, 0, 0, 19975, 169379, 127601, 97933, 155282, 170577, 20162].
+# The server is now facing the position:
+# p=[0, 0, 0, 19975, 169379, 127601, 97933, 155282, 170577, 20162] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 19975, 169379, 127601, 97933, 155282, 170577, 20162] to [0, 0, 0, 0, 169379, 127601, 97933, 155282, 170577, 20162].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 169379, 127601, 97933, 155282, 170577, 20162] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 0, 169379, 127601, 97933, 155282, 170577, 20162] to [0, 0, 0, 0, 169379, 127601, 97933, 155282, 170577, 197].
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 169379, 127601, 97933, 155282, 170577, 197] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 169379, 127601, 97933, 155282, 170577, 197] to [0, 0, 0, 0, 140127, 127601, 97933, 155282, 170577, 197].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 140127, 127601, 97933, 155282, 170577, 197] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 0, 140127, 127601, 97933, 155282, 170577, 197] to [0, 0, 0, 0, 140127, 127601, 97932, 155282, 170577, 197].
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 140127, 127601, 97932, 155282, 170577, 197] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 140127, 127601, 97932, 155282, 170577, 197] to [0, 0, 0, 0, 110875, 127601, 97932, 155282, 170577, 197].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 110875, 127601, 97932, 155282, 170577, 197] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 0, 110875, 127601, 97932, 155282, 170577, 197] to [0, 0, 0, 0, 110875, 127601, 58053, 155282, 170577, 197].
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 110875, 127601, 58053, 155282, 170577, 197] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 110875, 127601, 58053, 155282, 170577, 197] to [0, 0, 0, 0, 81623, 127601, 58053, 155282, 170577, 197].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 81623, 127601, 58053, 155282, 170577, 197] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 0, 81623, 127601, 58053, 155282, 170577, 197] to [0, 0, 0, 0, 81623, 127600, 58053, 155282, 170577, 197].
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 81623, 127600, 58053, 155282, 170577, 197] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 81623, 127600, 58053, 155282, 170577, 197] to [0, 0, 0, 0, 52371, 127600, 58053, 155282, 170577, 197].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 52371, 127600, 58053, 155282, 170577, 197] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 0, 52371, 127600, 58053, 155282, 170577, 197] to [0, 0, 0, 0, 52370, 127600, 58053, 155282, 170577, 197].
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 52370, 127600, 58053, 155282, 170577, 197] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 52370, 127600, 58053, 155282, 170577, 197] to [0, 0, 0, 0, 23118, 127600, 58053, 155282, 170577, 197].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 23118, 127600, 58053, 155282, 170577, 197] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 0, 23118, 127600, 58053, 155282, 170577, 197] to [0, 0, 0, 0, 23117, 127600, 58053, 155282, 170577, 197].
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 23117, 127600, 58053, 155282, 170577, 197] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 23117, 127600, 58053, 155282, 170577, 197] to [0, 0, 0, 0, 0, 127600, 58053, 155282, 170577, 197].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 127600, 58053, 155282, 170577, 197] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 0, 0, 127600, 58053, 155282, 170577, 197] to [0, 0, 0, 0, 0, 127600, 47240, 155282, 170577, 197].
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 127600, 47240, 155282, 170577, 197] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 127600, 47240, 155282, 170577, 197] to [0, 0, 0, 0, 0, 98793, 47240, 155282, 170577, 197].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 98793, 47240, 155282, 170577, 197] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 0, 0, 98793, 47240, 155282, 170577, 197] to [0, 0, 0, 0, 0, 98793, 47240, 155281, 170577, 197].
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 98793, 47240, 155281, 170577, 197] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 98793, 47240, 155281, 170577, 197] to [0, 0, 0, 0, 0, 69986, 47240, 155281, 170577, 197].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 69986, 47240, 155281, 170577, 197] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 0, 0, 69986, 47240, 155281, 170577, 197] to [0, 0, 0, 0, 0, 69986, 47240, 155280, 170577, 197].
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 69986, 47240, 155280, 170577, 197] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 69986, 47240, 155280, 170577, 197] to [0, 0, 0, 0, 0, 41179, 47240, 155280, 170577, 197].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 41179, 47240, 155280, 170577, 197] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 0, 0, 41179, 47240, 155280, 170577, 197] to [0, 0, 0, 0, 0, 41179, 47240, 155280, 148027, 197].
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 41179, 47240, 155280, 148027, 197] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 41179, 47240, 155280, 148027, 197] to [0, 0, 0, 0, 0, 12372, 47240, 155280, 148027, 197].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 12372, 47240, 155280, 148027, 197] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 0, 0, 12372, 47240, 155280, 148027, 197] to [0, 0, 0, 0, 0, 12372, 7357, 155280, 148027, 197].
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 12372, 7357, 155280, 148027, 197] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 12372, 7357, 155280, 148027, 197] to [0, 0, 0, 0, 0, 0, 7357, 155280, 148027, 197].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 7357, 155280, 148027, 197] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 0, 0, 0, 7357, 155280, 148027, 197] to [0, 0, 0, 0, 0, 0, 7357, 155280, 135791, 197].
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 7357, 155280, 135791, 197] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 0, 7357, 155280, 135791, 197] to [0, 0, 0, 0, 0, 0, 0, 155280, 135791, 197].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 155280, 135791, 197] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 0, 0, 0, 0, 155280, 135791, 197] to [0, 0, 0, 0, 0, 0, 0, 147987, 135791, 197].
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 147987, 135791, 197] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 0, 0, 147987, 135791, 197] to [0, 0, 0, 0, 0, 0, 0, 98755, 135791, 197].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 98755, 135791, 197] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 0, 0, 0, 0, 98755, 135791, 197] to [0, 0, 0, 0, 0, 0, 0, 98755, 135790, 197].
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 98755, 135790, 197] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 0, 0, 98755, 135790, 197] to [0, 0, 0, 0, 0, 0, 0, 49523, 135790, 197].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 49523, 135790, 197] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 0, 0, 0, 0, 49523, 135790, 197] to [0, 0, 0, 0, 0, 0, 0, 49522, 135790, 197].
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 49522, 135790, 197] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 0, 0, 49522, 135790, 197] to [0, 0, 0, 0, 0, 0, 0, 290, 135790, 197].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 290, 135790, 197] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 0, 0, 0, 0, 290, 135790, 197] to [0, 0, 0, 0, 0, 0, 0, 290, 113242, 197].
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 290, 113242, 197] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 0, 0, 290, 113242, 197] to [0, 0, 0, 0, 0, 0, 0, 0, 113242, 197].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 0, 113242, 197] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 0, 0, 0, 0, 0, 113242, 197] to [0, 0, 0, 0, 0, 0, 0, 0, 112952, 197].
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 0, 112952, 197] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 0, 0, 0, 112952, 197] to [0, 0, 0, 0, 0, 0, 0, 0, 90402, 197].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 0, 90402, 197] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 0, 0, 0, 0, 0, 90402, 197] to [0, 0, 0, 0, 0, 0, 0, 0, 90401, 197].
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 0, 90401, 197] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 0, 0, 0, 90401, 197] to [0, 0, 0, 0, 0, 0, 0, 0, 67851, 197].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 0, 67851, 197] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 0, 0, 0, 0, 0, 67851, 197] to [0, 0, 0, 0, 0, 0, 0, 0, 67850, 197].
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 0, 67850, 197] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 0, 0, 0, 67850, 197] to [0, 0, 0, 0, 0, 0, 0, 0, 45300, 197].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 0, 45300, 197] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 0, 0, 0, 0, 0, 45300, 197] to [0, 0, 0, 0, 0, 0, 0, 0, 45299, 197].
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 0, 45299, 197] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 0, 0, 0, 45299, 197] to [0, 0, 0, 0, 0, 0, 0, 0, 22749, 197].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 0, 22749, 197] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 0, 0, 0, 0, 0, 22749, 197] to [0, 0, 0, 0, 0, 0, 0, 0, 22748, 197].
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 0, 22748, 197] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 0, 0, 0, 22748, 197] to [0, 0, 0, 0, 0, 0, 0, 0, 198, 197].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 0, 198, 197] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 0, 0, 0, 0, 0, 198, 197] to [0, 0, 0, 0, 0, 0, 0, 0, 197, 197].
+# The server is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 0, 197, 197] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The server reluctancty moves from [0, 0, 0, 0, 0, 0, 0, 0, 197, 197] to [0, 0, 0, 0, 0, 0, 0, 0, 0, 197].
+# The problem solver is now facing the position:
+# p=[0, 0, 0, 0, 0, 0, 0, 0, 0, 197] (keep in mind that d=[44065, 43284, 25679, 26248, 29252, 28807, 39885, 49232, 22550, 41782], to grasp the whole situation).
+The problem solver moves from [0, 0, 0, 0, 0, 0, 0, 0, 0, 197] to [0, 0, 0, 0, 0, 0, 0, 0, 0, 0].
+
