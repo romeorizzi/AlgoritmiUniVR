@@ -19,3 +19,10 @@ Questo è un **test** per il linguaggio *Typst*. Di seguito troverai un elenco p
 
 Typst è un linguaggio moderno per la formattazione dei documenti, facile da usare e potente.
 
+## Immagine
+
+Di seguito un'immagine di esempio:
+
+#image("fig1.png", width: 100%)
+
+
