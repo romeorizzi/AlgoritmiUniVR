@@ -1,0 +1,27 @@
+5      # numero di testcase/istanze/partite
+0 7 0  #   il server comunica il setting del primo testcase (c=0, n=7, i=0)
+!0     # il problem solver chiude il testcase 1 (fà punto).
+0 7 4  #   avvio testcase 2: (c=0, n=7, i=4)
+!0     # testcase 2 chiuso ma nessun punto: nulla garantisce che A[4] >= A[1]
+0 7 4  #   avvio testcase 3: (c=0, n=7, i=4)
+?4     # il problem solver pone la query "A[4] < A[1]?"
+n      # il server risponde di no
+!0     # testcase 3 chiuso con punto: A è necessariamente uno heap.
+0 7 4  #   avvio testcase 4: (c=0, n=7, i=4)
+?4     # il problem solver pone la query "A[4] < A[1]?"
+y      # il server risponde di sì
+!4     # il problem solver richiede lo scambio tra A[4] e il padre A[1]
+?1     # il problem solver pone la query "A[1] < A[0]?"
+n      # il server risponde di no
+!0     # testcase 4 chiuso con punto: di sicuro A è ora uno heap.
+1 7 0  #   avvio testcase 5: (c=1, n=7, i=0)
+?1     # il problem solver pone la query "A[1] < A[0]?"
+n      # il server risponde di no
+?2     # il problem solver pone la query "A[2] < A[0]?"
+y      # il server risponde di sì
+!2     # il problem solver richiede lo scambio tra A[2] e il padre A[0]
+?5     # il problem solver pone la query "A[5] < A[2]?"
+n      # il server risponde di no
+?6     # il problem solver pone la query "A[6] < A[2]?"
+n      # il server risponde di no
+!0     # si chiude la comunicazione. Anche il testcase 5 ha fatto punto.
