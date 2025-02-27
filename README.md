@@ -1,1 +1,1 @@
-README.typ
+.README.typ
