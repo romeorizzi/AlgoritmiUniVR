@@ -1,0 +1,25 @@
+---
+- counting:
+    readme_title: Problemi sul Counting
+    problems:
+    - codename: piastrelle
+    - codename: monotone_01_matrix
+      appello: 2023-09-15
+    - codename: FBF_trasparenti
+      appello: 2023-06-23
+    - codename: mostra
+- grafi:
+    readme_title: Problemi sui Grafi
+    problems:
+    - codename: BFS
+    - codename: connected_components
+      appello: 2023-06-23
+    - codename: mutually_unreachable
+      appello: 2023-07-07
+    - codename: mostra
+    - codename: dijkstra
+    - codename: fire_escape
+    - codename: interruttori
+    - codename: tecla
+    - codename: odd_cycle_reach
+...
