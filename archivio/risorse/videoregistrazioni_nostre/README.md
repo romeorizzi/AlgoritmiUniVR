@@ -1,7 +1,7 @@
 # 📚 Noste Videoregistrazioni a tuo supporto
 
 Puoi prenotare la creazione di video nostri che vadano a proporre un problema o che poi, incrementalmente, offrano spunti o alla sua soluzione o spiegazioni complete o anche come condurre la codifica.
-In due sensi: come fruitore, o rendendoti disponibile a realizzare tu dei video (del qual caso ecco un progetto utile a fini esame).
+In due sensi: come fruitore interessato, o rendendoti disponibile a realizzare tu dei video (del qual caso ecco un progetto utile a fini esame).
 
 
 ## 🔗 Videoregistrazioni delle lezioni

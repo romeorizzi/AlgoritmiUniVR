@@ -4,6 +4,24 @@ Di seguito trovate una selezione aggiornata di risorse utili per approfondire gl
 
 ---
 
+## 🎓 Risorse Video Specifiche
+
+- **[Videoregistazioni delle lezioni o di spiegazioni singole](videoregistrazioni_nostre)**
+
+- **[Link a video afficaci su argomenti specifici](video_specifici)**
+
+## 🎓 Risorse Video Generali
+
+- 🎬 **[MIT OpenCourseWare - Introduction to Algorithms](https://ocw.mit.edu/courses/6-046j-introduction-to-algorithms-sma-5503-fall-2005/)**  
+  Corso completo del MIT liberamente disponibile online. Offre un approccio rigoroso agli algoritmi fondamentali e strutture dati.
+
+- 💻 **[WalkCCC - Soluzioni e implementazioni MIT](https://walkccc.me/CLRS/)**  
+  Repository con implementazioni in codice degli algoritmi trattati nel corso MIT, ottimo complemento pratico al corso teorico.
+
+- 🎬 **[MIT 6.006 - Introduzione agli Algoritmi (Playlist YouTube)](https://youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&si=Xc4Oyw8bauykI7lm)**  
+  Video-lezioni ufficiali del corso MIT 6.006 su algoritmi e strutture dati, con spiegazioni chiare e intuitive.
+
+---
 ## 🔗 Risorse online consigliate
 
 - 📊 **[VisuAlgo](https://visualgo.net/en)**  
@@ -27,21 +45,6 @@ Di seguito trovate una selezione aggiornata di risorse utili per approfondire gl
 
 - 📌 **[15 LeetCode Patterns](https://blog.algomaster.io/p/15-leetcode-patterns)**  
   Elenco delle 15 tecniche più comuni su LeetCode, con problemi rappresentativi per allenare e migliorare la capacità di problem-solving.
-
----
-
-## 🎓 Risorse Video
-
-- **[Videoregistazioni delle lezioni o di spiegazioni singole](videoregistrazioni_nostre)**
-
-- 🎬 **[MIT OpenCourseWare - Introduction to Algorithms](https://ocw.mit.edu/courses/6-046j-introduction-to-algorithms-sma-5503-fall-2005/)**  
-  Corso completo del MIT liberamente disponibile online. Offre un approccio rigoroso agli algoritmi fondamentali e strutture dati.
-
-- 💻 **[WalkCCC - Soluzioni e implementazioni MIT](https://walkccc.me/CLRS/)**  
-  Repository con implementazioni in codice degli algoritmi trattati nel corso MIT, ottimo complemento pratico al corso teorico.
-
-- 🎬 **[MIT 6.006 - Introduzione agli Algoritmi (Playlist YouTube)](https://youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&si=Xc4Oyw8bauykI7lm)**  
-  Video-lezioni ufficiali del corso MIT 6.006 su algoritmi e strutture dati, con spiegazioni chiare e intuitive.
 
 ---
 
