@@ -32,9 +32,9 @@ Di seguito trovate una selezione aggiornata di risorse utili per approfondire gl
 
 ## 🎓 Risorse Video
 
-- **[Videoregistazioni delle lezioni o di spiegazioni singole](videoregistrazioni_nostre)
+- **[Videoregistazioni delle lezioni o di spiegazioni singole](videoregistrazioni_nostre)**
 
-- 🎥 **[MIT OpenCourseWare - Introduction to Algorithms](https://ocw.mit.edu/courses/6-046j-introduction-to-algorithms-sma-5503-fall-2005/)**  
+- 🎬 **[MIT OpenCourseWare - Introduction to Algorithms](https://ocw.mit.edu/courses/6-046j-introduction-to-algorithms-sma-5503-fall-2005/)**  
   Corso completo del MIT liberamente disponibile online. Offre un approccio rigoroso agli algoritmi fondamentali e strutture dati.
 
 - 💻 **[WalkCCC - Soluzioni e implementazioni MIT](https://walkccc.me/CLRS/)**  
