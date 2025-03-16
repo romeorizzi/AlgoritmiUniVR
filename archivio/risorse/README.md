@@ -22,7 +22,38 @@ Di seguito trovate una selezione aggiornata di risorse utili per approfondire gl
   Video-lezioni ufficiali del corso MIT 6.006 su algoritmi e strutture dati, con spiegazioni chiare e intuitive.
 
 ---
-## 🔗 Risorse online consigliate
+
+## 🚀 🎯 Esercitarsi con problemi pratici
+
+- **[Codeforces Problemset](https://codeforces.com/problemset)**  
+  Ampia raccolta di problemi di difficoltà variabile, catalogati per tecnica algoritmica. Consigliata per esercitazioni in stile competitivo.
+
+- **[Leetcode Problemset](https://leetcode.com/problemset)**  
+  Altra ampia raccolta di problemi.
+
+
+- **[CSES Problemset](https://cses.fi/problemset/)**  
+  Set di problemi classificati per argomento.
+
+- **[CSES Competitive Programming Handbook (PDF)](https://cses.fi/book/book.pdf)**  
+  Libro con spiegazioni dettagliate, soluzioni e strategie per affrontare efficacemente i problemi del CSES Problemset.
+
+- **[GeeksForGeeks - Dynamic Programming](https://www.geeksforgeeks.org/dynamic-programming/)**  
+  Grande raccolta di problemi risolti e spiegazioni dettagliate, con particolare attenzione alla programmazione dinamica.
+
+---
+
+## 📌 Risorse delle Olimpiadi di Informatica
+
+- 📗 **[Guida alle selezioni territoriali OII (Bugatti)](https://training.olinfo.it/bugatti.pdf)**  
+  Materiale pratico delle Olimpiadi di Informatica Italiane.
+
+- 🚀 **[Problemi OII livello territoriale (Terry)](https://training.olinfo.it/tasks/terry/1)**  
+  Raccolta di esercizi mirati, perfetti per allenarsi con problemi concreti di livello territoriale.
+
+
+---
+## 🔗 Risorse online che possono aiutarti (valide)
 
 - 📊 **[VisuAlgo](https://visualgo.net/en)**  
   Visualizzazioni interattive e animate di algoritmi e strutture dati. Utile per chiarire concetti complessi come alberi binari, grafi e Union-Find.
@@ -46,32 +77,3 @@ Di seguito trovate una selezione aggiornata di risorse utili per approfondire gl
 - 📌 **[15 LeetCode Patterns](https://blog.algomaster.io/p/15-leetcode-patterns)**  
   Elenco delle 15 tecniche più comuni su LeetCode, con problemi rappresentativi per allenare e migliorare la capacità di problem-solving.
 
----
-
-## 🚀 Esercitarsi con problemi pratici
-
-- 🎯 **[Codeforces Problemset](https://codeforces.com/problemset)**  
-  Ampia raccolta di problemi di difficoltà variabile, catalogati per tecnica algoritmica. Consigliata per esercitazioni in stile competitivo.
-
-- 🚀 **[Leetcode Problemset](https://leetcode.com/problemset)**  
-  Altra ampia raccolta di problemi.
-
-
-- 📌 **[CSES Problemset](https://cses.fi/problemset/)**  
-  Set di problemi classificati per argomento.
-
-- 📘 **[CSES Competitive Programming Handbook (PDF)](https://cses.fi/book/book.pdf)**  
-  Libro con spiegazioni dettagliate, soluzioni e strategie per affrontare efficacemente i problemi del CSES Problemset.
-
-- ⚙️ **[GeeksForGeeks - Dynamic Programming](https://www.geeksforgeeks.org/dynamic-programming/)**  
-  Grande raccolta di problemi risolti e spiegazioni dettagliate, con particolare attenzione alla programmazione dinamica.
-
----
-
-## 🏅 Risorse delle Olimpiadi di Informatica
-
-- 📗 **[Guida alle selezioni territoriali OII (Bugatti)](https://training.olinfo.it/bugatti.pdf)**  
-  Materiale pratico delle Olimpiadi di Informatica Italiane.
-
-- 📝 **[Problemi OII livello territoriale (Terry)](https://training.olinfo.it/tasks/terry/1)**  
-  Raccolta di esercizi mirati, perfetti per allenarsi con problemi concreti di livello territoriale.
