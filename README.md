@@ -43,12 +43,12 @@ Informazioni importanti per orientarti nel corso:
 
 ### Lezioni Passate
 - Vuoi controllare rapidamente cosa affrontato nelle ultime lezioni? Consulta i [report coi recap delle lezioni dell'anno corrente](archivio/anno_corrente/incontri/)
-- Vuoi visionare le registrazioni delle lezioni di quest'anno o di anni precedenti? Le trovi in <archivio/risorse/videoregistrazioni_nostre>
+- Vuoi visionare le registrazioni delle lezioni di quest'anno o di anni precedenti? Le trovi in [`archivio/risorse/videoregistrazioni_nostre`](archivio/risorse/videoregistrazioni_nostre)
 - Vuoi vedere se uno degli argomenti opzionali del corso è stato (già) toccato? Vai ad [`archivio/anno_corrente/argomenti/`](archivio/anno_corrente/argomenti/)
 - Vuoi sapere cosa è stato trattato in un anno specifico? Naviga nelle [cartelle annuali](archivio/incontri/)!
 
 ### Problemi
-- Vuoi affrontare un problema che verta su un certo argomento o tecnica? Passa da [`archivio/argomenti`](archivio/argomenti/).
-- Vuoi vedere se abbiamo reso disponibili dei materiali specifici per un problema particolare? Controlla in [`archivio/problemi`](archivio/problemi/) oppure in <archivio/risorse/videoregistrazioni_nostre>.
+- Vuoi affrontare un problema che verta su un certo argomento o tecnica? Passa da [`archivio/argomenti`](archivio/argomenti/)
+- Vuoi vedere se abbiamo reso disponibili dei materiali specifici per un problema particolare? Controlla in [`archivio/problemi`](archivio/problemi/) oppure in [`archivio/risorse/videoregistrazioni_nostre`](archivio/risorse/videoregistrazioni_nostre)
 - Vuoi approfondire un argomento specifico? Vai direttamente in [`archivio/argomenti`](archivio/argomenti/).
 
