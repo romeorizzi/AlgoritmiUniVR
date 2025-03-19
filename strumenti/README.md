@@ -23,7 +23,7 @@ Il sistema `rtal` è pensato più per la didattica che per le gare, in quanto vi
 
 
 ---
-## ⚙ 🎓 Un mini-tutorial all'uso di `rtal`  !(../figs/Developer.gif)
+## ⚙ 🎓 Un mini-tutorial all'uso di `rtal`  !(../figs/Developer.gif?raw=true)
 
 
 - [⚙ Strumenti di lavoro, e la piattaforma `rtal`](#-strumenti-di-lavoro-e-la-piattaforma-rtal)
@@ -58,7 +58,7 @@ Per scaricarlo da riga di comando:
 wget https://github.com/Guilucand/rtal-algo-client/archive/refs/heads/main.zip
 ```
 
-In alternativa, per scaricare, pigia il tastone verde !(../figs/Git_Code_Green_Button.png) labellato "[< > Code]" che trovi nella [pagina su GitHub](https://github.com/Guilucand/rtal-algo-client), in alto. 
+In alternativa, per scaricare, pigia il tastone verde !(../figs/Git_Code_Green_Button.png?raw=true) labellato "[< > Code]" che trovi nella [pagina su GitHub](https://github.com/Guilucand/rtal-algo-client), in alto. 
 
 Il prossimo ed ultimo passo è quello di compilare `rtal` sulla tua macchina (o farti passare il compilato da un compagno la cui macchina ha la stessa architettura, ovvero lo stesso genere di sistema operativo e processore grossomodo della stessa casa e numero di bits).
 

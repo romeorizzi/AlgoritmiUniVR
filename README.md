@@ -9,6 +9,18 @@ Qui troverai tutto il materiale, storico e aggiornato, del corso di Algoritmi de
 
 La repository è strutturata nella seguente maniera:
 
+### 🛠️ [strumenti](strumenti/)
+Informazioni importanti per orientarti nel corso:
+
+- [Il Portafoglio dei Voti: meccanismi per generare e gestire i tuoi voti per l'intero corso](https://github.com/romeorizzi/portafoglioVoti_public.git) 📊
+- [Guida all'utilizzo di RTAL](strumenti/) 💻
+- [Dettagli aggiuntivi sull'utilizzo di RTAL](strumenti/IT_the-TALight-Problem-Solver-Tutorial1-internet-server.md) 💻
+- Altre informazioni utili per per il corso 📝
+
+### 🛠️ [portafoglio dei voti](https://github.com/romeorizzi/portafoglioVoti_public.git)
+  Questo repo esterno ma comunque pubblico spiega i vari meccanismi con cui raccogliere ogni elemento di voto per superare l'esame finale con soddisfazione. Tiene traccia di ogni voto da te già maturato così che, quando vorrai registrare il voto finale per l'intero insegnamento, farai riferimento ad esso utilizzando il template di mail proposto.
+  Contiene inoltre le soluzioni da te sottomesse agli appelli di esame della parte pratica, in modo che tu possa completarle nella forma di homework.  
+
 ### 📂 [archivio](archivio/)
 Contiene l'archivio completo del corso fin dalla sua nascita, organizzato in:
 
@@ -23,13 +35,6 @@ Ogni problema che trovi qui è anche classificato per argomento nella corrispett
 - **[`risorse`](archivio/risorse/)**  
   Materiali utili, strumenti, dispense, esercitazioni, e altre risorse per prepararsi al meglio agli esami e approfondire gli argomenti trattati.
 
-### 🛠️ [strumenti](strumenti/)
-Informazioni importanti per orientarti nel corso:
-
-- [Il Portafoglio dei Voti: meccanismi per generare e gestire i tuoi voti per l'intero corso](https://github.com/romeorizzi/portafoglioVoti_public.git) 📊
-- [Guida all'utilizzo di RTAL](strumenti/) 💻
-- [Dettagli aggiuntivi sull'utilizzo di RTAL](strumenti/IT_the-TALight-Problem-Solver-Tutorial1-internet-server.md) 💻
-- Altre informazioni utili per per il corso 📝
 
 ---
 
