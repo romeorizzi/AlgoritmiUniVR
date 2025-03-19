@@ -61,3 +61,10 @@ Ogni problema che trovi qui è anche classificato per argomento nella corrispett
 - Vuoi vedere se abbiamo reso disponibili dei materiali specifici per un problema particolare? Controlla in [`archivio/problemi`](archivio/problemi/) oppure in [`risorse/videoregistrazioni_nostre`](risorse/videoregistrazioni_nostre)
 - Vuoi approfondire un argomento specifico? Vai direttamente in [`archivio/argomenti`](archivio/argomenti/).
 
+
+## Altro di interesse generale
+
+### Riferimenti e Canali di ateneo in ambito sicurezza (la sicurezza si costruisce insieme, ognuno di noi)
+- [video di ateneo sulla sicurezza (canale YouTube](https://www.youtube.com/watch?v=Y66P9Y8GFkA)
+- la mailing list `sicurezza@liste.univr.it` può essere utilizzata da tutti (e di ogni categoria: studenti, docenti e collaboratori tecnico-amministrativi)
+
