@@ -1,5 +1,7 @@
 #  ⚙ Strumenti di lavoro, e la piattaforma `rtal`
 
+Cerchiamo di chiarire da subito il giusto approccio al corso, come necessario quantomeno per la sua parte pratica.
+
 ## 🎯 metti i problemi al centro
 
 Inutile girarci intorno: la via maestra è affrontare una nutrita collezione di problemi, possibilmente di buona qualità, che vertano sulle competenze trattate ed enfatizzate nel corso, e comparabili come difficoltà a quelli che dovrai affrontare all'esame.
@@ -14,7 +16,7 @@ Nel caso del sito [Oii](https://training.olinfo.it/) le max 5 stelle (o libri) i
 
 Altre piattaforme/collection di problemi che ci sentiamo di consigliare sia per qualità che per pertinenza sono [CSES Problemset](https://cses.fi/problemset/), [Codeforces Problemset](https://codeforces.com/problemset) e [Leetcode Problemset](https://leetcode.com/problemset). Per il primo di questi tre esiste per altro un [testo gratuito (PDF)] con spiegazioni dettagliate, soluzioni, e riferimento alle strategie generali.
 
-# ⚙ la nostra piattaforma (`rtal`)
+## ⚙ la nostra piattaforma (`rtal`)
 
 Nonostante questa abbondanza di splendide proposte di cui consiglio di avvalersi (quantomeno date una curiosata), per le nostre esercitazioni, homeworks, e per l'esame, noi utilizzaremo un sistema nostro, per quanto un [progetto open source]() cui chi interessato potrà anche contribuire.
 Tale sistema si basa su una coppia client/server (`rtal`/`rtald`) che vi consente di far girare le vostre soluzioni in locale, facendole dialogare coi servizi di validazione che girano invece sul server.
@@ -23,14 +25,10 @@ Il sistema `rtal` è pensato più per la didattica che per le gare, in quanto vi
 
 
 ---
-## ⚙ 🎓 Un mini-tutorial all'uso di `rtal`  !(../figs/Developer.gif?raw=true)
+# ⚙ 💻 Guida all'uso di `rtal`
 
+Premesso che `rtal` ti servirà sia per gli appelli in laboratorio che per le esercitazioni e gli homework da svolgere durante il corso, e spiegato quì sopra lo scopo e ruolo centrale dello strumento, hai le motivazioni per installartelo subito e provarlo.
 
-- [⚙ Strumenti di lavoro, e la piattaforma `rtal`](#-strumenti-di-lavoro-e-la-piattaforma-rtal)
-  - [🎯 metti i problemi al centro](#-metti-i-problemi-al-centro)
-  - [🚀 ampia offerta di collezioni di problemi pertinenti](#-ampia-offerta-di-collezioni-di-problemi-pertinenti)
-- [⚙ la nostra piattaforma (`rtal`)](#-la-nostra-piattaforma-rtal)
-  - [⚙ 🎓 Un mini-tutorial all'uso di `rtal`  !(../figs/Developer.gif)](#--un-mini-tutorial-alluso-di-rtal--figsdevelopergif)
   - [Come ottenere il client `rtal`](#come-ottenere-il-client-rtal)
   - [Come verificare che `rtal` è installato correttamente, e verificare la versione](#come-verificare-che-rtal-è-installato-correttamente-e-verificare-la-versione)
   - [L'help interno di `rtal`](#lhelp-interno-di-rtal)
@@ -58,7 +56,7 @@ Per scaricarlo da riga di comando:
 wget https://github.com/Guilucand/rtal-algo-client/archive/refs/heads/main.zip
 ```
 
-In alternativa, per scaricare, pigia il tastone verde !(../figs/Git_Code_Green_Button.png?raw=true) labellato "[< > Code]" che trovi nella [pagina su GitHub](https://github.com/Guilucand/rtal-algo-client), in alto. 
+In alternativa, per scaricare, pigia il tastone verde <img src="../figs/Git_Code_Green_Button.png" width="150" title="" alt=""> labellato "[< > Code]" che trovi nella [pagina su GitHub](https://github.com/Guilucand/rtal-algo-client), in alto. 
 
 Il prossimo ed ultimo passo è quello di compilare `rtal` sulla tua macchina (o farti passare il compilato da un compagno la cui macchina ha la stessa architettura, ovvero lo stesso genere di sistema operativo e processore grossomodo della stessa casa e numero di bits).
 
