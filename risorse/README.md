@@ -2,6 +2,11 @@
 
 Di seguito trovate una selezione aggiornata di risorse utili per approfondire gli argomenti trattati nel corso, esercitarvi e migliorare le vostre competenze in algoritmi e strutture dati.
 
+> [!TIP]
+> Per questo, come per altri corsi dell'ateneo, il [servizio Levanto](https://univr.alma.exlibrisgroup.com/leganto/public/39UVR_INST/lists/5060419080005791?auth=SAML) rende gratuitamente disponibili i file .pdf dei testi adottati. Levanto elenca inoltre le copie presenti presso il sistema bibliotecario di ateneo.
+
+Detto questo, organizziamo di seguito (eventualmente anche col vostro aiuto, ogni segnalazione è gradita) quali risorse potrebbero rivelarsi di vostro gradimento.
+
 ---
 
 ## 🎓 Risorse Video Specifiche
