@@ -1,4 +1,4 @@
-#  ⚙ Strumenti di lavoro
+#  ⚙ Strumenti di lavoro, e la piattaforma `rtal`
 
 ## 🎯 metti i problemi al centro
 
@@ -14,7 +14,7 @@ Nel caso del sito [Oii](https://training.olinfo.it/) le max 5 stelle (o libri) i
 
 Altre piattaforme/collection di problemi che ci sentiamo di consigliare sia per qualità che per pertinenza sono [CSES Problemset](https://cses.fi/problemset/), [Codeforces Problemset](https://codeforces.com/problemset) e [Leetcode Problemset](https://leetcode.com/problemset). Per il primo di questi tre esiste per altro un [testo gratuito (PDF)] con spiegazioni dettagliate, soluzioni, e riferimento alle strategie generali.
 
-## ⚙ la nostra piattaforma (`rtal`)
+# ⚙ la nostra piattaforma (`rtal`)
 
 Nonostante questa abbondanza di splendide proposte di cui consiglio di avvalersi (quantomeno date una curiosata), per le nostre esercitazioni, homeworks, e per l'esame, noi utilizzaremo un sistema nostro, per quanto un [progetto open source]() cui chi interessato potrà anche contribuire.
 Tale sistema si basa su una coppia client/server (`rtal`/`rtald`) che vi consente di far girare le vostre soluzioni in locale, facendole dialogare coi servizi di validazione che girano invece sul server.
@@ -23,23 +23,65 @@ Il sistema `rtal` è pensato più per la didattica che per le gare, in quanto vi
 
 
 ---
-## ⚙ 🎓 Un mini-tutorial all'uso di `rtal`
+## ⚙ 🎓 Un mini-tutorial all'uso di `rtal`  !(../figs/Developer.gif)
 
 
-1. [Come ottenere il client `rtal`](#get_rtal)
-2. [Come verificare che `rtal` è installato correttamente, e verificare la versione](#check_rtal)
-3. [L'help interno di `rtal`](#rtal_help)
-4. [Come loggarmi ad un server in caso richieda autenticazione](#rtal_login)
-5. [Come vedere la lista dei problemi offerti di una collection/server](#rtal_list)
-6. [Come scaricarmi il testo e gli altri materiali pubblici di un problema](#rtal_get)
-7. [Come vedere la lista dei servizi attivi di un singolo problema, e relativi argomenti](#rtal_list_on_problem)
-8. [Ottenere le informazioni specifiche a un problema, ai suoi servizi e relativi argomenti](#synopsis)
-9. [Come sottomettere la mia soluzione o avvalermi di altri servizi disponibili per un problema](#rtal_connect)
+- [⚙ Strumenti di lavoro, e la piattaforma `rtal`](#-strumenti-di-lavoro-e-la-piattaforma-rtal)
+  - [🎯 metti i problemi al centro](#-metti-i-problemi-al-centro)
+  - [🚀 ampia offerta di collezioni di problemi pertinenti](#-ampia-offerta-di-collezioni-di-problemi-pertinenti)
+- [⚙ la nostra piattaforma (`rtal`)](#-la-nostra-piattaforma-rtal)
+  - [⚙ 🎓 Un mini-tutorial all'uso di `rtal`  !(../figs/Developer.gif)](#--un-mini-tutorial-alluso-di-rtal--figsdevelopergif)
+  - [Come ottenere il client `rtal`](#come-ottenere-il-client-rtal)
+  - [Come verificare che `rtal` è installato correttamente, e verificare la versione](#come-verificare-che-rtal-è-installato-correttamente-e-verificare-la-versione)
+  - [L'help interno di `rtal`](#lhelp-interno-di-rtal)
+  - [Come loggarmi ad un server in caso richieda autenticazione](#come-loggarmi-ad-un-server-in-caso-richieda-autenticazione)
+  - [Come vedere la lista dei problemi di una collection/server](#come-vedere-la-lista-dei-problemi-di-una-collectionserver)
+  - [Come scaricarmi il testo e gli altri materiali pubblici di un problema](#come-scaricarmi-il-testo-e-gli-altri-materiali-pubblici-di-un-problema)
+  - [Come vedere la lista dei servizi attivi di un singolo problema, e relativi argomenti](#come-vedere-la-lista-dei-servizi-attivi-di-un-singolo-problema-e-relativi-argomenti)
+  - [Come vedere la lista dei servizi attivi di un singolo problema, e relativi argomenti](#come-vedere-la-lista-dei-servizi-attivi-di-un-singolo-problema-e-relativi-argomenti-1)
+  - [Come sottomettere la mia soluzione o avvalermi di altri servizi disponibili per un problema](#come-sottomettere-la-mia-soluzione-o-avvalermi-di-altri-servizi-disponibili-per-un-problema)
 
 <a id="get_rtal"></a>
 ## Come ottenere il client `rtal`
 
-Dal repo di rtal puoi forse scaricarti l'eseguibile già compilato per la tua architettura. In caso contrario clona il repo in locale e, dopo esserti installato Rust, potrai compilarlo.
+
+Fino a quando non imposteremo le git actions per rendere direttamente accessibili gli eseguibili già compilatii, la via più stabile è clonarti la repo, ad esempio con un singolo comando dalla CLI:
+
+```bash
+git clone https://github.com/Guilucand/rtal-algo-client.git
+```
+
+oppure, se non hai `git` installato, scaricando e decomprimendo lo .zip file dalla [repo su GitHub](https://github.com/Guilucand/rtal-algo-client).
+Per scaricarlo da riga di comando:
+
+```bash
+wget https://github.com/Guilucand/rtal-algo-client/archive/refs/heads/main.zip
+```
+
+In alternativa, per scaricare, pigia il tastone verde !(../figs/Git_Code_Green_Button.png) labellato "[< > Code]" che trovi nella [pagina su GitHub](https://github.com/Guilucand/rtal-algo-client), in alto. 
+
+Il prossimo ed ultimo passo è quello di compilare `rtal` sulla tua macchina (o farti passare il compilato da un compagno la cui macchina ha la stessa architettura, ovvero lo stesso genere di sistema operativo e processore grossomodo della stessa casa e numero di bits).
+
+Per compilare ti serve il compilatore `rust`, che, se non hai già installato, puoi facilmente ottenere e configurare automaticamente per come ti serve affidandoti al servizio [`rustup.rs`](https://rustup.rs/) della comunità di Rust, che è estremamente user-friendly, un vero no-brainer.
+
+Una volta che Rust sia installato sulla tua macchina, prima della compilazione vera e propria ti consigliamo di lanciare:
+
+```bash
+rustup update
+```
+in modo da assicurarti che l'installazione di Rust sia aggiornata. (Oppure prova a compilare e lancia questo aggiornamento in caso incontri problemi.)
+
+
+Per la compilazione della versione DEBUG (quella che consigliamo ai problem-solver, ossia agli studenti) in quanto rilascia più informazioni a supporto, assicurati di essere nella cartella root del repo scaricato e lancia:
+
+```bash
+cargo build
+```
+
+Troverai l'eseguibile prodotto nella sottocartella `/target/debug/` e ti consigliamo di metterlo nella variabile di ambiente `PATH` in modo che ti sia agevole lanciarlo indipendentemente da dove ti trovi. 
+
+Per maggiori informazioni sulle opzioni disponibili per la compilazione (inclusa la compilazione per altra architettura) rimandiamo alla [pagina web della repo su GitHub](https://github.com/Guilucand/rtal-algo-client), che ne visualizza il file `README.md`.
+
 
 <a id="check_rtal"></a>
 ## Come verificare che `rtal` è installato correttamente, e verificare la versione
