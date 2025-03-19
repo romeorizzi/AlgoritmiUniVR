@@ -12,13 +12,17 @@ La repository è strutturata nella seguente maniera:
 ### 🛠️ [strumenti](strumenti/)
 Informazioni importanti per orientarti nel corso:
 
-- [Il Portafoglio dei Voti: meccanismi per generare e gestire i tuoi voti per l'intero corso](https://github.com/romeorizzi/portafoglioVoti_public.git) 📊
-- [Guida all'utilizzo di RTAL](strumenti/) 💻
-- [Dettagli aggiuntivi sull'utilizzo di RTAL](strumenti/IT_the-TALight-Problem-Solver-Tutorial1-internet-server.md) 💻
-- Altre informazioni utili per per il corso 📝
+- [link al Gruppo Telegram del Corso](https://t.me/algoritmiUniVR)
+- [link al portafoglio dei voti 📊](https://github.com/romeorizzi/portafoglioVoti_public.git)
+- [guida all'utilizzo di RTAL 💻](strumenti/)
+- [dettagli aggiuntivi sull'utilizzo di RTAL](strumenti/IT_the-TALight-Problem-Solver-Tutorial1-internet-server.md 💻)
+- [videoregistrazioni nostre 🎬](risorse/videoregistrazioni_nostre)
+- [recaps delle lezioni di anno corrente 📝](archivio/anno_corrente/incontri/)
+- Levanto 📚 (cerca in `risorse` per vedere quali testi adottati dal corso sono resi disponibili da questo servizio di ateneo o un primo orientamento su ottimi materiali che puoi trovare nel web)
+- Altre informazioni utili o di orientamento al corso ...
 
-### 🛠️ [portafoglio dei voti](https://github.com/romeorizzi/portafoglioVoti_public.git)
-  Questo repo esterno ma comunque pubblico spiega i vari meccanismi con cui raccogliere ogni elemento di voto per superare l'esame finale con soddisfazione. Tiene traccia di ogni voto da te già maturato così che, quando vorrai registrare il voto finale per l'intero insegnamento, farai riferimento ad esso utilizzando il template di mail proposto.
+### 📊 [portafoglio dei voti](https://github.com/romeorizzi/portafoglioVoti_public.git)
+  Questo repo esterno ma comunque pubblico spiega i vari meccanismi con cui raccogliere ogni elemento di voto per affrontare e superare questo insegnamento con soddisfazione. Tiene traccia di ogni voto da te già maturato così che, quando vorrai registrare il voto finale per l'intero insegnamento, farai riferimento ad esso utilizzando il template di mail proposto.
   Contiene inoltre le soluzioni da te sottomesse agli appelli di esame della parte pratica, in modo che tu possa completarle nella forma di homework.  
 
 ### 📂 [archivio](archivio/)
@@ -32,7 +36,7 @@ Contiene l'archivio completo del corso fin dalla sua nascita, organizzato in:
   Tutti i problemi incontrati nel corso degli anni passati.  
 Ogni problema che trovi qui è anche classificato per argomento nella corrispettiva cartella `archivio/argomenti/argomento_del_problema` (lo stesso problema può comparire in più categorie).
 
-- **[`risorse`](archivio/risorse/)**  
+- **[`risorse`](risorse/)**  
   Materiali utili, strumenti, dispense, esercitazioni, e altre risorse per prepararsi al meglio agli esami e approfondire gli argomenti trattati.
 
 
@@ -46,14 +50,14 @@ Ogni problema che trovi qui è anche classificato per argomento nella corrispett
 - Vuoi controllare la situazione attuale dei tuoi voti? Vai al [Portafoglio dei Voti](https://github.com/romeorizzi/portafoglioVoti_public.git)
 
 
-### Lezioni Passate
-- Vuoi controllare rapidamente cosa affrontato nelle ultime lezioni? Consulta i [report coi recap delle lezioni dell'anno corrente](archivio/anno_corrente/incontri/)
-- Vuoi visionare le registrazioni delle lezioni di quest'anno o di anni precedenti? Le trovi in [`archivio/risorse/videoregistrazioni_nostre`](archivio/risorse/videoregistrazioni_nostre)
+### Storico delle Lezioni
+- Vuoi controllare rapidamente cosa affrontato nelle ultime lezioni? Consulta i [recaps delle lezioni dell'anno corrente](archivio/anno_corrente/incontri/)
+- Vuoi visionare le registrazioni delle lezioni di quest'anno o di anni precedenti? Le trovi in [`risorse/videoregistrazioni_nostre`](risorse/videoregistrazioni_nostre)
 - Vuoi vedere se uno degli argomenti opzionali del corso è stato (già) toccato? Vai ad [`archivio/anno_corrente/argomenti/`](archivio/anno_corrente/argomenti/)
 - Vuoi sapere cosa è stato trattato in un anno specifico? Naviga nelle [cartelle annuali](archivio/incontri/)!
 
 ### Problemi
 - Vuoi affrontare un problema che verta su un certo argomento o tecnica? Passa da [`archivio/argomenti`](archivio/argomenti/)
-- Vuoi vedere se abbiamo reso disponibili dei materiali specifici per un problema particolare? Controlla in [`archivio/problemi`](archivio/problemi/) oppure in [`archivio/risorse/videoregistrazioni_nostre`](archivio/risorse/videoregistrazioni_nostre)
+- Vuoi vedere se abbiamo reso disponibili dei materiali specifici per un problema particolare? Controlla in [`archivio/problemi`](archivio/problemi/) oppure in [`risorse/videoregistrazioni_nostre`](risorse/videoregistrazioni_nostre)
 - Vuoi approfondire un argomento specifico? Vai direttamente in [`archivio/argomenti`](archivio/argomenti/).
 
