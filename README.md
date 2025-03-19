@@ -3,6 +3,14 @@
 Benvenuto nella repository **AlgoritmiUniVR**.  
 Qui troverai tutto il materiale, storico e aggiornato, del corso di Algoritmi dell'**Università di Verona**.
 
+## Incontri 2025
+
+INCONTRI 2025 (https://univr.zoom.us/j/94457731757):
+ - gio  (8:30 - 10:30, aula T.04, anche da Zoom)
+ - ven (08:30 - 10:30, laboratorio alpha, anche da Zoom)
+ - Incontri Complessità: mer + ven (8:30 - 10:30, aula T.04)
+ - Incontri col tutor Andrea Cracco (?? DA CONCORDARE, anche da Zoom)
+
 ---
 
 ## 🚀 Struttura della repository:
