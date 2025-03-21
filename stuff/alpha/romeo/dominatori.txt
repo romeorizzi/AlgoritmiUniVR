@@ -1,0 +1,202 @@
+AN ALGORITHM FOR FINDING STRONG BRIDGES BASED ON UNION-FIND (POSSIBLY LINEAR)
+WHICH NATURALLY EXTENDS TO A SIMPLE ALGORITHM FOR FINDING DOMINATORS. 
+
+
+A rooted digraph (G(V,A), r) is a digraph D with a distinguished node r\in V.
+In the following, it is assumed that every node is reachable from the root r.
+A strong bridge is an arc (u,v) which we must necessarily use in order to reach v from r.
+A node u dominates a node v if we must necessarily use u in order to reach v from r.
+
+
+AN ALGORITHM FOR FINDING STRONG BRIDGES
+
+The Key Property of our algorithmic approach:
+Let T be a DFS tree.
+For any node u, we denote by D_u the set of desendants of u in T
+and by SCC_u the stronlgy connected component containing u within
+the subdigraph G[D_u] of G induced by D_u.
+Note that if (w,u) is a strong bridge then (w,u) is an arc of T and w=daddy[u].
+We have the following.
+
+Lemma: (w,u) is a strong bridge if and only if for no arc (a,b) with b\in SCC_u, except (w,u),
+        we have that CLOSE[a] > CLOSE[u].
+proof: Assume there exists an arc (a,b) with b\in SCC_u with CLOSE[a] > CLOSE[u] and other than (w,u).
+       Then there exists a path from r to node a which does not use the arc (w,u);
+       add to this the arc (a,b) and any path from b to u within SCC_u
+       in order to obtain a path from r to u which does not use the arc (w,u).
+       Conversely, assume there exists a path from r to u which does not use the arc (w,u).
+       Let (a,b) be the last arc within this path having b\in SCC_u and a \notin SCC_u.
+       Assume then CLOSE[a] < CLOSE[u]. Now, by the DFS property, it must be the case
+       that a\in D_u, but then a\in SCC_u would also follow, contrary to our assumption.
+
+During the DFS-visit (meanwhile the tree T gets computed), and where C is the set of the already closed nodes,
+we mantain the strongly connected components of G[C] thanks to an UNION/FIND data structure.
+We assume that FIND(u) always returns the node of the component guesting u closest to r in T.
+(NOTE 1: This is the case in the linear UNION/FIND, and can be enforced in the classical UNION/FIND
+with the augmentation CANONICAL UNION/FIND).
+(NOTE 2: This node is unique since any stronlgy connected component is a connected subgraph of T).
+To gain in clarity,
+we assume that the groundset for the UNION/FIND datastructure is allocated
+one element at the time by means of MAKESET() calls.
+We assume an array COUNT, initialized to 0, on the nodes of G,
+and that the UNION adds-up the COUNT for the two representatives.
+
+During the DFS visit, when we are about closing a node u, then we run the following lines:
+
+1. for every non-tree arc (u,b) with node b already closed we do:
+      COUNT[FIND(b)] --
+2. MAKESET(u); COUNT[u] := 0;
+3. for every non-tree arc (a,u) with node a not yet closed we do:
+      COUNT[u] ++
+4. for every arc (a,u) with node a already closed we do:
+      while ((a := FIND(a)) != u)   UNION(a, daddy[a]);
+5. we conclude that arc (daddy[u], u) is a strong bridge if and only if (COUNT[u] == 0);
+
+
+A SIMPLE ALGORITHM FOR FINDING DOMINATORS:
+
+As above, let T be a DFS tree.
+For any node w, we denote by D_w the set of desendants of w in T.
+Notice that whenever u\in D_w is not dominated by w,
+then no node in D_u is dominated by w.
+
+NOZIONE DI ALBERO DEI DOMINATORI CUI FACCIAMO RIFERIMENTO:
+Dato un flow graph (G,r) di nodo iniziale r,
+per presentare le informazioni sui dominatori si usa un albero,
+chiamato albero dei dominatori, il cui nodo radice e' r,
+e l'insieme dei discendenti di un nodo x nell'albero coincide proprio
+con l'insieme dei nodi dominati da x.
+L'esistenza dell'albero dei dominatori consegue dalla seguente proprieta':
+ogni nodo x ha un unico dominatore immediato y, e, oltre che da y,
+e' dominato da tutti e soli i dominatori di y.
+(Dominatore immediato vuol dire che e' dominatore di x
+ma non domina nessun altro dominatore di x).
+Tale dominatore immediato di x ne sara' il padre nell'albero dei dominatori.
+In pratica, il dominatore immediato y e' l'ultimo nodo dominatore di x
+incontrato camminando su un qualunque percorso dal nodo iniziale r fino a x.
+
+NOTA: Supponiamo che un nodo u abbia piu' dominatori: essi dovranno
+      essere tutti contenuti nel cammino da r ad u contenuto in T.
+      Di tali dominatori, quello diretto e' quello piu' vicino ad u
+      in tale cammino T[r,u].
+
+A GOOD STARTING POINT TO THE ALGORITHM
+
+Let T be a DFS-tree.
+We re-traverse the nodes of T in decreasing order of close[].
+For every node v, the path T[r,v] is all made of nodes which close
+later than v.
+Thus all nodes which might possibly dominate v close after v
+and have been encountered prior than v in our traversing of T.
+This traversing starts from r, makes a path down to the rightmost leaf,
+and then begins going up and down reversing in toto the original DFS
+traversal of the DFS tree T.
+We discover what node is the direct dominator of a node v at the time
+of closing the node v during this reversed re-traversal.
+
+The reason for proceeding in this order may be found in the following lemma.
+
+For every node v, let fd(v) the desendant of v in T attaining
+the minimum possible value of close[],
+and let G_v be the subgraph of G induced by V_v,
+where V_v is the set of all the nodes z with close[z] >= close[fd(v)].
+(V_v is the set of nodes which have at least been opened before closing v during the re-traversal).
+
+Lemma: u dominates v in G if and only if u dominates v in G_v.
+proof. Assume u dominates v in G_v ( hence u is an ancestor of v in T
+       and dominates all nodes in T[u,v) in G_v)
+       but not in G; also, assume v has been choosen
+       as to be the closest possible to u to violate the lemma.
+       Consider a path from r to v in G which avoids u.
+       Let (a,b) the last arc of this path with node a not in V_v.
+       Note that (a,b) is a back edge and b is a proper ancestor of v.
+       Also, b must be a proper desendant of u.
+       Thus b\in T(u,v) and u dominates b in G_v but not in G,
+       contrary to our assumption.
+
+It is now clear that an information we would very much like to have
+when closing v is the highest (closest to r) ancestor h_v of v such that
+there is a path from h_v to v in G_v which does not intersect T(h_v,v).
+Why so? Because h_v is the direct dominator of v in G_v and hence in G.
+
+How can we have this information?
+When closing v:
+   h_v := padre_T[v];
+   for each (a,v) \in \delta^-(v) with a in G_v:
+      if a is an ancestor of v, then set h_v := highest(h_v, a)
+      otherwise // h_a has already been computed, whence
+                we set  h_v := highest(h_v, h_a)
+
+Note: as a matter of fact, had we defined h'_v as the highest (closest to r)
+ancestor h'_v of v such that
+there is a path from h'_v to v in G which does not intersect T(h'_v,v),
+then h'_v = h_v.
+proof: clearly h'_v is an ancestor of h_v.
+       Assume h'_v is a proper ancestor of h_v and consider
+       a path from h'_v to v in G not intersecting the open path T(h'_v,v).
+       Consider the first arc (a,b) of this path with b not in V_v.
+       Then a is an ancestor of b, and also a is an ancestor of v,
+       whence a is an ancestor of h'_v. By the DFS property,
+       when the path comes back to V_v
+       it must necessarily be to an ancestor of h'_v.
+END
+
+OLD STUFF (sligthly revisited and modified, for this reason I keep it)
+AN EXTENSION TO OUR OLD STRUCTURAL VIEW
+
+For any u\in D_w,
+we denote by SCC_w(u) the stronlgy connected component containing u within
+the subdigraph G[D_w] of G induced by D_w.
+Clearly, either w dominates all nodes in SCC_w(u) or none.
+Assume u is the representative of SCC_w(u) and assume that in fact
+u is the node of SCC_w(u) closest to r in T.
+Assume all nodes in the path T[w,u) are dominated by w.
+(And we can also assume that no node in the path T(w,u) dominates u).
+We need a critherion which triggers fast authomatic
+detection of such a node u directly dominated by w.  
+
+The Key Property for finding dominators becomes:
+Lemma: We are at the time of closing w. Some nodes in D_w have
+       already been detected as dominated (and have been identifyed
+       with their parents in the contracted tree T').
+       We are in the process of detecting nodes in D_w \cap T'
+       which are directly dominated by w.
+       Assume w directly dominates some not-yet-detected node.
+       Then there exists a not-yet-detected node u
+       such that w dominates u and u is "denunciato"
+       since for every arc (a,b)
+       with node b \in SCC_w(u) (i.e. FIND(b) = u)
+       we have that node a is already closed and already detected as dominated.
+proof: Clearly, if such a node u exists, then u is dominated by w
+       since for every arc (a,b) which attempts to enter SCC_w(u)
+       we have that .
+
+
+ Assume there exists such an arc (a,b) with node a not yet closed
+       and b\in SCC_w(u):
+       then there exists a path from r to node a which does not use node w;
+       add to this the arc (a,b) and any path from b to u within SCC_w(u)
+       in order to obtain a path from r to u which does not use the node w.
+
+       Conversely, assume there exists a path from r to u which does not use node w.
+       Let (a,b) be the last arc within this path having b\in SCC_w(u) and a \notin SCC_w(u).
+       Assume then CLOSE[a] < CLOSE[w]. Now, by the DFS property, it must be the case
+       that a\in D_w, but then a\in SCC_w(u) would also follow, contrary to our assumption.
+
+
+Only difference with previous algorithm:
+
+During the DFS visit, when we are about closing a node u, then we run the following lines:
+
+1. for every non-tree arc (u,b) with node b already closed we do:
+      COUNT[FIND(b)] --
+2. MAKESET(u); COUNT[u] := 0;
+3. for every arc (a,u) with node a already closed we do:
+      while ((a := FIND(a)) != u)   UNION(a, daddy[a]);
+4. for every tree arc (u,c),
+   we conclude that node u dominates its child c if and only if (COUNT[FIND(c)] == 0);
+5. for every non-tree arc (a,u) with node a not yet closed we do:
+      COUNT[u] ++
+
+
+ 

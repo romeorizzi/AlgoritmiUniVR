@@ -1,0 +1,60 @@
+Dimostriamo che non e' possibile risolvere il problema
+treno di containers in meno di n mosse.
+
+Configurazione iniziale:
+A^nB^nXX
+Configurazione finale:
+(AB)^nXX
+
+Caso 1: n e' dispari, n=2k+1.
+Nel passare dalla configurazione iniziale a quella finale
+deve cambiare il valore contenuto nelle seguenti posizioni:
+ - {2,4, ..., 2k} che devono passare da A a B;
+ - {n+2,n+4, ..., n+2k} che devono passare da B ad A.
+Noi diremo che una mossa sistema una di queste posizioni se
+con essa si porta in detta posizione la lettera finale per essa. 
+Si noti che nell'insieme di k+k=n-1 posizioni sopra individuate
+non ce ne sono 2 che sono adiacenti e quindi nessuna mossa
+puo' agire contemporaneamente su due o piu' di queste posizioni.
+Inoltre, la primissima mossa non sistema alcuna posizione e quindi
+almeno n mosse sono necessarie.
+(Inoltre, non ci serve qui in questa dimostrazione ma comunque importante
+da sottolineare, se volessimo impiegare n+1 mosse allora nessuna mossa puo'
+guastare una posizione sistemata).
+Per farcela in n mosse, ogni mossa eccetto la prima deve sistemare una posizione. Questo implica che solo l'ultima mossa puo' portare XX
+in posizione (2n+1,2n+2) o anche in posizione (2n,2n+1),
+poiche' la mossa successiva non puo' sistemare alcuna posizione.
+Tuttavia, affinche' l'ultima mossa possa essere risolutiva,
+essa deve necessariamente spostare un AB oppure un BA.
+Cio' implica che la prima mossa
+deve portare XX in posizione (n,n+1). Ma allora anche la seconda mossa
+non sistema alcuna posizione. Quindi almeno n+1 mosse sono necessarie.
+
+Caso 2: n e' pari, n=2k.
+Nel passare dalla configurazione iniziale a quella finale
+deve cambiare il valore contenuto nelle seguenti posizioni:
+ - {2,4, ..., 2k} che devono passare da A a B;
+ - {n+1,n+3, ..., n+2k-1} che devono passare da B ad A.
+Noi diremo che una mossa sistema una di queste posizioni se
+con essa si porta in detta posizione la lettera finale per essa. 
+Si noti che nell'insieme di k+k=n posizioni sopra individuate
+solo le 2 centrali (2k,n+1) sono adiacenti e quindi nessuna mossa
+(eccetto quando XX in (2k,n+1)) 
+puo' agire contemporaneamente su due o piu' di queste posizioni.
+Inoltre, la primissima mossa non sistema alcuna posizione e quindi
+almeno n mosse sono necessarie.
+Per farcela in n mosse, ogni mossa eccetto la prima deve sistemare almeno una posizione ed una mossa dovra' sistemare contemporaneamente le posizioni (2k,n+1).
+In particolare, solo l'ultima mossa puo' portare XX
+in posizione (2n+1,2n+2) o anche in posizione (2n,2n+1),
+poiche' la mossa successiva non puo' sistemare alcuna posizione.
+Tuttavia, affinche' l'ultima mossa possa essere risolutiva,
+essa deve necessariamente spostare un AB oppure un BA.
+Cio' implica che la prima mossa
+deve portare XX in posizione (n,n+1).
+Si noti allora che la seconda mossa
+puo' sistemare una delle due posizioni centrali ma non entrambe.
+Quindi almeno n+1 mosse sono necessarie.
+
+QED
+
+
