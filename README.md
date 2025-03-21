@@ -11,31 +11,31 @@ INCONTRI 2025 (https://univr.zoom.us/j/94457731757):
  - Incontri Complessità: mer + ven (8:30 - 10:30, aula T.04)
  - Incontri col tutor Andrea Cracco (?? DA CONCORDARE, anche da Zoom)
 
----
 
-## 🚀 Struttura della repository:
+## 📊 [Portafoglio dei voti](https://github.com/romeorizzi/portafoglioVoti_public.git)
+  Questo repo spiega i vari meccanismi con cui raccogliere ogni elemento di voto per affrontare e superare questo insegnamento con soddisfazione.
+  
+  Tiene traccia di ogni voto da te già maturato così che, quando vorrai registrare il voto finale per l'intero insegnamento, farai riferimento ad esso utilizzando il template di mail proposto.
+  
+  Contiene inoltre le soluzioni da te sottomesse agli appelli di esame della parte pratica, in modo che tu possa completarle nella forma di homework. 
 
-La repository è strutturata nella seguente maniera:
+- [link al portafoglio dei voti 📊](https://github.com/romeorizzi/portafoglioVoti_public.git)
+
+## 🚀 Struttura della repository
 
 ### 🛠️ [strumenti](strumenti/)
 Informazioni importanti per orientarti nel corso:
 
-- [link al Gruppo Telegram del Corso](https://t.me/algoritmiUniVR)
-- [link al portafoglio dei voti 📊](https://github.com/romeorizzi/portafoglioVoti_public.git)
-- [guida all'utilizzo di RTAL 💻](strumenti/)
-- [dettagli aggiuntivi sull'utilizzo di RTAL](strumenti/IT_the-TALight-Problem-Solver-Tutorial1-internet-server.md 💻)
-- [videoregistrazioni nostre 🎬](risorse/videoregistrazioni_nostre)
-- [recaps delle lezioni di anno corrente 📝](archivio/anno_corrente/incontri/)
-- Levanto 📚 (cerca in `risorse` per vedere quali testi adottati dal corso sono resi disponibili da questo servizio di ateneo o un primo orientamento su ottimi materiali che puoi trovare nel web)
-- Altre informazioni utili o di orientamento al corso ...
-
-### 📊 [portafoglio dei voti](https://github.com/romeorizzi/portafoglioVoti_public.git)
-  Questo repo esterno ma comunque pubblico spiega i vari meccanismi con cui raccogliere ogni elemento di voto per affrontare e superare questo insegnamento con soddisfazione. Tiene traccia di ogni voto da te già maturato così che, quando vorrai registrare il voto finale per l'intero insegnamento, farai riferimento ad esso utilizzando il template di mail proposto.
-  Contiene inoltre le soluzioni da te sottomesse agli appelli di esame della parte pratica, in modo che tu possa completarle nella forma di homework.  
+- Link al [Gruppo Telegram del Corso](https://t.me/algoritmiUniVR)
+- Guida all'[utilizzo di RTAL 💻](strumenti/)
+- Dettagli aggiuntivi sull'[utilizzo di RTAL](strumenti/IT_the-TALight-Problem-Solver-Tutorial1-internet-server.md💻)
+- Altre informazioni utili o di orientamento al corso 
 
 ### 📂 [archivio](archivio/)
 Contiene l'archivio completo del corso fin dalla sua nascita, organizzato in:
-
+- **[`incontri`](archivio/incontri/)**
+    
+    Recaps delle lezioni dell'[anno corrente 📝](archivio/anno_corrente/incontri/)
 - **[`argomenti`](archivio/argomenti/)**  
   Raccolta completa degli argomenti trattati da quando esiste il corso.   
   Ogni argomento ha una propria cartella contenente i problemi correlati ad esso.
@@ -44,18 +44,18 @@ Contiene l'archivio completo del corso fin dalla sua nascita, organizzato in:
   Tutti i problemi incontrati nel corso degli anni passati.  
 Ogni problema che trovi qui è anche classificato per argomento nella corrispettiva cartella `archivio/argomenti/argomento_del_problema` (lo stesso problema può comparire in più categorie).
 
-- **[`risorse`](risorse/)**  
+### 💡 [risorse](risorse/)  
   Materiali utili, strumenti, dispense, esercitazioni, e altre risorse per prepararsi al meglio agli esami e approfondire gli argomenti trattati.
-
-
----
+  - [videoregistrazioni nostre 🎬](risorse/videoregistrazioni_nostre)
+  - **Levanto** 📚: per vedere quali testi adottati dal corso sono resi disponibili da questo servizio di ateneo o un primo orientamento su ottimi materiali che puoi trovare nel web
 
 ## 🔎 Come trovare velocemente ciò che cerchi:
 
 ### Generazione e Gestione Voti
 - Vuoi conoscere subito come verrà a comporsi il voto finale dei due moduli e dell'intero insegnamento? Visita il [Portafoglio dei Voti](https://github.com/romeorizzi/portafoglioVoti_public.git)
-- Hai dubbi sul funzionamento dell'esame o di TALight (`rtal`)? Consulta subito [`strumenti`](strumenti/)!
 - Vuoi controllare la situazione attuale dei tuoi voti? Vai al [Portafoglio dei Voti](https://github.com/romeorizzi/portafoglioVoti_public.git)
+- Hai dubbi sul funzionamento dell'esame o di TALight (`rtal`)? Consulta subito [`strumenti`](strumenti/)!
+
 
 
 ### Storico delle Lezioni
@@ -73,6 +73,6 @@ Ogni problema che trovi qui è anche classificato per argomento nella corrispett
 ## Altro di interesse generale
 
 ### Riferimenti e Canali di ateneo in ambito sicurezza (la sicurezza si costruisce insieme, ognuno di noi)
-- [video di ateneo sulla sicurezza (canale YouTube](https://www.youtube.com/watch?v=Y66P9Y8GFkA)
+- Video di ateneo sulla sicurezza [(canale YouTube)](https://www.youtube.com/watch?v=Y66P9Y8GFkA)
 - la mailing list `sicurezza@liste.univr.it` può essere utilizzata da tutti (e di ogni categoria: studenti, docenti e collaboratori tecnico-amministrativi)
 
