@@ -7,9 +7,7 @@ In due sensi: come fruitore interessato, o rendendoti disponibile a realizzare t
 ## 🔗 Videoregistrazioni degli incontri
 - [Lezioni 2025](https://univr.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx?folderID=b42fe8c1-a35b-4f91-b818-b294010e5ff0)
 - [Lezioni 2024](https://univr.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx?folderID=c4df8587-8f34-4732-8e51-b12d0108ea08)
-- [Lezioni 2023](https://univr.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx?folderID=956d59ae-8245-465c-aeed-afbe014aed48)
-- [Lezioni 2022](https://univr.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx?folderID=59a38710-d7fe-401c-931b-ae5600d8754a)
-- [Lezioni 2021](https://univr.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx?folderID=5e579294-3ae4-4211-93ef-acdf007683d2)
+- [Lezioni 2023](https://univr.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22c4df8587-8f34-4732-8e51-b12d0108ea08%22)
 
 
 ## 🔗 Videoregistrazioni di proposta problema
