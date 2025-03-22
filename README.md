@@ -5,10 +5,10 @@ Qui troverai tutto il materiale, storico e aggiornato, del corso di Algoritmi de
 
 ## Incontri 2025
 
-puoi partecipare da remoto alla stanza Zoom [`https://univr.zoom.us/j/94457731757`](https://univr.zoom.us/j/94457731757)
+puoi partecipare da remoto dalla [stanza Zoom `https://univr.zoom.us/j/94457731757`](https://univr.zoom.us/j/94457731757) (anche se non è la stessa cosa e, di necessità, avrai bassa priorità)
  - gio  (8:30 - 10:30, aula T.04, anche da Zoom)
  - ven (08:30 - 10:30, laboratorio alpha, anche da Zoom)
- - Incontri Complessità: mer + ven (8:30 - 10:30, aula T.04)
+ - Incontri Complessità: mer + ven (8:30 - 10:30, aula T.04, solo in presenza)
  - Incontri col tutor Andrea Cracco (?? DA CONCORDARE, anche da Zoom)
 
 
@@ -19,9 +19,8 @@ puoi partecipare da remoto alla stanza Zoom [`https://univr.zoom.us/j/9445773175
   
   Contiene inoltre le soluzioni da te sottomesse agli appelli di esame della parte pratica, in modo che tu possa completarle nella forma di homework. 
 
-- [link al portafoglio dei voti 📊](https://github.com/romeorizzi/portafoglioVoti_public.git)
 
-## 🚀 Struttura della repository
+## Struttura della repository 🚀
 
 ### 🛠️ [strumenti](strumenti/)
 Informazioni importanti per orientarti nel corso:
