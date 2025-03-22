@@ -41,11 +41,11 @@ Contiene l'archivio completo del corso fin dalla sua nascita, organizzato in:
   Ogni argomento ha una propria cartella contenente i problemi correlati ad esso.
 
 - **[`problemi`](archivio/problemi/)**  
-  Tutti i problemi incontrati nel corso degli anni passati.  
+  I problemi incontrati nel corso quest'anno, e molti anche degli anni passati.  
 Ogni problema che trovi qui è anche classificato per argomento nella corrispettiva cartella `archivio/argomenti/argomento_del_problema` (lo stesso problema può comparire in più categorie).
 
 ### 💡 [risorse](risorse/)  
-  Materiali utili, strumenti, dispense, esercitazioni, e altre risorse per prepararsi al meglio agli esami e approfondire gli argomenti trattati.
+  Materiali, dispense e video nostri ma anche link a risorse esterne come manuali, piattaforme con problemi, video e interi corsi estremamente validi ad approfondire gli argomenti trattati, acquisire competenze, e prepararsi al meglio alle prove ed esami.
   - [videoregistrazioni nostre 🎬](risorse/videoregistrazioni_nostre)
   - **Levanto** 📚: per vedere quali testi adottati dal corso sono resi disponibili da questo servizio di ateneo o un primo orientamento su ottimi materiali che puoi trovare nel web
 
