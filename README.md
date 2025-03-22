@@ -34,7 +34,7 @@ Informazioni importanti per orientarti nel corso:
 Offre uno storico di lezioni, argomenti e problemi affrontati in edizioni anche precedenti del corso, organizzato in:
 - **[storico generale di lezioni](archivio/incontri/)**
   Offre i recaps, con obiettivi e proposte, di ogni singola lezione
-  **[recaps delle lezioni anno corrente](archivio/2025/incontri/)
+- **[recaps delle lezioni anno corrente](archivio/2025/incontri/)**
 - **[collezione generale per argomenti](archivio/argomenti/)**
   Per partire da un quadro su argomenti, tecniche e competenze del corso.   
   Ogni competenza identificata riporta problemi e materiali utili alla sua acquisizione.
