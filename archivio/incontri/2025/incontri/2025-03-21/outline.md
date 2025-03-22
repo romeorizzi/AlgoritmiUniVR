@@ -1,4 +1,4 @@
-# Incontro 2024-05-31 (laboratorio alpha)
+# Incontro 2025-03-21 (laboratorio alpha)
 
 ## problema muro ([training.olinfo.it/task/terry/muro](training.olinfo.it/task/terry/muro))
 
