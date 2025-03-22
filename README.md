@@ -5,7 +5,7 @@ Qui troverai tutto il materiale, storico e aggiornato, del corso di Algoritmi de
 
 ## Incontri 2025
 
-INCONTRI 2025 (https://univr.zoom.us/j/94457731757):
+puoi partecipare da remoto alla stanza Zoom [`https://univr.zoom.us/j/94457731757`](https://univr.zoom.us/j/94457731757)
  - gio  (8:30 - 10:30, aula T.04, anche da Zoom)
  - ven (08:30 - 10:30, laboratorio alpha, anche da Zoom)
  - Incontri Complessità: mer + ven (8:30 - 10:30, aula T.04)
@@ -29,18 +29,17 @@ Informazioni importanti per orientarti nel corso:
 - Link al [Gruppo Telegram del Corso](https://t.me/algoritmiUniVR)
 - Guida all'[utilizzo di RTAL 💻](strumenti/)
 - Dettagli aggiuntivi sull'[utilizzo di RTAL](strumenti/IT_the-TALight-Problem-Solver-Tutorial1-internet-server.md💻)
-- Altre informazioni utili o di orientamento al corso 
 
 ### 📂 [archivio](archivio/)
 Contiene l'archivio completo del corso fin dalla sua nascita, organizzato in:
-- **[`incontri`](archivio/incontri/)**
+- **[storico lezioni](archivio/incontri/)**
     
-    Recaps delle lezioni dell'[anno corrente 📝](archivio/anno_corrente/incontri/)
+    [recaps delle lezioni anno corrente](archivio/anno_corrente/incontri/)
 - **[`argomenti`](archivio/argomenti/)**  
   Raccolta completa degli argomenti trattati da quando esiste il corso.   
   Ogni argomento ha una propria cartella contenente i problemi correlati ad esso.
 
-- **[`problemi`](archivio/problemi/)**  
+- **[problemi](archivio/problemi/)**  
   I problemi incontrati nel corso quest'anno, e molti anche degli anni passati.  
 Ogni problema che trovi qui è anche classificato per argomento nella corrispettiva cartella `archivio/argomenti/argomento_del_problema` (lo stesso problema può comparire in più categorie).
 
@@ -54,7 +53,7 @@ Ogni problema che trovi qui è anche classificato per argomento nella corrispett
 ### Generazione e Gestione Voti
 - Vuoi conoscere subito come verrà a comporsi il voto finale dei due moduli e dell'intero insegnamento? Visita il [Portafoglio dei Voti](https://github.com/romeorizzi/portafoglioVoti_public.git)
 - Vuoi controllare la situazione attuale dei tuoi voti? Vai al [Portafoglio dei Voti](https://github.com/romeorizzi/portafoglioVoti_public.git)
-- Hai dubbi sul funzionamento dell'esame o di TALight (`rtal`)? Consulta subito [`strumenti`](strumenti/)!
+- Hai dubbi sul funzionamento dell'esame o di TALight (`rtal`)? Consulta subito [`strumenti`](strumenti/)
 
 
 
