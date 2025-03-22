@@ -31,15 +31,14 @@ Informazioni importanti per orientarti nel corso:
 - Dettagli aggiuntivi sull'[utilizzo di RTAL](strumenti/IT_the-TALight-Problem-Solver-Tutorial1-internet-server.md💻)
 
 ### 📂 [archivio](archivio/)
-Contiene l'archivio completo del corso fin dalla sua nascita, organizzato in:
-- **[storico lezioni](archivio/incontri/)**
-    
-    [recaps delle lezioni anno corrente](archivio/anno_corrente/incontri/)
-- **[`argomenti`](archivio/argomenti/)**  
-  Raccolta completa degli argomenti trattati da quando esiste il corso.   
-  Ogni argomento ha una propria cartella contenente i problemi correlati ad esso.
-
-- **[problemi](archivio/problemi/)**  
+Offre uno storico di lezioni, argomenti e problemi affrontati in edizioni anche precedenti del corso, organizzato in:
+- **[storico generale di lezioni](archivio/incontri/)**
+  Offre i recaps, con obiettivi e proposte, di ogni singola lezione
+  **[recaps delle lezioni anno corrente](archivio/2025/incontri/)
+- **[collezione generale per argomenti](archivio/argomenti/)**
+  Per partire da un quadro su argomenti, tecniche e competenze del corso.   
+  Ogni competenza identificata riporta problemi e materiali utili alla sua acquisizione.
+- **[archivio generale di problemi](archivio/problemi/)**  
   I problemi incontrati nel corso quest'anno, e molti anche degli anni passati.  
 Ogni problema che trovi qui è anche classificato per argomento nella corrispettiva cartella `archivio/argomenti/argomento_del_problema` (lo stesso problema può comparire in più categorie).
 
