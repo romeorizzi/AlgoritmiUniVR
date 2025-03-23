@@ -9,15 +9,15 @@ Detto questo, organizziamo di seguito (eventualmente anche col vostro aiuto, ogn
 
 ---
 
-## 🎓 Risorse Video Specifiche
+## 🎥 Risorse Video Specifiche
 
-- **[Videoregistazioni delle lezioni o di spiegazioni singole](videoregistrazioni_nostre)**
+- 🎬 **[Videoregistazioni delle lezioni o di spiegazioni singole](videoregistrazioni_nostre)**
 
-- **[Link a video afficaci su argomenti specifici](video_specifici)**
+- 🎬 **[Link a video afficaci su argomenti specifici](video_specifici)**
 
-## 🎓 Risorse Video Generali
+## 🎥 Risorse Video Generali
 
-- 🎬 **[MIT OpenCourseWare - Introduction to Algorithms](https://ocw.mit.edu/courses/6-046j-introduction-to-algorithms-sma-5503-fall-2005/)**  
+- 🎓 **[MIT OpenCourseWare - Introduction to Algorithms](https://ocw.mit.edu/courses/6-046j-introduction-to-algorithms-sma-5503-fall-2005/)**  
   Corso completo del MIT liberamente disponibile online. Offre un approccio rigoroso agli algoritmi fondamentali e strutture dati.
 
 - 💻 **[WalkCCC - Soluzioni e implementazioni MIT](https://walkccc.me/CLRS/)**  
@@ -50,7 +50,7 @@ Detto questo, organizziamo di seguito (eventualmente anche col vostro aiuto, ogn
 
 ## 📌 Risorse delle Olimpiadi di Informatica
 
-- 📗 **[Guida alle selezioni territoriali OII (Bugatti)](https://training.olinfo.it/bugatti.pdf)**  
+- 📖 **[Guida alle selezioni territoriali OII (Bugatti)](https://training.olinfo.it/bugatti.pdf)**  
   Materiale pratico delle Olimpiadi di Informatica Italiane.
 
 - 🚀 **[Problemi OII livello territoriale (Terry)](https://training.olinfo.it/tasks/terry/1)**  
@@ -79,6 +79,6 @@ Detto questo, organizziamo di seguito (eventualmente anche col vostro aiuto, ogn
   Materiale  su tecniche e problemi di competitive programming.
 
 
-- 📌 **[15 LeetCode Patterns](https://blog.algomaster.io/p/15-leetcode-patterns)**  
+- 🌐 **[15 LeetCode Patterns](https://blog.algomaster.io/p/15-leetcode-patterns)**  
   Elenco delle 15 tecniche più comuni su LeetCode, con problemi rappresentativi per allenare e migliorare la capacità di problem-solving.
 
