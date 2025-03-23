@@ -27,68 +27,69 @@ Il sistema `rtal` è pensato più per la didattica che per le gare, in quanto vi
 ---
 # ⚙ 💻 Guida all'uso di `rtal`
 
-Premesso che `rtal` ti servirà sia per gli appelli in laboratorio che per le esercitazioni e gli homework da svolgere durante il corso, e spiegato quì sopra lo scopo e ruolo centrale dello strumento, hai le motivazioni per installartelo subito e provarlo.
+Installati ora e comincia ad utilizzare da subito `rtal`. Ti servirà per le esercitazioni, gli homework, e gli appelli in laboratorio del corso.
+ 
 
   - [Come ottenere il client `rtal`](#come-ottenere-il-client-rtal)
-  - [Come verificare che `rtal` è installato correttamente, e verificare la versione](#come-verificare-che-rtal-è-installato-correttamente-e-verificare-la-versione)
+  - [Come verificare che `rtal` è installato correttamente](#come-verificare-che-rtal-è-installato-correttamente-e-verificare-la-versione)
   - [L'help interno di `rtal`](#lhelp-interno-di-rtal)
-  - [Come loggarmi ad un server in caso richieda autenticazione](#come-loggarmi-ad-un-server-in-caso-richieda-autenticazione)
-  - [Come vedere la lista dei problemi di una collection/server](#come-vedere-la-lista-dei-problemi-di-una-collectionserver)
-  - [Come scaricarmi il testo e gli altri materiali pubblici di un problema](#come-scaricarmi-il-testo-e-gli-altri-materiali-pubblici-di-un-problema)
-  - [Come vedere la lista dei servizi attivi di un singolo problema, e relativi argomenti](#come-vedere-la-lista-dei-servizi-attivi-di-un-singolo-problema-e-relativi-argomenti)
-  - [Come vedere la lista dei servizi attivi di un singolo problema, e relativi argomenti](#come-vedere-la-lista-dei-servizi-attivi-di-un-singolo-problema-e-relativi-argomenti-1)
-  - [Come sottomettere la mia soluzione o avvalermi di altri servizi disponibili per un problema](#come-sottomettere-la-mia-soluzione-o-avvalermi-di-altri-servizi-disponibili-per-un-problema)
+  - [Autenticazione e login](#come-loggarmi-ad-un-server-in-caso-richieda-autenticazione)
+  - [Lista dei problemi di un server](#come-vedere-la-lista-dei-problemi-di-una-collectionserver)
+  - [Scarica il testo e i materiali pubblici di un problema](#come-scaricarmi-il-testo-e-gli-altri-materiali-pubblici-di-un-problema)
+  - [Lista dei servizi attivi di un problema](#come-vedere-la-lista-dei-servizi-attivi-di-un-singolo-problema-e-relativi-argomenti)
+  - [Sottometti una tua soluzione o utilizza altri servizi di un problema](#come-sottomettere-la-mia-soluzione-o-avvalermi-di-altri-servizi-disponibili-per-un-problema)
 
 <a id="get_rtal"></a>
 ## Come ottenere il client `rtal`
 
 
-Fino a quando non imposteremo le git actions per rendere direttamente accessibili gli eseguibili già compilatii, la via più stabile è clonarti la repo, ad esempio con un singolo comando dalla CLI:
+Fino a quando non imposteremo le git actions per rendere direttamente accessibili gli eseguibili già compilati, la via più stabile è partire dai sorgenti. (Un'alternativa è farti passare il compilato da un compagno la cui macchina abbia la stessa architettura, ovvero lo stesso genere di sistema operativo e processore grossomodo della stessa casa e numero di bits).
+
+Per **ottenere** i sorgenti di `rtal` clona la repo con un singolo comando dalla CLI:
 
 ```bash
 git clone https://github.com/Guilucand/rtal-algo-client.git
 ```
 
-oppure, se non hai `git` installato, scaricando e decomprimendo lo .zip file dalla [repo su GitHub](https://github.com/Guilucand/rtal-algo-client).
-Per scaricarlo da riga di comando:
-
+Oppure scarica lo `.zip` (e decomprimilo):
 ```bash
 wget https://github.com/Guilucand/rtal-algo-client/archive/refs/heads/main.zip
 ```
+In alternativa, per scaricare la repo, pigia il tastone verde <img src="../strumenti/stuff/figs/Git_Code_Green_Button.png" width="100" title="" alt=""> labellato "[< > Code]" che trovi nella [pagina su GitHub](https://github.com/Guilucand/rtal-algo-client), in alto. 
 
-In alternativa, per scaricare, pigia il tastone verde <img src="../figs/Git_Code_Green_Button.png" width="100" title="" alt=""> labellato "[< > Code]" che trovi nella [pagina su GitHub](https://github.com/Guilucand/rtal-algo-client), in alto. 
 
-Il prossimo ed ultimo passo è quello di compilare `rtal` sulla tua macchina (o farti passare il compilato da un compagno la cui macchina ha la stessa architettura, ovvero lo stesso genere di sistema operativo e processore grossomodo della stessa casa e numero di bits).
+Per **compilare** ti serve il compilatore `rust`. Lo puoi facilmente ottenere e configurare automaticamente affidandoti al servizio [`rustup.rs`](https://rustup.rs/) della comunità di Rust.
 
-Per compilare ti serve il compilatore `rust`, che, se non hai già installato, puoi facilmente ottenere e configurare automaticamente per come ti serve affidandoti al servizio [`rustup.rs`](https://rustup.rs/) della comunità di Rust, che è estremamente user-friendly, un vero no-brainer.
-
-Una volta che Rust sia installato sulla tua macchina, prima della compilazione vera e propria ti consigliamo di lanciare:
+Una volta installato `rust`, prima della compilazione vera e propria ti consigliamo di lanciare:
 
 ```bash
 rustup update
 ```
-in modo da assicurarti che l'installazione di Rust sia aggiornata. (Oppure prova a compilare e lancia questo aggiornamento in caso incontri problemi.)
+in modo da assicurarti che l'installazione di Rust sia aggiornata. 
 
-
-Per la compilazione della versione DEBUG (quella che consigliamo ai problem-solver, ossia agli studenti) in quanto rilascia più informazioni a supporto, assicurati di essere nella cartella root del repo scaricato e lancia:
+**Compilazione:**
+dalla root della repo coi sorgenti di `rtal` già clonata lancia:
 
 ```bash
 cargo build
 ```
 
-Troverai l'eseguibile prodotto nella sottocartella `/target/debug/` e ti consigliamo di metterlo nella variabile di ambiente `PATH` in modo che ti sia agevole lanciarlo indipendentemente da dove ti trovi. 
+per ottenere la versione DEBUG del client `rtal`, quella che consigliamo ai problem-solver (ossia agli studenti) in quanto rilascia più informazioni a supporto.
 
-Per maggiori informazioni sulle opzioni disponibili per la compilazione (inclusa la compilazione per altra architettura) rimandiamo alla [pagina web della repo su GitHub](https://github.com/Guilucand/rtal-algo-client), che ne visualizza il file `README.md`.
+L'eseguibile sarà pertanto prodotto nella sottocartella `/target/debug/`. Ti consigliamo di aggiungere tale percorso alla variabile di ambiente `PATH` in modo che ti sia agevole lanciare l'eseguibile `rtal` indipendentemente da dove ti trovi. 
 
+Per maggiori informazioni sulle opzioni disponibili per la compilazione vai alla [pagina della repo](https://github.com/Guilucand/rtal-algo-client).
 
 <a id="check_rtal"></a>
-## Come verificare che `rtal` è installato correttamente, e verificare la versione
+## Come verificare che `rtal` è installato correttamente
+
+Verifica + controllo di versione:
 
 ```bash
 rtal -V
 ```
 
-o puoi anche provare direttamente a chiedere aiuto
+oppure col comando di primo aiuto discusso next. 
 
 
 <a id="rtal_help"></a>
@@ -98,29 +99,29 @@ o puoi anche provare direttamente a chiedere aiuto
 rtal help
 ```
 
-Oltre a questa schermata di riepilogo dei subcommands risulta possibile chiedere maggiori informazioni su ogni singolo subcommand (help,list,login,logout,get,connect) ad esempio con:
+Per maggiori dettagli su ogni subcommand (help,list,login,logout,get,connect):
 
 ```bash
-rtal connect
+rtal help connect
 ```
 
 <a id="rtal_login"></a>
 ## Come loggarmi ad un server in caso richieda autenticazione
 
-I server per esame o per homework richiedono autenticazione, che dal lato docente può essere gestita senza particolari difficoltà avvalendosi del meccanismo degli argomenti per il subcommand `connect`.
-Per i nostri corsi in Verona abbiamo integrato l'autenticazione GIA, e quindi prima di poter accedere a subcommands quali `get` e `connect` dovrai lanciare:
+Per i server che richiedono autenticazione(`esame`,`homework`), è abilitata l'autenticazione tramite GIA, quindi prima di poter usare i subcommand `get` o `connect` devi autenticarti con:
 
 ```bash
 rtal -s <URL-server> login
 ```
 
-Ad esempio, all'esame dovrai come prima cosa lanciare:
+Ad esempio, all'esame lanci:
 
 ```bash
 rtal -s wss://ta.di.univr.it/esame login
 ```
+inserisci la tua matricola (nel formato VR??????) al prompt e ricopi l'URL che ti viene restituito nel browser dove poi inserire le tue credenziali GIA.
 
-I server di vostro interesse sono:
+I server principali sono:
 
 | scopo    |     URL del server          | login | allegare sorgenti | attivo |
 | :---     | :---                            | ---   |      ---      |  --- | 
@@ -134,7 +135,6 @@ In pratica, per effettuare una sottoposizione è richiesto loggarsi preventivame
 <a id="rtal_list"></a>
 ## Come vedere la lista dei problemi di una collection/server
 
-Per visionare la lista dei problemi attivi:
 
 ```bash
 rtal -s <URL-server> list
@@ -150,13 +150,13 @@ rtal -s <URL-server> get <nome_problema>
 
 
 <a id="rtal_list_on_problem"></a>
-## Come vedere la lista dei servizi attivi di un singolo problema, e relativi argomenti
+## Come vedere la lista dei servizi attivi di un problema
 
 ```bash
 rtal -s <URL-server> list <nome_problema>
 ```
 
-E' inoltre possibile visionare le `regexp` che definiscono i valori consentiti per i vari argomenti utilizzando il comando col flag di verbose
+Con il flag di verbose `-v` è possibile visionare le *regexp* dei valori consentiti per i vari argomenti:
 
 ```bash
 rtal -s <URL-server> list -v <nome_problema>
@@ -181,36 +181,37 @@ rtal -s <URL-server> connect <nome_problema> synopsis -a service=synopsis
 ```
 
 <a id="rtal_connect"></a>
-## Come sottomettere la mia soluzione o avvalermi di altri servizi disponibili per un problema
+## Come sottomettere la mia soluzione o avvalermi di altri servizi di un problema
 
-Questo è il servizio più ricco e complesso. Ci limitiamo quì agli esempi di utilizzo principali, come di tuo interesse, rimandando al file [`IT_the-TALight-Problem-Solver-Tutorial1-internet-server.md`](IT_the-TALight-Problem-Solver-Tutorial1-internet-server.md) in questo stesso folder per informazioni più dettagliate sull'installazione ed uso di `rtal` in generale e sul servizio `connect` in particolare.
+Ci si avvale del subcommand `connect`, più ricco e complesso nell'utilizzo. Ci limitiamo pertanto agli usi principali, vai a [`IT_the-TALight-Problem-Solver-Tutorial1-internet-server.md`](IT_the-TALight-Problem-Solver-Tutorial1-internet-server.md) in questo stesso folder per ulteriori dettagli sia sull'installazione ed uso di `rtal` che sul subcommand `connect`.
 
-L'uso tipico nel sottomettere una tua soluzione all'esame oppure come homework (ossia quando vorrai che ti vengano riconosciuti gli eventuali punti totalizzati dalla tua sottoposizione) seguirà grossomodo il seguente formato:
+L'uso tipico per sottomettere una tua soluzione all'esame oppure come homework (ossia quando vorrai che ti vengano riconosciuti gli eventuali punti totalizzati dalla tua sottoposizione) seguirà grossomodo il seguente formato:
 
 ```bash
 rtal -s <URL-server> connect -f source=<PATH-TO-SOURCE-FILE> [-e] <nome_problema> [<ARGS>] -- <MY-EXECUTABLE-SOLUTION>
 ```
 
-dove:
-* `<PATH-TO-SOURCE-FILE>` è il filename completo (relativo od assoluto) del file sorgente della tua soluzione (se i file sorgente sono più di uno allega il `.tar` di un folder che contenga i sorgenti)
+Dove:
 
-* il flag opzionale `-e` può essere aggiunto per monitorare l'interazione tra la tua soluzione e il valutatore che gira sul server
+- `<PATH-TO-SOURCE-FILE>` è il filename completo (relativo od assoluto) del file sorgente della tua soluzione (se i file sorgente sono più di uno allega il `.tar` di un folder che contenga i sorgenti)
 
-* tra i possibili argomenti opzionali da collocare al posto del placeholder `<ARGS>` quello comune ad ogni problem e forse più usato è `size` che serve a limitare la sottoposizione a un solo prefisso dei subtask (per evitare rallentamenti del caso la tua soluzione non sia adatta ad affrontare le istanze più grandi). Le due scritture più tipiche sarebbero:
+- il flag opzionale `-e` può essere aggiunto per monitorare l'interazione tra la tua soluzione e il valutatore che gira sul server
+
+- `<ARGS>` include eventuali argomenti specifici, tra questi quello più comunemente utilizzato è `size` che serve a limitare la sottoposizione a un solo prefisso dei subtask (per evitare rallentamenti del caso la tua soluzione non sia adatta ad affrontare le istanze più grandi).
   - `-a size=esempi_testo`
   - `-a size=small`
 
-* al posto del placeholder `<MY-EXECUTABLE-SOLUTION>` puoi collocare una qualsiasi scrittura che, ove immessa anche da sola al prompt della CLI, comporti l'avvio del solver da tè realizzato. Solo alcuni esempi:
- - `./a.out` per un compilato da `C/c++`, eventualmente seguito dagli argomenti che esso, per come lo hai progettato, prevede/consente
- - `./my_solution.py arg1 arg2 ...` se il tuo file `my_solution.py` col codice python ha i permessi di esecuzione e inizia con la riga di shebang
- - `python my_solution.py` o `python3 my_solution.py` per far eseguire il tuo script dall' interprete python effettivamente presente in locale.
+- `<MY-EXECUTABLE-SOLUTION>` è una qualsiasi scrittura che, ove immessa anche da sola al prompt della CLI, comporti l'avvio del solver da tè realizzato. Solo alcuni esempi:
+  - `./a.out` per un compilato da `C/c++`, eventualmente seguito dagli argomenti che esso, per come lo hai progettato, prevede/consente
+  - `./my_solution.py arg1 arg2 ...` se il tuo file `my_solution.py` col codice python ha i permessi di esecuzione e inizia con la riga di shebang
+  - `python my_solution.py` o `python3 my_solution.py` per far eseguire il tuo script dall'interprete python effettivamente presente in locale.
 
-
-> [!TIP]
-> Anche se è solo uno strumento, ti converrà prendere un minimo di dimestichezza nell'uso di `rtal`
 
 > [!NOTE]
 > Utile per debuggare come il tuo programma interagisce con il server è comprendere la differenza tra scrivere su `stdout` oppure su `stderr` ed eventualmente anche su file (non essere timido a fare esperimenti). Anche il flag `--echo` del subcommand `connect` può venire molto utile per individuare dove la tua soluzione non rispetti il protocollo di cmunicazione tra la tua soluzione e il validatore del server.
+
+> [!TIP]
+> Anche se è solo uno strumento, ti converrà prendere un minimo di dimestichezza nell'uso di `rtal`
 
 > [!TIP]
 > Nel caso degli homework, se non disponi di una macchina adeguata da dove svolgerli e sottometterli puoi avvalerti del servizio VirtualLab dell'ateneo (se da casa serve la VPN per fruire di questo servizio)
