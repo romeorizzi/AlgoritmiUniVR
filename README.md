@@ -19,7 +19,7 @@ puoi partecipare da remoto dalla [stanza Zoom `https://univr.zoom.us/j/944577317
   Contiene inoltre le soluzioni da te sottomesse agli appelli di esame della parte pratica, in modo che tu possa completarle nella forma di homework per comprendere come potevi fare meglio e raccogliere punti bonus. 
 
 
-## 🚪 🚀 Struttura della repository:
+## 🌐 🚀 Struttura della repository:
 
 ### 🛠️ [strumenti](strumenti/)
 Strumenti di lavoro e informazioni importanti per orientarsi nel corso:
@@ -53,7 +53,7 @@ Offre uno storico di lezioni, argomenti e problemi affrontati, organizzato in:
 - Sei confuso riguardo lo spirito con cui vada affrontato questo corso? Consulta [`strumenti`](strumenti/) e comincia a lavorare sui problemi.
 
 ### 📓 Storico delle Lezioni
-- Vuoi controllare rapidamente cosa affrontato nelle ultime lezioni? Consulta i [recaps delle lezioni dell'anno corrente](archivio/incontri_anno_corrente/)
+- Vuoi controllare rapidamente cosa affrontato nelle ultime lezioni? Consulta i [recaps delle lezioni dell'anno corrente](archivio/2025/)
 - Vuoi visionare le registrazioni delle lezioni di quest'anno o di anni precedenti? Le trovi in [`risorse/videoregistrazioni_nostre`](risorse/videoregistrazioni_nostre)
 - Vuoi vedere se uno degli argomenti opzionali del corso è stato (già) toccato? Vai ad [`archivio/argomenti_anno_corrente/`](archivio/argomenti_anno_corrente/)
 - Vuoi sapere cosa è stato trattato in un anno specifico? Naviga nelle [cartelle annuali](archivio/incontri/)!
