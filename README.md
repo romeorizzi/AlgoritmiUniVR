@@ -53,9 +53,9 @@ Offre uno storico di lezioni, argomenti e problemi affrontati, organizzato in:
 - Sei confuso riguardo lo spirito con cui vada affrontato questo corso? Consulta [`strumenti`](strumenti/) e comincia a lavorare sui problemi.
 
 ### 📓 Storico delle Lezioni
-- Vuoi controllare rapidamente cosa affrontato nelle ultime lezioni? Consulta i [recaps delle lezioni dell'anno corrente](archivio/2025/)
+- Vuoi controllare rapidamente cosa affrontato nelle ultime lezioni? Consulta i [recaps delle lezioni dell'anno corrente](archivio/incontri/2025/)
 - Vuoi visionare le registrazioni delle lezioni di quest'anno o di anni precedenti? Le trovi in [`risorse/videoregistrazioni_nostre`](risorse/videoregistrazioni_nostre)
-- Vuoi vedere se uno degli argomenti opzionali del corso è stato (già) toccato? Vai ad [`archivio/argomenti_anno_corrente/`](archivio/argomenti_anno_corrente/)
+- Vuoi vedere se uno degli argomenti opzionali del corso è stato (già) toccato? Vai ad [`archivio/incontri/2025/argomenti_visti_2025/`](archivio/incontri/2025/argomenti_visti_2025/)
 - Vuoi sapere cosa è stato trattato in un anno specifico? Naviga nelle [cartelle annuali](archivio/incontri/)!
 
 ### 💥 Problemi
