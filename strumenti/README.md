@@ -44,7 +44,7 @@ Installati ora e comincia ad utilizzare da subito `rtal`. Ti servirà per le ese
 
 <details>
 <summary>scaricare binario già compilato</summary>
-Dalla [pagina delle release](https://github.com/Guilucand/rtal-algo-client/releases) scaricati la versione di binario `rtal` addatta al tuo PC (ovvero combinazione di sistema operativo e architettura del processore). Decomprimila (con `tar xvf` da command line oppure su Windows puoi usare anche `7-Zip`)
+Dalla <a href="https://github.com/Guilucand/rtal-algo-client/releases">pagina delle release</a> scaricati la versione di binario `rtal` addatta al tuo PC (ovvero combinazione di sistema operativo e architettura del processore). Decomprimila (con `tar xvf` da command line oppure su Windows puoi usare anche `7-Zip`)
 </details>
 
 <details>
