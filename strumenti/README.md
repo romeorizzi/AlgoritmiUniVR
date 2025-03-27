@@ -51,7 +51,7 @@ Dalla <a href="https://github.com/Guilucand/rtal-algo-client/releases">pagina de
 <details>
 <summary>compilare dai sorgenti</summary>
 
-Per **ottenere** i sorgenti di `rtal` clona la repo con un singolo comando dalla CLI:
+Per **ottenere i sorgenti** di `rtal` clona la repo con un singolo comando dalla CLI:
 
 ```bash
 git clone https://github.com/Guilucand/rtal-algo-client.git
