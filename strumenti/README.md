@@ -42,9 +42,13 @@ Installati ora e comincia ad utilizzare da subito `rtal`. Ti servirà per le ese
 <a id="get_rtal"></a>
 ## Come ottenere il client `rtal`
 
+<details>
+<summary>scaricare binario già compilato</summary>
+Dalla [pagina delle release](https://github.com/Guilucand/rtal-algo-client/releases) scaricati la versione di binario `rtal` addatta al tuo PC (ovvero combinazione di sistema operativo e architettura del processore). Decomprimila (con `tar xvf` da command line oppure su Windows puoi usare anche `7-Zip`)
+</details>
 
-Fino a quando non imposteremo le git actions per rendere direttamente accessibili gli eseguibili già compilati, la via più stabile è partire dai sorgenti. (Un'alternativa è farti passare il compilato da un compagno la cui macchina abbia la stessa architettura, ovvero lo stesso genere di sistema operativo e processore grossomodo della stessa casa e numero di bits).
-
+<details>
+<summary>compilare dai sorgenti</summary>
 Per **ottenere** i sorgenti di `rtal` clona la repo con un singolo comando dalla CLI:
 
 ```bash
@@ -76,9 +80,13 @@ cargo build
 
 per ottenere la versione DEBUG del client `rtal`, quella che consigliamo ai problem-solver (ossia agli studenti) in quanto rilascia più informazioni a supporto.
 
-L'eseguibile sarà pertanto prodotto nella sottocartella `/target/debug/`. Ti consigliamo di aggiungere tale percorso alla variabile di ambiente `PATH` in modo che ti sia agevole lanciare l'eseguibile `rtal` indipendentemente da dove ti trovi. 
+L'eseguibile (`rtal`) sarà pertanto prodotto nella sottocartella `/target/debug/`. 
 
 Per maggiori informazioni sulle opzioni disponibili per la compilazione vai alla [pagina della repo](https://github.com/Guilucand/rtal-algo-client).
+</details>
+
+ Ti consigliamo di aggiungere il percorso al folder dove è collocato l'eseguibile `rtal` nella variabile di ambiente `PATH` in modo che ti sia agevole lanciare il comando `rtal` indipendentemente da dove ti trovi.
+ 
 
 <a id="check_rtal"></a>
 ## Come verificare che `rtal` è installato correttamente
