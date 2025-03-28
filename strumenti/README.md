@@ -137,7 +137,7 @@ I server principali sono:
 | :---     | :---                            | ---   |      ---      |  --- | 
 | esame    | `wss://ta.di.univr.it/esame`    |  ✅   |  ✅   | solo durante esame |
 | homework | `wss://ta.di.univr.it/algo`     |  ✅   |  ✅   | da marzo a febbraio successivo |
-| esercizi | `wss://ta.di.univr.it/training` |  ❌   |  ❌   | continuativamente |
+| esercizi | `wss://ta.di.univr.it/esercizi` |  ❌   |  ❌   | continuativamente |
 
 In pratica, per effettuare una sottoposizione è richiesto loggarsi preventivamente al server e allegare i sorgenti della propria soluzione (se più file si alleghi un `.tar` del folder che li contiene) ad ogni sottoposizione tramite il servizio `connect`.
 
