@@ -1,0 +1,279 @@
+#!/usr/bin/python
+import os
+from sys import stderr, exit, argv
+import datetime
+
+"""Improves your productivity. Manages your workflows and prevents getting lost into them.
+Turn your routinely start up actions into command_lists.
+A command_list is a python list with the format as examplified by `start_ro_class` or `start_DODM_class` here below.
+Each item of the list is a tuple whose first component is either a command-string or a python function (possibly user defined) and the second component (if present) specifies the executor/interpreter for that string. When the second component is not present then it is assumed that the first can be directly invoked by the python interpreter (when executing this module). 
+The second component might be e more involved object whose format and interpretation is let free for you to customize. It is meant to instruct in the most flexible way on how the command in the first component should be dealt with.
+For convenince, the list might actually be one single command. 
+"""
+
+### recurrent procedures (represented as commands_lists):
+
+start_ro_class = [
+    (f'google-chrome --new-window https://etherpad.wikimedia.org/p/RicercaOperativa{str(datetime.date.today())[:4]}_indice_incontri','shell','y'),
+    (f'google-chrome https://etherpad.wikimedia.org/p/RicercaOperativa{str(datetime.date.today())}','shell','y'),
+    ('xournal &','shell','y'),
+    (f'google-chrome https://wbo.ophir.dev/boards/LavagnaRO{str(datetime.date.today())}_1','shell','y'),
+    ('google-chrome https://repl.it/@RomeoRizziUniVR/ro','shell','y'),
+#    ('google-chrome https://romeorizzi.vevox.com/#/meeting/295353/polls','shell','y'),
+    ('google-chrome https://univr.zoom.us/j/87547655553','shell','y'),
+    ('echo Zoom Room RO URL: https://univr.zoom.us/j/87547655553','shell','y'),
+    (f'echo Collaborative WhiteBoard(easy) RO URL: https://wbo.ophir.dev/boards/LavagnaRO{str(datetime.date.today())}_1','shell','y'),
+    (f'echo Etherpad RO index URL: https://etherpad.wikimedia.org/p/RicercaOperativa{str(datetime.date.today())[:4]}_indice_incontri','shell','y'),
+    (f'echo Collaborative etherpad RO URL: https://etherpad.wikimedia.org/p/RicercaOperativa{str(datetime.date.today())}','shell','y'),
+    ('echo replit ro URL: https://repl.it/@RomeoRizziUniVR/ro','shell','y'),
+#    ('echo vevox pool my URL: https://romeorizzi.vevox.com/#/meeting/295353/polls','shell','y'),
+]
+
+start_algo_class = [
+    (f'google-chrome --new-window https://etherpad.wikimedia.org/p/Algoritmi{str(datetime.date.today())[:4]}_indice_incontri','shell','y'),
+    (f'google-chrome https://etherpad.wikimedia.org/p/Algoritmi{str(datetime.date.today())}','shell','y'),
+    ('xournal &','shell','y'),
+    (f'google-chrome https://wbo.ophir.dev/boards/LavagnaALGO{str(datetime.date.today())}_1','shell','y'),
+    ('google-chrome https://repl.it/@RomeoRizziUniVR/algo','shell','y'),
+#    ('google-chrome https://romeorizzi.vevox.com/#/meeting/295336/polls','shell','y'),
+    ('google-chrome https://univr.zoom.us/j/94457731757','shell','y'),
+    ('echo Zoom Room ALGO URL: https://univr.zoom.us/j/94457731757','shell','y'),
+    (f'echo Collaborative WhiteBoard(easy) ALGO URL: https://wbo.ophir.dev/boards/LavagnaALGO{str(datetime.date.today())}_1','shell','y'),
+    (f'echo Etherpad ALGO index URL: https://etherpad.wikimedia.org/p/Algoritmi{str(datetime.date.today())[:4]}_indice_incontri','shell','y'),
+    (f'echo Collaborative etherpad ALGO URL: https://etherpad.wikimedia.org/p/Algoritmi{str(datetime.date.today())}','shell','y'),
+    ('echo replit algo URL: https://repl.it/@RomeoRizziUniVR/algo','shell','y'),
+#    ('echo vevox pool my URL: https://romeorizzi.vevox.com/#/meeting/295336/polls','shell','y'),
+]
+
+start_DODM_class = [
+    (f'google-chrome --new-window https://etherpad.wikimedia.org/p/DiscreteOptimization{str(datetime.date.today())[:4]}_indice_incontri','shell','y'),
+    (f'google-chrome https://etherpad.wikimedia.org/p/DiscreteOptimization{str(datetime.date.today())}','shell','y'),
+    (f'google-chrome https://wbo.ophir.dev/boards/LavagnaDODM{str(datetime.date.today())}_1','shell','y'),
+    ('xournal &','shell','y'),
+#    ('google-chrome https://romeorizzi.vevox.com/#/meeting/295336/polls','shell','y'),
+    ('google-chrome https://univr.zoom.us/j/89889727405','shell','y'),
+    ('echo Zoom Room DODM URL: https://univr.zoom.us/j/89889727405','shell','y'),
+    (f'echo Collaborative WhiteBoard(easy) DODM URL: https://wbo.ophir.dev/boards/LavagnaDODM{str(datetime.date.today())}_1','shell','y'),
+    (f'echo Etherpad DODO index URL: https://etherpad.wikimedia.org/p/DiscreteOptimization{str(datetime.date.today())[:4]}_indice_incontri','shell','y'),
+    (f'echo Collaborative etherpad DODO URL: https://etherpad.wikimedia.org/p/DiscreteOptimization{str(datetime.date.today())}','shell','y'),
+#    ('echo vevox pool my URL: https://romeorizzi.vevox.com/#/meeting/295336/polls','shell','y'),
+]
+
+start_vevox_gen = [
+    ('google-chrome --new-window https://romeorizzi.vevox.com/#/meeting/296090/polls','shell','y'),
+    ('echo participants can join the gen vevox poll 112-099-463 at https://vevox.app/#/m/112099463','shell','y'),
+]
+
+start_problem_recording = [
+    ('google-chrome --new-window https://univr.zoom.us/j/81482187359','shell','y'),
+    ('google-chrome https://etherpad.wikimedia.org/p/problem_recording','shell','y'),
+    ('google-chrome https://aggie.io/problem_recording','shell','y'),
+    ('google-chrome https://wbo.ophir.dev/boards/problem_recording','shell','y'),
+]
+
+start_clip_recording = [
+    ('google-chrome --new-window https://univr.zoom.us/j/85668614976','shell','y'),
+    ('google-chrome https://etherpad.wikimedia.org/p/clip_recording','shell','y'),
+    ('google-chrome https://aggie.io/clip_recording','shell','y'),
+    ('google-chrome https://wbo.ophir.dev/boards/clip_recording','shell','y'),
+]
+
+start_project_definition = [
+    ('google-chrome --new-window https://univr.zoom.us/j/84782924688','shell','y'),
+    ('google-chrome https://etherpad.wikimedia.org/p/project_definition','shell','y'),
+#    ('google-chrome https://aggie.io/project_definition','shell','y'),
+    ('google-chrome https://wbo.ophir.dev/boards/project_definition','shell','y'),
+]
+
+start_Volterra_stanza_base = [
+    ('echo Zoom Stanza Base Password: 683812','shell'),
+    ('google-chrome --new-window https://zoom.us/j/96559533066','shell','y'),
+    (f'google-chrome https://etherpad.wikimedia.org/p/Volterra_stanza_base_{str(datetime.date.today())}','shell','y'),
+    ('google-chrome https://replit.com/@RomeoRizziUniVR/Volterrastanzabase','shell','y'),
+    ('echo Zoom Stanza Base URL: https://zoom.us/j/96559533066','shell','y'),
+    ('echo Zoom Stanza Base Password: 683812','shell','y'),
+    (f'echo etherpad URL: https://etherpad.wikimedia.org/p/Volterra_stanza_base_$({str(datetime.date.today())}','shell','y'),
+    ('echo repl Public URL: https://replit.com/join/yieqdonp-romeorizziunivr','shell','y'),
+]
+
+start_meeting = [
+    ('google-chrome --new-window https://univr.zoom.us/j/3518684000','shell'),
+    ('xournal &','shell','y'),
+    ('google-chrome https://etherpad.wikimedia.org/p/Romeo_meeting','shell'),
+#    ('google-chrome https://aggie.io/Romeo_meeting','shell'),
+    ('google-chrome https://wbo.ophir.dev/boards/Romeo_meeting','shell','y'),
+]
+
+start_TAL_meeting = [
+    ('google-chrome --new-window https://univr.zoom.us/j/96977957561','shell'),
+    ('xournal &','shell','y'),
+    ('google-chrome https://etherpad.wikimedia.org/p/TAL_meeting','shell'),
+#    ('google-chrome https://aggie.io/TAL_meeting','shell'),
+    ('google-chrome https://wbo.ophir.dev/boards/TAL_meeting','shell','y'),
+]
+
+
+hot_menu = {}
+menu_full = []
+menu_only_true_items = []
+
+def add_voice2menu(voice, commands_list=None, hot_key=None, in_both_menus=False):
+    if hot_key != None:
+        hot_menu[hot_key] = (voice,commands_list)
+    if hot_key == None or in_both_menus:
+        menu_full.append((len(menu_only_true_items),voice,commands_list))
+        if commands_list!=None:
+            menu_only_true_items.append((commands_list,len(menu_full)-1))
+
+def display_menu_and_get_risp():
+    os.system('clear') # works on Linux/Mac. On Windows use system('cls').
+    for num_item,voice,commands_list in menu_full:
+        if commands_list==None:
+            print()
+            print(voice)
+        else:
+            print(f" {num_item}. {voice}")
+    risp = input("\nInsert your choice: ")
+    try: 
+        risp = int(risp)
+    except (TypeError, ValueError):
+        print(f"No. You are required to insert a number in [0,{len(menu_only_true_items)-1}]")
+        input("Press Enter to continue...")
+        return None
+    if risp < 0 or risp >= len(menu_only_true_items):
+        print(f"No. You are required to insert a number in [0,{len(menu_only_true_items)-1}]")
+        input("Press Enter to continue...")
+        return None
+    return risp 
+
+
+def display_hot_keys():
+    os.system('clear') # works on Linux/Mac. On Windows use system('cls').
+    print("Here is the full table of your hot keys:\n")
+    for key, value in hot_menu.items():
+        print(f" {key} : {value}\n")
+
+### My current standard hot_menu (a convention: the voices belonging to both menus are placed here):
+
+add_voice2menu("launch zoom personal room", commands_list=('google-chrome https://univr.zoom.us/j/3518684000','shell'), hot_key=("z",))  
+
+add_voice2menu("launch a meeting in Romeo's personal Zoom room", commands_list=start_meeting, hot_key=("meet",))		  
+
+add_voice2menu("launch TALight meeting", commands_list=start_TAL_meeting, hot_key=("TAL",))		  
+
+add_voice2menu("launch problem recording session", commands_list=start_problem_recording, hot_key=("problem",))
+
+add_voice2menu("launch clip recording session", commands_list=start_clip_recording, hot_key=("clip",))
+
+add_voice2menu("launch project definition session", commands_list=start_project_definition, hot_key=("project",))
+
+add_voice2menu("panopto My Folder", commands_list=('google-chrome https://univr.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%222f662765-4097-4380-beb5-ab71009e30e2%22','shell'), hot_key=("pan",))
+
+add_voice2menu("sign and/or complete a .pdf file", commands_list=('google-chrome https://www.digisigner.com/free-electronic-signature/','shell'), hot_key=("sign",))
+
+add_voice2menu("start RO class", commands_list=start_ro_class, hot_key=("ro",))		  
+add_voice2menu("start RO class", commands_list=start_ro_class, hot_key=("RO",))		  
+add_voice2menu("start algo class", commands_list=start_algo_class, hot_key=("algo",))		  
+add_voice2menu("start DODM class", commands_list=start_DODM_class, hot_key=("do",))		  
+add_voice2menu("start DODM class", commands_list=start_DODM_class, hot_key=("DODM",))		  
+
+add_voice2menu("start Volterra base group class", commands_list=start_Volterra_stanza_base, hot_key=("Vbase",))		  
+
+add_voice2menu("start Markdown editing/view", commands_list=[('google-chrome https://codebeautify.org/markdown-editor','shell')], hot_key=("markdown",))		  
+
+add_voice2menu("start Yaml editing/view", commands_list=[('google-chrome https://codebeautify.org/yaml-editor-online','shell')], hot_key=("yaml",))		  
+
+add_voice2menu("start collaborative board (wbo, easy one)", commands_list=(f'google-chrome --new-window https://wbo.ophir.dev/boards/incontro{str(datetime.date.today())}','shell'), hot_key=("wbo",))		  
+add_voice2menu("start collaborative board (aggie, less immidiate than wbo)", commands_list=(f'google-chrome --new-window https://aggie.io/incontro{str(datetime.date.today())}','shell'), hot_key=("aggie",))
+
+add_voice2menu("poll: strawpoll", commands_list=(f'google-chrome --new-window https://strawpoll.com/','shell'), hot_key=("poll1",))		  
+add_voice2menu("poll: vevox gen poll", commands_list=start_vevox_gen, hot_key=("poll2",))		  
+add_voice2menu("poll: vevox", commands_list=(f'google-chrome --new-window https://romeorizzi.vevox.com/','shell'), hot_key=("poll3",))		  
+#add_voice2menu("poll: directpoll", commands_list=(f'google-chrome --new-window https://www.directpoll.com/','shell'), hot_key=("poll2",))		  
+#add_voice2menu("poll: polleverywhere", commands_list=(f'google-chrome --new-window https://www.polleverywhere.com/','shell'), hot_key=("poll3",))		  
+#add_voice2menu("poll: slido", commands_list=(f'google-chrome --new-window https://www.sli.do/','shell'), hot_key=("poll3",))		  
+
+add_voice2menu("TALight via repl 4 python", commands_list=(f'google-chrome --new-window https://replit.com/@RomeoRizziUniVR/rtalpython','shell'), hot_key=("repltalpy",))		  
+add_voice2menu("TALight via repl 4 cpp", commands_list=(f'google-chrome --new-window https://replit.com/@RomeoRizziUniVR/rtalcpp','shell'), hot_key=("repltalcpp",))		  
+add_voice2menu("TALight via repl 4 c", commands_list=(f'google-chrome --new-window https://replit.com/@RomeoRizziUniVR/rtalc','shell'), hot_key=("repltalc",))		  
+
+### END: my current standard hot_menu
+
+
+### My current standard menu system:
+
+add_voice2menu("Choose one of the following:")
+add_voice2menu("Exit", commands_list='exit(0)')		  
+add_voice2menu("Display hot keys table (like with 'go hot')", commands_list=[('display_hot_keys()')], hot_key=("hot",), in_both_menus=True)		  
+						      
+add_voice2menu("My Favorite Cloud Tools", ('google-chrome ./data_files/MyFavoriteCloudTools.md','shell'), hot_key=("cloud",), in_both_menus=True)
+
+add_voice2menu("My Favorite Institutional Pages", ('google-chrome ./data_files/MyFavoriteInstitutionalPages.md','shell'))
+
+add_voice2menu("My Favorite Pages", ('google-chrome ./data_files/MyFavoritePages.md','shell'))
+
+add_voice2menu("My Favorite Servers")
+add_voice2menu("ssh profs (rzzrmo30@profs.sci.univr.it) - attiva la VPN come rzzrmo30", ('ssh rzzrmo30@profs.sci.univr.it','shell'))
+add_voice2menu("ssh pisa", ('ssh pisa','shell'))
+add_voice2menu("ssh tal untunneled (tal@157.27.26.174) - attiva la VPN come rzzrmo30", ('ssh tal@157.27.26.174','shell'))
+add_voice2menu("ssh tal tunneled via Pisa (tal)", ('ssh tal','shell'))
+
+
+### END: my current standard menu system
+
+def perform_cmd(cmd):
+    print(f"cmd={cmd}")
+    if callable(cmd):
+        print(f"I will call function:\n   {cmd}")
+        if (not ASK_CONFIRMATION) or input("Press Enter to execute (or any non-empty string to abort)") == "":
+            cmd()
+    elif type(cmd) == str:
+        print(f"I will execute:\n   {cmd}")
+        if (not ASK_CONFIRMATION) or input("Press Enter to execute (or any non-empty string to abort)") == "":
+            exec(cmd)
+    else:
+        assert type(cmd) == tuple
+        if callable(cmd[0]):
+            cmd[0](cmd[1:])
+        else:
+            assert type(cmd[0]) == str
+            if len(cmd) == 1:
+               print(f"I will execute:\n   {cmd[0]}")
+               if (not ASK_CONFIRMATION) or input("Press Enter to execute (or any non-empty string to abort)") == "":
+                   exec(cmd[0])
+            elif cmd[1]=='shell':
+               string_to_be_executed = "os.system('" + f"{cmd[0]}" + "')"
+               print(f"I will execute:\n   {string_to_be_executed}")
+               if (not ASK_CONFIRMATION) or (len(cmd) >= 3 and cmd[2] == 'y') or input("Press Enter to execute (or any non-empty string to abort)") == "":
+                   exec(string_to_be_executed)
+            else:
+               print(f"Sorry, you have not yet implemented the execution modality {cmd[1]}")
+    
+
+def perform_command_list(command_list):
+    if type(command_list) == list:
+        for cmd in command_list:
+            perform_cmd(cmd)
+    else:
+        perform_cmd(command_list) 
+
+ASK_CONFIRMATION = False
+if len(argv) > 1 and argv[-1] == 'confirm':
+    ASK_CONFIRMATION = True
+    argv = argv[:-1]
+if len(argv) > 1:
+    if tuple(argv[1:]) in hot_menu:
+        command_list = hot_menu[tuple(argv[1:])][1]
+        perform_command_list(command_list)
+    else:
+        display_hot_keys()
+else:
+    while True:
+        to_be_executed = display_menu_and_get_risp()
+        if to_be_executed != None:
+            command_list = menu_only_true_items[to_be_executed][0]
+            perform_command_list(command_list)
+        if input("Press RETURN to return to the main GO menu or enter '0' to exit: ") == '0':
+            exit(0)
+
+exit(0)
