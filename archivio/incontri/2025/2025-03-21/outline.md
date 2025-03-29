@@ -28,4 +28,10 @@
 
 ## Esercizio che consiglio
   produrre dimostrazione che la politica intuita produce sempre una soluzione ottima
-  
+
+## un ulteriore commento (che spesi solo ad incontro successivo 2025-03-27) su come accorgersi che un problema si presta ad un approccio greedy
+
+Il problema muro ci ha consegnato (anche a mè) la seguente lesson learned
+
+**La spia delle brise per il greedy** risolvendo a manina e per benino piccole istanze del problema muro ci si rendeva conto che esistevano soluzioni ottime in cui ogni prefisso delle scelte spese dalla soluzione era soluzione ottima per il rispettivo prefisso dello stream di colori che arrivavano in input.
+

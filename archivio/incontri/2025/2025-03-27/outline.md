@@ -1,10 +1,6 @@
 # Incontro 2025-03-27 (aula T.04)
 
-## un commento su come accorgersi che un problems (il problema [muro](training.olinfo.it/task/terry/muro) di volta scorsa) si presta ad un approccio greedy
-
-risolvendo a mano piccole istanze ci si rendeva conto che esistevano soluzioni ottime in cui ogni prefisso delle scelte spese dalla soluzione era soluzione ottima per il rispettivo prefisso dello stream di colori che arrivavano in input.  
-
-## Grafi
+## Oggi Grafi
 
 ### alcune nozioni
 - la relazione di equivalenza sui nodi (u <--> v se e solo se esiste un cammino di etrremi u e v) e la nozione di componenti connesse
