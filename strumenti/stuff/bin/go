@@ -14,6 +14,9 @@ For convenince, the list might actually be one single command.
 ### recurrent procedures (represented as commands_lists):
 
 start_ro_class = [
+    ('date +"%Y-%m-%d_%B  %A%ttime: %H:%M" >> ~/.bin/go.log','shell'),
+    ('echo " RO class" >> ~/.bin/go.log','shell'),
+    ('echo >> ~/.bin/go.log','shell'),
     (f'google-chrome --new-window https://etherpad.wikimedia.org/p/RicercaOperativa{str(datetime.date.today())[:4]}_indice_incontri','shell','y'),
     (f'google-chrome https://etherpad.wikimedia.org/p/RicercaOperativa{str(datetime.date.today())}','shell','y'),
     ('xournal &','shell','y'),
@@ -30,6 +33,9 @@ start_ro_class = [
 ]
 
 start_algo_class = [
+    ('date +"%Y-%m-%d_%B  %A%ttime: %H:%M" >> ~/.bin/go.log','shell'),
+    ('echo " algo class" >> ~/.bin/go.log','shell'),
+    ('echo >> ~/.bin/go.log','shell'),
     (f'google-chrome --new-window https://etherpad.wikimedia.org/p/Algoritmi{str(datetime.date.today())[:4]}_indice_incontri','shell','y'),
     (f'google-chrome https://etherpad.wikimedia.org/p/Algoritmi{str(datetime.date.today())}','shell','y'),
     ('xournal &','shell','y'),
@@ -46,6 +52,9 @@ start_algo_class = [
 ]
 
 start_DODM_class = [
+    ('date +"%Y-%m-%d_%B  %A%ttime: %H:%M" >> ~/.bin/go.log','shell'),
+    ('echo " DODM class" >> ~/.bin/go.log','shell'),
+    ('echo >> ~/.bin/go.log','shell'),
     (f'google-chrome --new-window https://etherpad.wikimedia.org/p/DiscreteOptimization{str(datetime.date.today())[:4]}_indice_incontri','shell','y'),
     (f'google-chrome https://etherpad.wikimedia.org/p/DiscreteOptimization{str(datetime.date.today())}','shell','y'),
     (f'google-chrome https://wbo.ophir.dev/boards/LavagnaDODM{str(datetime.date.today())}_1','shell','y'),
@@ -65,6 +74,9 @@ start_vevox_gen = [
 ]
 
 start_problem_recording = [
+    ('date +"%Y-%m-%d_%B  %A%ttime: %H:%M" >> ~/.bin/go.log','shell'),
+    ('echo " problem recording session" >> ~/.bin/go.log','shell'),
+    ('echo >> ~/.bin/go.log','shell'),
     ('google-chrome --new-window https://univr.zoom.us/j/81482187359','shell','y'),
     ('google-chrome https://etherpad.wikimedia.org/p/problem_recording','shell','y'),
     ('google-chrome https://aggie.io/problem_recording','shell','y'),
@@ -97,19 +109,25 @@ start_Volterra_stanza_base = [
 ]
 
 start_meeting = [
+    ('date +"%Y-%m-%d_%B  %A%ttime: %H:%M" >> ~/.bin/go.log','shell'),
+    ('echo " generic meeting" >> ~/.bin/go.log','shell'),
+    ('echo >> ~/.bin/go.log','shell'),
     ('google-chrome --new-window https://univr.zoom.us/j/3518684000','shell'),
-    ('xournal &','shell','y'),
-    ('google-chrome https://etherpad.wikimedia.org/p/Romeo_meeting','shell'),
+#    ('xournal &','shell','y'),
+    (f'google-chrome https://etherpad.wikimedia.org/p/Romeo_meeting{str(datetime.date.today())}','shell'),
 #    ('google-chrome https://aggie.io/Romeo_meeting','shell'),
-    ('google-chrome https://wbo.ophir.dev/boards/Romeo_meeting','shell','y'),
+    ('google-chrome https://wbo.ophir.dev/boards/Romeo_meeting{str(datetime.date.today())}','shell','y'),
 ]
 
 start_TAL_meeting = [
+    ('date +"%Y-%m-%d_%B  %A%ttime: %H:%M" >> ~/.bin/go.log','shell'),
+    ('echo " TAL-meeting" >> ~/.bin/go.log','shell'),
+    ('echo >> ~/.bin/go.log','shell'),
     ('google-chrome --new-window https://univr.zoom.us/j/96977957561','shell'),
-    ('xournal &','shell','y'),
-    ('google-chrome https://etherpad.wikimedia.org/p/TAL_meeting','shell'),
+#    ('xournal &','shell','y'),
+    (f'google-chrome https://etherpad.wikimedia.org/p/TAL_meeting{str(datetime.date.today())}','shell'),
 #    ('google-chrome https://aggie.io/TAL_meeting','shell'),
-    ('google-chrome https://wbo.ophir.dev/boards/TAL_meeting','shell','y'),
+    (f'google-chrome https://wbo.ophir.dev/boards/TAL_meeting{str(datetime.date.today())}','shell','y'),
 ]
 
 
