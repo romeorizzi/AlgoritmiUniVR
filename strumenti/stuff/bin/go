@@ -110,9 +110,8 @@ start_TAL_meeting = [
     ('echo >> ~/.bin/go.log','shell'),
     ('google-chrome --new-window https://univr.zoom.us/j/96977957561','shell'),
 #    ('xournal &','shell','y'),
-    (f'google-chrome https://etherpad.wikimedia.org/p/TAL_meeting{str(datetime.date.today())}','shell'),
-#    ('google-chrome https://aggie.io/TAL_meeting','shell'),
-    (f'google-chrome https://wbo.ophir.dev/boards/TAL_meeting{str(datetime.date.today())}','shell','y'),
+    (f'google-chrome https://etherpad.wikimedia.org/p/TAL{str(datetime.date.today())}','shell'),
+    (f'google-chrome https://wbo.ophir.dev/boards/TAL{str(datetime.date.today())}','shell','y'),
 ]
 
 
