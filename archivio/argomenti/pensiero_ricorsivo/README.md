@@ -1,6 +1,7 @@
 # Problemi sul Pensiero Ricorsivo
 
 - [conio1](../../problemi/conio1)
+- [borse](../../problemi/borse)
 - [ricerca_binaria](../../problemi/ricerca_binaria)
 - [piastrelle](../../problemi/piastrelle)
 - [FBF_trasparenti](../../problemi/FBF_trasparenti)

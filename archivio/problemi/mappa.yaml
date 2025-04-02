@@ -3,6 +3,7 @@
     readme_title: Problemi sul Counting
     problems:
     - codename: piastrelle
+    - codename: borse
     - codename: monotone_01_matrix
       appello: 2023-09-15
     - codename: FBF_trasparenti
@@ -26,6 +27,7 @@
     readme_title: Problemi sul Pensiero Ricorsivo
     problems:
     - codename: conio1
+    - codename: borse
     - codename: ricerca_binaria
       appello: 2023-07-07
     - codename: piastrelle
@@ -40,6 +42,7 @@
     readme_title: Problemi su Ranking e Unranking
     problems:
     - codename: piastrelle
+    - codename: borse
     - codename: monotone_01_matrix
       appello: 2023-09-15
     - codename: FBF_trasparenti
@@ -47,6 +50,7 @@
 - enumerating:
     readme_title: Problemi sull'Enumerazione
     problems:
+    - codename: borse
     - codename: FBF_trasparenti
       appello: 2023-06-23
     - codename: prev_and_next
@@ -55,12 +59,20 @@
     problems:
     - codename: prima_PD_su_linea
     - codename: prima_PD_non_locale_su_linea
+    - codename: borse
     - codename: conio3
     - codename: mostra
     - codename: lists_alignment
+    - codename: pianostudi
     - codename: poldo_bis
     - codename: poldo_mania
       appello: 2023-09-15
+- ricerca_binaria:
+    readme_title: Problemi che coinvolgono la ricerca binaria
+    problems:
+    - codename: pianostudi
+    - codename: ricerca_binaria
+      appello: 2023-07-07
 - divide_et_impera:
     readme_title: Problemi su Divide et Impera
     problems:
@@ -71,7 +83,9 @@
     readme_title: Problemi Greedy
     problems:
     - codename: conio1
+    - codename: muro
     - codename: domino
+    - codename: pianostudi
 - buone_caratterizzazioni:
     readme_title: Problemi sulle Buone Caratterizzazioni
     problems:
@@ -91,6 +105,7 @@
     readme_title: Problemi di Ingenuity
     problems:
     - codename: conio1
+    - codename: muro
     - codename: pioggia
     - codename: marea
     - codename: domino
