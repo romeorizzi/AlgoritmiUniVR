@@ -80,6 +80,6 @@ if __name__ == "__main__":
         else:
             with open(os.path.join(".", pcodename, "README.md"), "w") as fout:
                 fout.write("# Argomenti/tecniche di pertinenza\n\n - ")
-                fout.write("\n - ".join(lista_topics))
+                fout.write("\n - ".join(lista_topics) + "\n")
     
     print("\nOk 2: per ciascun problema ho listato gli argomenti che tocca.")
