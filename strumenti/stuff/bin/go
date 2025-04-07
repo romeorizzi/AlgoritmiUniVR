@@ -208,11 +208,11 @@ add_voice2menu("Choose one of the following:")
 add_voice2menu("Exit", commands_list='exit(0)')		  
 add_voice2menu("Display hot keys table (like with 'go hot')", commands_list=[('display_hot_keys()')], hot_key=("hot",), in_both_menus=True)		  
 						      
-add_voice2menu("My Favorite Cloud Tools", ('google-chrome ./data_files/MyFavoriteCloudTools.md','shell'), hot_key=("cloud",), in_both_menus=True)
+add_voice2menu("My Favorite Cloud Tools", ('google-chrome ~/.bin/data_files/MyFavoriteCloudTools.md','shell'), hot_key=("cloud",), in_both_menus=True)
 
-add_voice2menu("My Favorite Institutional Pages", ('google-chrome ./data_files/MyFavoriteInstitutionalPages.md','shell'))
+add_voice2menu("My Favorite Institutional Pages", ('google-chrome ~/.bin/data_files/MyFavoriteInstitutionalPages.md','shell'))
 
-add_voice2menu("My Favorite Pages", ('google-chrome ./data_files/MyFavoritePages.md','shell'))
+add_voice2menu("My Favorite Pages", ('google-chrome ~/.bin/data_files/MyFavoritePages.md','shell'))
 
 add_voice2menu("My Favorite Servers")
 add_voice2menu("ssh profs (rzzrmo30@profs.sci.univr.it) - attiva la VPN come rzzrmo30", ('ssh rzzrmo30@profs.sci.univr.it','shell'))
