@@ -1,4 +1,3 @@
-# Problemi che coinvolgono la ricerca binaria
+# Ricerca Binaria
 
-- [pianostudi](../../problemi/pianostudi)
 - [ricerca_binaria](../../problemi/ricerca_binaria)

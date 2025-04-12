@@ -42,7 +42,7 @@ Offre uno storico di lezioni, argomenti e problemi affrontati, organizzato in:
 ### 💍 [risorse](risorse/)  
   Materiali, dispense e video nostri ma anche link a risorse esterne come manuali, piattaforme con problemi, video e interi corsi estremamente validi ad approfondire gli argomenti trattati, acquisire competenze, e prepararsi al meglio alle prove ed esami.
   - [videoregistrazioni nostre 🎬](risorse/videoregistrazioni_nostre)
-  - **Levanto** 📚: per vedere quali testi adottati dal corso sono resi disponibili da questo servizio di ateneo o un primo orientamento su ottimi materiali che puoi trovare nel web
+  - **Leganto** 📚: per vedere quali testi adottati dal corso sono resi disponibili da questo servizio di ateneo o un primo orientamento su ottimi materiali che puoi trovare nel web
 
 ## 🔎 ⚡ Come trovare velocemente ciò che cerchi: 
 

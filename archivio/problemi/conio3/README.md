@@ -1,3 +1,7 @@
-# Argomenti/tecniche di pertinenza
+# Composizione di una somma dovuta (conio3)
 
- - programmazione_dinamica
+
+
+## Argomenti/tecniche di pertinenza
+
+ - **programmazione_dinamica**

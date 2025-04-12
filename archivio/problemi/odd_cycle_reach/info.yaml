@@ -1,0 +1,20 @@
+---
+codename: odd_cycle_reach
+title: Identiﬁcare quei nodi da cui si possa raggiungere un ciclo dispari
+main_topics: [ buone_caratterizzazioni ]
+topics: [grafi, BFS]
+similar_problems: [ tecla ]
+try_next: long_walk
+try_before: connected_components
+appello_algoritmi:
+TAL_esercizi: [ algo, RO, DODM ]
+TAL_homeworks: [ algo, RO, DODM ]
+materiali:
+  scritti:
+  video_presentazione:
+  video_discussione:
+  video_soluzione:
+  video_codifica:
+  tutorial:
+
+...

@@ -1,0 +1,161 @@
+---
+pensiero_ricorsivo:
+  readme_title: Pensiero Ricorsivo
+  materiali:
+    scritti:
+    video:
+    tutorial:
+    risorse:
+counting:
+  readme_title: Counting
+  related: [ranking_unranking, enumeration]
+  suptopics: [pensiero_ricorsivo]
+  requirements: [pensiero_ricorsivo]
+  materiali:
+    scritti:
+    video:
+    tutorial:
+    risorse:
+ranking_unranking:
+  readme_title: Ranking e Unranking
+  related: [counting, enumeration]
+  suptopics: [pensiero_ricorsivo]
+  requirements: [pensiero_ricorsivo]
+enumeration:
+  readme_title: Enumerazione
+  related: [ranking_unranking, counting,backtracking]
+  suptopics: [pensiero_ricorsivo]
+  requirements: [pensiero_ricorsivo]
+listing: 
+  readme_title: Listing 
+  related: [enumeration]
+  suptopics: [pensiero_ricorsivo]
+  requirements: [pensiero_ricorsivo]
+programmazione_dinamica:
+  readme_title: Programmazione Dinamica
+  related: [ricorsione_con_memoizzazione]
+  suptopics: [pensiero_ricorsivo]
+  requirements: [pensiero_ricorsivo]
+ricerca_binaria:
+  readme_title: Ricerca Binaria
+  related: [ranking_unranking,strutture_dati]
+  suptopics: [pensiero_ricorsivo]
+  requirements: [pensiero_ricorsivo]
+divide_et_impera:
+  readme_title: Divide et Impera
+  related: [ranking_unranking, enumeration]
+  suptopics: [pensiero_ricorsivo]
+  requirements: [pensiero_ricorsivo]
+greedy:
+  readme_title: Greedy
+  materiali:
+    scritti:
+    video:
+    tutorial:
+    risorse:
+analisi_amortizzata:
+  readme_title: Analisi Amortizzata 
+  materiali:
+    scritti: "Capitolo sull'Analisi Amortizzata del testo `Introduction to Algorithms` di Cormen, Leiserson e Rivest reso gratuitamente disponibile dal [servizio Leganto di ateneo](https://univr.alma.exlibrisgroup.com/leganto/public/39UVR_INST/lists/5060419080005791?auth=SAML)"
+    video:
+    tutorial:
+    risorse:
+grafi:
+  readme_title: Grafi
+  materiali:
+    scritti:
+    video:
+    tutorial:
+    risorse:
+BFS:
+  readme_title: BFS
+DFS:
+  readme_title: DFS
+buone_caratterizzazioni:
+  readme_title: Buone Caratterizzazioni
+invarianti:
+  readme_title: Invarianti
+monovarianti:
+  readme_title: Monovarianti
+ingenuity:
+  readme_title: Ingenuity
+giochi:
+  readme_title: Giochi
+  materiali:
+    scritti:
+    video:
+    tutorial:
+    risorse:
+progressively_finite_games:
+  readme_title: Progressively Finite Games
+number_theory:
+  readme_title: Number Theory
+fast-exponentiation:
+  readme_title: Fast Exponentiation 
+inclusion-exclusion:
+  readme_title: Inclusione-Esclusione
+color-coding:
+  readme_title: Color-Coding
+  suptopics: [randomizzazione]
+hashing:
+  readme_title: Hashing
+  suptopics: [randomizzazione]
+randomizzazione:
+  readme_title: Randomizzazione
+riconcettualizzare_formulazione:
+  readme_title: Elaborare una formulazione propria o una riformulazione del problema prima di affrontarlo
+riconcettualizzare_per_risolvere:
+  readme_title: Saper cambiare cavallo in corsa, riportare ad un modello già noto o anche ad uno di propria invenzione
+riconcettualizzare_per_efficientare:
+  readme_title: un cambio di prospettiva consente di passare da un primo algoritmo ad un algoritmo più efficiente
+riconcettualizzare_per_semplificare:
+  readme_title: un cambio di prospettiva dona semplicità
+riconcettualizzare_codifica:
+  readme_title: Come/quando/quanto riconcettualizzare anche dopo aver trovato una prima soluzione, per meglio agire/codificare
+organizzare_la_codifica:
+  readme_title: Saper Organizzare la Codifica
+riduzioni:
+  readme_title: Riduzioni
+  materiali:
+    scritti:
+    video:
+    tutorial:
+    risorse:
+np_hard_opt:
+  readme_title: NP-hard Optimization
+FPT_algorithms:
+  readme_title: FPT Algorithms
+approximation_algorithms:
+  readme_title: Approximation Algorithms
+  materiali:
+    scritti:
+    video:
+    tutorial:
+    risorse:
+euristic_algorithms:
+  readme_title: Euristic Algorithms
+gray_codes:
+  readme_title: Gray Codes
+  suptopics: [pensiero_ricorsivo]
+  requirements: [pensiero_ricorsivo]
+fast_exponentiation:
+  readme_title: Fast Exponentiation
+  suptopics: [pensiero_ricorsivo]
+  requirements: [pensiero_ricorsivo]
+strutture_dati:
+  readme_title: Strutture Dati
+prefix_sums:
+  readme_title: Prefix-Sums 
+  suptopics: [strutture_dati]
+stacks:
+  readme_title: 
+  suptopics: [strutture_dati]
+binary_heaps: &binary_heaps
+  readme_title: Binary Heaps 
+  suptopics: [strutture_dati]
+priority_queues: *binary_heaps
+fenwick_trees:
+  readme_title: Fenwick Trees 
+  suptopics: [strutture_dati]
+
+...

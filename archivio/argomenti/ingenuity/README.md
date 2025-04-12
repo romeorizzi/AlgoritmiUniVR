@@ -1,10 +1,12 @@
-# Problemi di Ingenuity
+# Ingenuity
 
-- [conio1](../../problemi/conio1)
-- [muro](../../problemi/muro)
-- [pioggia](../../problemi/pioggia)
 - [marea](../../problemi/marea)
+- [poldo_bis](../../problemi/poldo_bis)
+- [conio1](../../problemi/conio1)
+- [pioggia](../../problemi/pioggia)
 - [domino](../../problemi/domino)
+- [pianostudi](../../problemi/pianostudi)
+- [muro](../../problemi/muro)
 - [formiche](../../problemi/formiche)
-- [accensione](../../problemi/accensione)
-- [conio2](../../problemi/conio2)
+- [binary_heap](../../problemi/binary_heap)
+- [prefixflip_solitaire](../../problemi/prefixflip_solitaire)

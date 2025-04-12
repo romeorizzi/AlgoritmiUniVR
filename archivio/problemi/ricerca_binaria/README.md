@@ -1,5 +1,8 @@
-# Argomenti/tecniche di pertinenza
+# Ricerca Binaria (ricerca_binaria)
 
- - pensiero_ricorsivo
+
+
+## Argomenti/tecniche di pertinenza
+
+ - **pensiero_ricorsivo**
  - ricerca_binaria
- - divide_et_impera

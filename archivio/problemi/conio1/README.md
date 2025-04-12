@@ -1,5 +1,15 @@
-# Argomenti/tecniche di pertinenza
+# Come dare il resto (conio1)
 
- - pensiero_ricorsivo
- - greedy
+
+
+## Argomenti/tecniche di pertinenza
+
+ - **greedy**
  - ingenuity
+## Problemi Simili
+
+ - muro
+
+> [!TIP]
+> Se vuoi approfondire su questa linea un buon prossimo problema potrebbe essere `muro`.
+

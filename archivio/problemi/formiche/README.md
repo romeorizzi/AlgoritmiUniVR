@@ -1,5 +1,11 @@
-# Argomenti/tecniche di pertinenza
+# Borse di Studio (formiche)
 
- - invarianti
+
+
+## Argomenti/tecniche di pertinenza
+
+ - **invarianti**
  - ingenuity
- - saper_organizzare_la_codifica
+ - riconcettualizzare_per_risolvere
+ - riconcettualizzare_codifica
+ - organizzare_la_codifica

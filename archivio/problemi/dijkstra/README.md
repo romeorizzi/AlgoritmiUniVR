@@ -1,3 +1,8 @@
-# Argomenti/tecniche di pertinenza
+# pratica con l'algoritmo di Dijkstra (dijkstra)
 
- - grafi
+
+
+## Argomenti/tecniche di pertinenza
+
+ - **grafi**
+ - priority_queues

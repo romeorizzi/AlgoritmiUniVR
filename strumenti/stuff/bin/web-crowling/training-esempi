@@ -1,0 +1,47 @@
+# formato degli URL di problema sul sito training
+territoriali:
+ https://training.olinfo.it/task/terry/calcolatrice
+nazionali:
+ https://training.olinfo.it/task/oii_condomini
+Pre-Oii
+ https://training.olinfo.it/task/preoii_sabbia
+OIS:
+ https://training.olinfo.it/task/ois_pianostudi/tags
+-------------
+
+# controllare se una pagina web esiste
+
+URL="http://www.google.com"
+
+if wget --spider "${URL}" 2>/dev/null; then
+    echo "OK !"
+else
+    echo "ERROR ! Online URL ${URL} not found !"
+fi
+-------------
+
+# eseguire un comando per ciascuna riga di uno stream o file
+
+while read line; do   echo "$line"; done < prova.txt
+-------------
+
+# ciclare su una lista hardcoded di stringhe
+
+for str in "A" B "C + c" ; do echo $str ; done
+
+-yield output:
+A
+B
+C + c
+-------------
+
+
+# produrre la lista di quali URL ("terry/","oii_","preoii_","ois_") esitanto su https://training.olinfo.it/task/ con codename problema pari al nome di un mio folder problema
+
+for f in `ls` ; do if [ -d "${f}" ] ; then if [ -f ${f}/info.yaml ]; then for str in "terry/" "oii_" "preoii_" "ois_" ; do URL="https://training.olinfo.it/task/${str}${f}" ; echo "trying URL $URL" ; if wget --spider "${URL}" 2>/dev/null; then echo "${f}   ${URL}" >> listaURLs.txt ; fi ; done ; fi ; fi ; done
+-------------
+
+# promuovere l'editing assistito dei file info.yaml
+
+while read -r codename URL ; do echo "codename=${codename}" ; echo "URL=${URL}" ; google-chrome ${URL} ; emacs "${codename}/info.yaml" ; done < listaURLs.txt
+-------------

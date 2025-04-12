@@ -1,0 +1,3 @@
+# None
+
+- [domino](../../problemi/domino)

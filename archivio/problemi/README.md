@@ -1,120 +1,258 @@
 # Elenco problemi raccolti per argomenti
 
-Uno stesso problema può ricadere sotto più argomenti.
+> [!TIP]
+> Clicca sugli argomenti per visualizzarne la lista dei relativi problemi.
 
-## Problemi sul Counting
+> [!NOTE]
+> Uno stesso problema può ricadere sotto più argomenti.
 
-- [piastrelle](../../problemi/piastrelle)
-- [borse](../../problemi/borse)
-- [monotone_01_matrix](../../problemi/monotone_01_matrix)
-- [FBF_trasparenti](../../problemi/FBF_trasparenti)
-- [mostra](../../problemi/mostra)
+<details>
+<summary>Pensiero Ricorsivo</summary>
 
-## Problemi sui Grafi
+- [poldo_bis](poldo_bis)
+- [borse](borse)
+- [conio2](conio2)
+- [quanti_poldo](quanti_poldo)
+- [forza_mediana](forza_mediana)
+- [poldo_mania](poldo_mania)
+- [monotone_01_matrix](monotone_01_matrix)
+- [FBF_trasparenti](FBF_trasparenti)
+- [lists_alignment](lists_alignment)
+- [tavola_rotonda](tavola_rotonda)
+- [ricerca_binaria](ricerca_binaria)
+- [prev_and_next](prev_and_next)
+- [prima_PD_su_linea](prima_PD_su_linea)
+- [prima_PD_su_linea_fast_exp](prima_PD_su_linea_fast_exp)
+- [piastrelle](piastrelle)
+- [nim2](nim2)
+- [accensione](accensione)
+- [prima_PD_su_linea_interactive](prima_PD_su_linea_interactive)
+- [prima_PD_non_locale_su_linea](prima_PD_non_locale_su_linea)
+- [brothers_in_arms](brothers_in_arms)
+- [matching_bipartito](matching_bipartito)
+- [qkernels](qkernels)
+- [prefixflip_solitaire](prefixflip_solitaire)
+</details><details>
+<summary>Counting</summary>
 
-- [BFS](../../problemi/BFS)
-- [connected_components](../../problemi/connected_components)
-- [mutually_unreachable](../../problemi/mutually_unreachable)
-- [mostra](../../problemi/mostra)
-- [dijkstra](../../problemi/dijkstra)
-- [fire_escape](../../problemi/fire_escape)
-- [interruttori](../../problemi/interruttori)
-- [tecla](../../problemi/tecla)
-- [odd_cycle_reach](../../problemi/odd_cycle_reach)
+- [borse](borse)
+- [quanti_poldo](quanti_poldo)
+- [monotone_01_matrix](monotone_01_matrix)
+- [FBF_trasparenti](FBF_trasparenti)
+- [prev_and_next](prev_and_next)
+- [piastrelle](piastrelle)
+- [prima_PD_non_locale_su_linea](prima_PD_non_locale_su_linea)
+- [matching_bipartito](matching_bipartito)
+</details><details>
+<summary>Ranking e Unranking</summary>
 
-## Problemi sul Pensiero Ricorsivo
+- [borse](borse)
+- [quanti_poldo](quanti_poldo)
+- [monotone_01_matrix](monotone_01_matrix)
+- [FBF_trasparenti](FBF_trasparenti)
+- [prev_and_next](prev_and_next)
+- [piastrelle](piastrelle)
+- [prima_PD_non_locale_su_linea](prima_PD_non_locale_su_linea)
+- [matching_bipartito](matching_bipartito)
+</details><details>
+<summary>Enumerazione</summary>
 
-- [conio1](../../problemi/conio1)
-- [borse](../../problemi/borse)
-- [ricerca_binaria](../../problemi/ricerca_binaria)
-- [piastrelle](../../problemi/piastrelle)
-- [FBF_trasparenti](../../problemi/FBF_trasparenti)
-- [qkernels](../../problemi/qkernels)
-- [forza_mediana](../../problemi/forza_mediana)
-- [brothers_in_arms](../../problemi/brothers_in_arms)
-- [prima_PD_su_linea_fast_exp](../../problemi/prima_PD_su_linea_fast_exp)
-- [matita](../../problemi/matita)
+- [borse](borse)
+- [monotone_01_matrix](monotone_01_matrix)
+- [FBF_trasparenti](FBF_trasparenti)
+- [prev_and_next](prev_and_next)
+- [piastrelle](piastrelle)
+- [matching_bipartito](matching_bipartito)
+</details><details>
+<summary>Listing</summary>
 
-## Problemi su Ranking e Unranking
+</details><details>
+<summary>Programmazione Dinamica</summary>
 
-- [piastrelle](../../problemi/piastrelle)
-- [borse](../../problemi/borse)
-- [monotone_01_matrix](../../problemi/monotone_01_matrix)
-- [FBF_trasparenti](../../problemi/FBF_trasparenti)
+- [poldo_bis](poldo_bis)
+- [conio2](conio2)
+- [quanti_poldo](quanti_poldo)
+- [down_to_the_origin](down_to_the_origin)
+- [poldo_mania](poldo_mania)
+- [lists_alignment](lists_alignment)
+- [mostra](mostra)
+- [funghi](funghi)
+- [prima_PD_su_linea](prima_PD_su_linea)
+- [prima_PD_su_linea_fast_exp](prima_PD_su_linea_fast_exp)
+- [pianostudi](pianostudi)
+- [prima_PD_su_linea_interactive](prima_PD_su_linea_interactive)
+- [prima_PD_non_locale_su_linea](prima_PD_non_locale_su_linea)
+- [brothers_in_arms](brothers_in_arms)
+- [conio3](conio3)
+</details><details>
+<summary>Ricerca Binaria</summary>
 
-## Problemi sull'Enumerazione
+- [ricerca_binaria](ricerca_binaria)
+</details><details>
+<summary>Divide et Impera</summary>
 
-- [borse](../../problemi/borse)
-- [FBF_trasparenti](../../problemi/FBF_trasparenti)
-- [prev_and_next](../../problemi/prev_and_next)
+- [forza_mediana](forza_mediana)
+</details><details>
+<summary>Greedy</summary>
 
-## Problemi di Programmazione Dinamica
+- [conio1](conio1)
+- [pianostudi](pianostudi)
+- [muro](muro)
+</details><details>
+<summary>Analisi Amortizzata</summary>
 
-- [prima_PD_su_linea](../../problemi/prima_PD_su_linea)
-- [prima_PD_non_locale_su_linea](../../problemi/prima_PD_non_locale_su_linea)
-- [borse](../../problemi/borse)
-- [conio3](../../problemi/conio3)
-- [mostra](../../problemi/mostra)
-- [lists_alignment](../../problemi/lists_alignment)
-- [pianostudi](../../problemi/pianostudi)
-- [poldo_bis](../../problemi/poldo_bis)
-- [poldo_mania](../../problemi/poldo_mania)
+- [baloni](baloni)
+</details><details>
+<summary>Grafi</summary>
 
-## Problemi che coinvolgono la ricerca binaria
+- [tecla](tecla)
+- [fire_escape](fire_escape)
+- [odd_cycle_reach](odd_cycle_reach)
+- [mutually_unreachable](mutually_unreachable)
+- [BFS](BFS)
+- [connected_components](connected_components)
+- [interruttori](interruttori)
+- [dijkstra](dijkstra)
+- [matita](matita)
+</details><details>
+<summary>BFS</summary>
 
-- [pianostudi](../../problemi/pianostudi)
-- [ricerca_binaria](../../problemi/ricerca_binaria)
+- [fire_escape](fire_escape)
+- [odd_cycle_reach](odd_cycle_reach)
+- [mutually_unreachable](mutually_unreachable)
+- [connected_components](connected_components)
+- [interruttori](interruttori)
+</details><details>
+<summary>DFS</summary>
 
-## Problemi su Divide et Impera
+- [matita](matita)
+</details><details>
+<summary>Buone Caratterizzazioni</summary>
 
-- [ricerca_binaria](../../problemi/ricerca_binaria)
-- [forza_mediana](../../problemi/forza_mediana)
+- [tecla](tecla)
+- [odd_cycle_reach](odd_cycle_reach)
+- [funghi](funghi)
+- [brothers_in_arms](brothers_in_arms)
+- [matita](matita)
+</details><details>
+<summary>Invarianti</summary>
 
-## Problemi Greedy
+- [formiche](formiche)
+</details><details>
+<summary>Monovarianti</summary>
 
-- [conio1](../../problemi/conio1)
-- [muro](../../problemi/muro)
-- [domino](../../problemi/domino)
-- [pianostudi](../../problemi/pianostudi)
+- [prefixflip_solitaire](prefixflip_solitaire)
+</details><details>
+<summary>Ingenuity</summary>
 
-## Problemi sulle Buone Caratterizzazioni
+- [marea](marea)
+- [poldo_bis](poldo_bis)
+- [conio1](conio1)
+- [pioggia](pioggia)
+- [domino](domino)
+- [pianostudi](pianostudi)
+- [muro](muro)
+- [formiche](formiche)
+- [binary_heap](binary_heap)
+- [prefixflip_solitaire](prefixflip_solitaire)
+</details><details>
+<summary>Giochi</summary>
 
-- [domino](../../problemi/domino)
-- [tecla](../../problemi/tecla)
-- [matita](../../problemi/matita)
+- [poldo_bis](poldo_bis)
+- [down_to_the_origin](down_to_the_origin)
+- [nim2](nim2)
+</details><details>
+<summary>Progressively Finite Games</summary>
 
-## Problemi sugli Invarianti
+- [down_to_the_origin](down_to_the_origin)
+- [nim2](nim2)
+</details><details>
+<summary>Number Theory</summary>
 
-- [brothers_in_arms](../../problemi/brothers_in_arms)
-- [formiche](../../problemi/formiche)
+- [accensione](accensione)
+</details><details>
+<summary>Fast Exponentiation</summary>
 
-## Problemi sulle Monovarianti
+- [prima_PD_su_linea_fast_exp](prima_PD_su_linea_fast_exp)
+</details><details>
+<summary>Inclusione-Esclusione</summary>
 
-- [prefixflip_solitaire](../../problemi/prefixflip_solitaire)
+</details><details>
+<summary>Color-Coding</summary>
 
-## Problemi di Ingenuity
+</details><details>
+<summary>Hashing</summary>
 
-- [conio1](../../problemi/conio1)
-- [muro](../../problemi/muro)
-- [pioggia](../../problemi/pioggia)
-- [marea](../../problemi/marea)
-- [domino](../../problemi/domino)
-- [formiche](../../problemi/formiche)
-- [accensione](../../problemi/accensione)
-- [conio2](../../problemi/conio2)
+</details><details>
+<summary>Randomizzazione</summary>
 
-## Problemi sui Giochi
+</details><details>
+<summary>Elaborare una formulazione propria o una riformulazione del problema prima di affrontarlo</summary>
 
-- [nim2](../../problemi/nim2)
-- [down_to_the_origin](../../problemi/down_to_the_origin)
+- [interruttori](interruttori)
+</details><details>
+<summary>Saper cambiare cavallo in corsa, riportare ad un modello già noto o anche ad uno di propria invenzione</summary>
 
-## Problemi di Number Theory
+- [mostra](mostra)
+- [formiche](formiche)
+</details><details>
+<summary>un cambio di prospettiva consente di passare da un primo algoritmo ad un algoritmo più efficiente</summary>
 
-- [accensione](../../problemi/accensione)
-- [conio2](../../problemi/conio2)
-- [prima_PD_su_linea_fast_exp](../../problemi/prima_PD_su_linea_fast_exp)
+- [interruttori](interruttori)
+</details><details>
+<summary>un cambio di prospettiva dona semplicità</summary>
 
-## Problemi su Saper Organizzare la Codifica
+- [tecla](tecla)
+</details><details>
+<summary>Come/quando/quanto riconcettualizzare anche dopo aver trovato una prima soluzione, per meglio agire/codificare</summary>
 
-- [formiche](../../problemi/formiche)
-- [matita](../../problemi/matita)
+- [formiche](formiche)
+</details><details>
+<summary>Saper Organizzare la Codifica</summary>
+
+- [formiche](formiche)
+</details><details>
+<summary>Riduzioni</summary>
+
+</details><details>
+<summary>NP-hard Optimization</summary>
+
+</details><details>
+<summary>FPT Algorithms</summary>
+
+</details><details>
+<summary>Approximation Algorithms</summary>
+
+</details><details>
+<summary>Euristic Algorithms</summary>
+
+</details><details>
+<summary>Gray Codes</summary>
+
+</details><details>
+<summary>Fast Exponentiation</summary>
+
+</details><details>
+<summary>Strutture Dati</summary>
+
+</details><details>
+<summary>Prefix-Sums</summary>
+
+</details><details>
+<summary>None</summary>
+
+- [domino](domino)
+</details><details>
+<summary>Binary Heaps</summary>
+
+- [dijkstra](dijkstra)
+- [binary_heap](binary_heap)
+</details><details>
+<summary>Binary Heaps</summary>
+
+- [dijkstra](dijkstra)
+- [binary_heap](binary_heap)
+</details><details>
+<summary>Fenwick Trees</summary>
+
+</details>

@@ -1,11 +1,11 @@
-# Problemi sui Grafi
+# Grafi
 
+- [tecla](../../problemi/tecla)
+- [fire_escape](../../problemi/fire_escape)
+- [odd_cycle_reach](../../problemi/odd_cycle_reach)
+- [mutually_unreachable](../../problemi/mutually_unreachable)
 - [BFS](../../problemi/BFS)
 - [connected_components](../../problemi/connected_components)
-- [mutually_unreachable](../../problemi/mutually_unreachable)
-- [mostra](../../problemi/mostra)
-- [dijkstra](../../problemi/dijkstra)
-- [fire_escape](../../problemi/fire_escape)
 - [interruttori](../../problemi/interruttori)
-- [tecla](../../problemi/tecla)
-- [odd_cycle_reach](../../problemi/odd_cycle_reach)
+- [dijkstra](../../problemi/dijkstra)
+- [matita](../../problemi/matita)

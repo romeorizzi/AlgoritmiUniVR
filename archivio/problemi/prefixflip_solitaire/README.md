@@ -1,3 +1,9 @@
-# Argomenti/tecniche di pertinenza
+# Rovescia preﬁsso come comanda (prefixflip_solitaire)
 
- - monovarianti
+
+
+## Argomenti/tecniche di pertinenza
+
+ - **monovarianti**
+ - ingenuity
+ - pensiero_ricorsivo

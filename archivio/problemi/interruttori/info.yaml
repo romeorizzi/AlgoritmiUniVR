@@ -1,0 +1,24 @@
+---
+codename: interruttori
+title: Caccia agli interruttori
+main_topics: [ BFS ]
+topics: [grafi, riconcettualizzare_per_efficientare, riconcettualizzare_formulazione]
+similar_problems: [ fire_escape ]
+try_next: cesena
+try_before: fire_escape
+appello_algoritmi:
+TAL_esercizi: [ algo, RO, DODM ]
+TAL_homeworks: [ algo, RO, DODM ]
+training:
+  URL: https://training.olinfo.it/task/terry/interruttori
+  evento: territoriali
+  year: 2024
+materiali:
+  scritti:
+  video_presentazione:
+  video_discussione:
+  video_soluzione:
+  video_codifica:
+  tutorial:
+
+...
