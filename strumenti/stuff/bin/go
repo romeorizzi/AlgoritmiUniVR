@@ -55,6 +55,20 @@ start_DODM_class = [
     (f'echo Collaborative WhiteBoard: https://wbo.ophir.dev/boards/DODM{str(datetime.date.today())}_1','shell','y'),
 ]
 
+start_sfide_class = [
+    ('date +"%Y-%m-%d_%B  %A%ttime: %H:%M" >> ~/.bin/go.log','shell'),
+    ('echo " sfide class go" >> ~/.bin/go.log','shell'),
+    ('echo >> ~/.bin/go.log','shell'),
+    (f'google-chrome --new-window https://wbo.ophir.dev/boards/sfide{str(datetime.date.today())}_1','shell','y'),
+    (f'google-chrome https://etherpad.wikimedia.org/p/sfide_meetings{str(datetime.date.today())[:4]}','shell','y'),
+    (f'google-chrome https://etherpad.wikimedia.org/p/sfide{str(datetime.date.today())}','shell','y'),
+    ('google-chrome https://univr.zoom.us/j/99139510848','shell','y'),
+    ('echo Zoom sfide Room: https://univr.zoom.us/j/99139510848','shell','y'),
+    (f'echo Etherpad sfide index page: https://etherpad.wikimedia.org/p/sfide_meetings{str(datetime.date.today())[:4]}','shell','y'),
+    (f'echo Etherpad meeting report: https://etherpad.wikimedia.org/p/sfide{str(datetime.date.today())}','shell','y'),
+    (f'echo Collaborative WhiteBoard: https://wbo.ophir.dev/boards/sfide{str(datetime.date.today())}_1','shell','y'),
+]
+
 start_vevox_gen = [
     ('google-chrome --new-window https://romeorizzi.vevox.com/#/meeting/296090/polls','shell','y'),
     ('echo participants can join the gen vevox poll 112-099-463 at https://vevox.app/#/m/112099463','shell','y'),
@@ -176,6 +190,7 @@ add_voice2menu("sign and/or complete a .pdf file", commands_list=('google-chrome
 add_voice2menu("start RO class", commands_list=start_ro_class, hot_key=("ro",))		  
 add_voice2menu("start RO class", commands_list=start_ro_class, hot_key=("RO",))		  
 add_voice2menu("start algo class", commands_list=start_algo_class, hot_key=("algo",))		  
+add_voice2menu("start sfide class", commands_list=start_sfide_class, hot_key=("sfide",))		  
 add_voice2menu("start DODM class", commands_list=start_DODM_class, hot_key=("do",))		  
 add_voice2menu("start DODM class", commands_list=start_DODM_class, hot_key=("DODM",))		  
 
