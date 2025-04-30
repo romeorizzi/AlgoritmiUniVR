@@ -1,17 +1,17 @@
 ---
-codename: interruttori
-title: Caccia agli interruttori
+codename: cesena
+title: Il crescione perfetto
 main_topics: [ BFS ]
 topics: [grafi, riconcettualizzare_per_efficientare, riconcettualizzare_formulazione]
-similar_problems: [ cesena, fire_escape ]
-try_next: cesena
+similar_problems: [ interruttori, fire_escape ]
+try_next: interruttori
 try_before: fire_escape
 appello_algoritmi:
 TAL_esercizi: [ algo, RO, DODM ]
 TAL_homeworks: [ algo, RO, DODM ]
 training:
-  URL: https://training.olinfo.it/task/terry/interruttori
-  evento: territoriali
+  URL: https://training.olinfo.it/task/itday_cesena
+  evento: nazionali
   year: 2024
 materiali:
   scritti:

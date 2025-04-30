@@ -1,14 +1,18 @@
 ---
-codename: pioggia
-title: La stagione dei monsoni modiﬁca il panorama
+codename: bufale
+title: Mozzarelle di Bufala
 main_topics: [ ingenuity ]
 topics: []
-similar_problems: [ marea, bufale ]
+similar_problems: [ marea ]
 try_next: marea
 try_before: 
 appello_algoritmi:
 TAL_esercizi: [ algo, RO, DODM ]
 TAL_homeworks: [ algo, RO, DODM ]
+training:
+  URL: https://training.olinfo.it/task/oii_bufale
+  evento: Finale Nazionale delle Oii
+  year: 2013 (Salerno)
 materiali:
   scritti:
   video_presentazione:

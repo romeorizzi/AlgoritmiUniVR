@@ -1,6 +1,7 @@
 # Programmazione Dinamica
 
 - [poldo_bis](../../problemi/poldo_bis)
+- [collage](../../problemi/collage)
 - [conio2](../../problemi/conio2)
 - [quanti_poldo](../../problemi/quanti_poldo)
 - [down_to_the_origin](../../problemi/down_to_the_origin)

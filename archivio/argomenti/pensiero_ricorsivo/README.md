@@ -1,6 +1,7 @@
 # Pensiero Ricorsivo
 
 - [poldo_bis](../../problemi/poldo_bis)
+- [collage](../../problemi/collage)
 - [borse](../../problemi/borse)
 - [conio2](../../problemi/conio2)
 - [quanti_poldo](../../problemi/quanti_poldo)

@@ -10,6 +10,7 @@
 <summary>Pensiero Ricorsivo</summary>
 
 - [poldo_bis](poldo_bis)
+- [collage](collage)
 - [borse](borse)
 - [conio2](conio2)
 - [quanti_poldo](quanti_poldo)
@@ -70,6 +71,7 @@
 <summary>Programmazione Dinamica</summary>
 
 - [poldo_bis](poldo_bis)
+- [collage](collage)
 - [conio2](conio2)
 - [quanti_poldo](quanti_poldo)
 - [down_to_the_origin](down_to_the_origin)
@@ -105,6 +107,7 @@
 </details><details>
 <summary>Grafi</summary>
 
+- [cesena](cesena)
 - [tecla](tecla)
 - [fire_escape](fire_escape)
 - [odd_cycle_reach](odd_cycle_reach)
@@ -117,6 +120,7 @@
 </details><details>
 <summary>BFS</summary>
 
+- [cesena](cesena)
 - [fire_escape](fire_escape)
 - [odd_cycle_reach](odd_cycle_reach)
 - [mutually_unreachable](mutually_unreachable)
@@ -148,6 +152,7 @@
 - [marea](marea)
 - [poldo_bis](poldo_bis)
 - [conio1](conio1)
+- [bufale](bufale)
 - [pioggia](pioggia)
 - [domino](domino)
 - [pianostudi](pianostudi)
@@ -189,6 +194,7 @@
 </details><details>
 <summary>Elaborare una formulazione propria o una riformulazione del problema prima di affrontarlo</summary>
 
+- [cesena](cesena)
 - [interruttori](interruttori)
 </details><details>
 <summary>Saper cambiare cavallo in corsa, riportare ad un modello già noto o anche ad uno di propria invenzione</summary>
@@ -198,6 +204,7 @@
 </details><details>
 <summary>un cambio di prospettiva consente di passare da un primo algoritmo ad un algoritmo più efficiente</summary>
 
+- [cesena](cesena)
 - [interruttori](interruttori)
 </details><details>
 <summary>un cambio di prospettiva dona semplicità</summary>

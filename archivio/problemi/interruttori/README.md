@@ -14,6 +14,7 @@ Una versione di questo problema fu proposta alle territoriali (2024).
  - riconcettualizzare_formulazione
 ## Problemi Simili
 
+ - cesena
  - fire_escape
 
 > [!TIP]

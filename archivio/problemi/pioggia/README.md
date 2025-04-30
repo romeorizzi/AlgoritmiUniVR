@@ -8,6 +8,7 @@
 ## Problemi Simili
 
  - marea
+ - bufale
 
 > [!TIP]
 > Se vuoi approfondire su questa linea un buon prossimo problema potrebbe essere `marea`.
