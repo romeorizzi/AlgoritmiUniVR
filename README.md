@@ -1,4 +1,4 @@
-# 🈴 🎒 📚 AlgoritmiUniVR – Corso di Algoritmi
+# 🈴 🎒 AlgoritmiUniVR – Corso di Algoritmi
 
 Benvenuto nella repository **AlgoritmiUniVR**, punto di riferimento per il corso di "Fondamenti di Algoritmi, Complessità, e Problem Solving"  dell'**Università di Verona**. Per il solo modulo di Complessità trovi dei materiali anche sul moodle di ateneo.
 
