@@ -39,10 +39,9 @@ Offre uno storico di lezioni, argomenti e problemi affrontati, organizzato in:
 - **[archivio generale di problemi](archivio/problemi/)**  
   I problemi incontrati nel corso quest'anno, e molti anche di anni passati (ogni problema è anche classificato per argomento o tecnica - uno stesso problema può comparire in più categorie)
 
-### 💍 [risorse](risorse/)  
+### 💍 [risorse](risorse/)
+
   Materiali, dispense e video nostri ma anche link a risorse esterne come manuali, piattaforme con problemi, video e interi corsi estremamente validi ad approfondire gli argomenti trattati, acquisire competenze, e prepararsi al meglio alle prove ed esami.
-  - [videoregistrazioni nostre 🎬](risorse/videoregistrazioni_nostre)
-  - **Leganto** 📚: per vedere quali testi adottati dal corso sono resi disponibili da questo servizio di ateneo o un primo orientamento su ottimi materiali che puoi trovare nel web
 
 ## 🔎 ⚡ Come trovare velocemente ciò che cerchi: 
 
@@ -54,7 +53,7 @@ Offre uno storico di lezioni, argomenti e problemi affrontati, organizzato in:
 
 ### 📓 Storico delle Lezioni
 - Vuoi controllare rapidamente cosa affrontato nelle ultime lezioni? Consulta i [recaps delle lezioni dell'anno corrente](archivio/incontri/2025/)
-- Vuoi visionare le registrazioni delle lezioni di quest'anno o di anni precedenti? Le trovi in [`risorse/videoregistrazioni_nostre`](risorse/videoregistrazioni_nostre)
+- Vuoi visionare le registrazioni delle lezioni di quest'anno o di anni precedenti? Le trovi in [`risorse/videoregistrazioni_incontri`](risorse/videoregistrazioni_incontri)
 - Vuoi sapere cosa è stato trattato in un anno specifico? Naviga nelle [cartelle annuali](archivio/incontri/)!
 
 ### 💥 Problemi

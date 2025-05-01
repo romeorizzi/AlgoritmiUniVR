@@ -11,7 +11,9 @@ Detto questo, organizziamo di seguito (eventualmente anche col vostro aiuto, ogn
 
 ## 🎥 Risorse Video Specifiche
 
-- 🎬 **[Videoregistazioni delle lezioni o di spiegazioni singole](videoregistrazioni_nostre)**
+- 🎬 **[Playlists di nostri brevi video con spiegazioni mirate](videoregistrazioni_nostre)**
+
+- 🎬 **[Storico delle videoregistrazioni dei nostri incontri/lezioni](videoregistrazioni_incontri)**
 
 - 🎬 **[Link a video afficaci su argomenti specifici](video_specifici)**
 
