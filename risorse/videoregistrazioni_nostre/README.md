@@ -9,7 +9,15 @@ In due sensi: come fruitore interessato, o rendendoti disponibile a realizzare t
 - [Lezioni 2024](https://univr.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx?folderID=c4df8587-8f34-4732-8e51-b12d0108ea08)
 - [Lezioni 2023](https://univr.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22c4df8587-8f34-4732-8e51-b12d0108ea08%22)
 
+## 🔗 [Playlist brevi video di sola proposta problema](https://www.youtube.com/playlist?list=PLZ6q66pQKGuIGktHAWiVK39apgvPlzFAP)
 
+## 🔗 Playlist brevi video come affrontare un problema
+
+## 🔗 [Playlist video concepire soluzione al problema](https://youtube.com/playlist?list=PLZ6q66pQKGuJTZ4XZxQFCNAcy639TH-S3&si=TFU96Nr4AJ2q-0pL)
+
+## 🔗 Playlist video codifica efficace soluzione problema
+
+<!---
 ## 🔗 Videoregistrazioni di proposta problema
 - [l'antica mappa](https://univr.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=94a99a1d-d1f0-4225-a335-ad0500d87793)
 - [Matita](https://univr.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=e8fefb35-9028-4fdc-9fec-ad0400b6fa69)
@@ -19,7 +27,7 @@ In due sensi: come fruitore interessato, o rendendoti disponibile a realizzare t
 - [Tecla e l'ape Maia](https://univr.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=d5d8217f-e81c-48fe-857d-ad03010b77e6)
 - [Triangolo](https://univr.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=c9cbea40-6e75-4f9d-8519-ad030106f6a7)
 - [Virus Sequencing](https://univr.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=bf8eed50-d440-4c53-9793-ad0300f91600)
-<!-- []() -->
+-->
 
 
 ## 🔗 Videoregistrazioni con soluzioni problema
