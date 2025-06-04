@@ -1,4 +1,4 @@
-# Incontro 2025-05-09 (laboratorio alfa)
+# Incontro 2025-05-16 (laboratorio alfa)
 
 
 ## Implemenazione del Problema Stalom

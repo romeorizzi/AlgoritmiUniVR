@@ -13,6 +13,6 @@ Il problema corteo è un esempio in tale senso, così da essere pronti a realizz
 
 ### descrizione, proposta e analisi approfondita del problema `matita`
 
-L'incontro è stato dedicato principalmente a questo problema metendo in luce diverse considerazioni metodologiche.
+L'incontro è stato dedicato principalmente a questo problema mettendo in luce diverse considerazioni metodologiche.
 
 [https://training.olinfo.it/task/oii_matita](https://training.olinfo.it/task/oii_matita)
