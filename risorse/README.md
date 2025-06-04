@@ -1,15 +1,14 @@
-# 📚 Risorse consigliate per lo studio del corso
+# 📚 Risorse consigliate per il corso
 
-Di seguito trovate una selezione aggiornata di risorse utili per approfondire gli argomenti trattati nel corso, esercitarvi e migliorare le vostre competenze in algoritmi e strutture dati.
+Organizziamo qui una selezione aggiornata di risorse che possano venirvi utili nell'affrontare argomenti di pertinenza del corso.
+Aiutaci a mantenere tale selezione ben centrata, puntuale, ed aggiornata: ogni segnalazione, suggerimento o feedback è gradito e prezioso per individuare quali risorse possano risultarvi di maggiore utilità o gradimento.
 
 > [!TIP]
-> Per questo, come per altri corsi dell'ateneo, il [servizio Leganto](https://univr.alma.exlibrisgroup.com/leganto/public/39UVR_INST/lists/5060419080005791?auth=SAML) rende gratuitamente disponibili i file .pdf dei testi adottati. Leganto elenca inoltre le copie presenti presso il sistema bibliotecario di ateneo.
-
-Detto questo, organizziamo di seguito (eventualmente anche col vostro aiuto, ogni segnalazione è gradita) quali risorse potrebbero rivelarsi di vostro gradimento.
+> Come per altri corsi dell'ateneo, il [servizio Leganto](https://univr.alma.exlibrisgroup.com/leganto/public/39UVR_INST/lists/5060419080005791?auth=SAML) rende gratuitamente disponibili i file .pdf dei testi adottati. Leganto elenca inoltre le copie presenti presso il sistema bibliotecario di ateneo.
 
 ---
 
-## 🎥 Risorse Video Specifiche
+## 🎥 Risorse su Argomenti Specifici
 
 - 🎬 **[Playlists di nostri brevi video con spiegazioni mirate](videoregistrazioni_nostre)**
 
@@ -17,7 +16,7 @@ Detto questo, organizziamo di seguito (eventualmente anche col vostro aiuto, ogn
 
 - 🎬 **[Link a video afficaci su argomenti specifici](video_specifici)**
 
-## 🎥 Risorse Video Generali
+## 🎥 Risorse Esterne Generali
 
 - 🎓 **[MIT OpenCourseWare - Introduction to Algorithms](https://ocw.mit.edu/courses/6-046j-introduction-to-algorithms-sma-5503-fall-2005/)**  
   Corso completo del MIT liberamente disponibile online. Offre un approccio rigoroso agli algoritmi fondamentali e strutture dati.

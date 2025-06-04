@@ -3,6 +3,9 @@
 ## problema bagno 1xn
 
 * competenza: pensiero ricorsivo
+* lezioni acquisite:
+ 1. l'importanza di analizzare con cura casi piccoli del problema
+ 2. l'importanza di mantenere un'ordine coerente
 
 Quanti e quali sono le possibili piastrellature di un bagno 1xn con piastrelle 1x1 e 1x2?
 

@@ -5,9 +5,9 @@ In due sensi: come fruitore interessato, o rendendoti disponibile a realizzare t
 
 ## 🎬 [Playlist brevi video di sola proposta problema](https://www.youtube.com/playlist?list=PLZ6q66pQKGuIGktHAWiVK39apgvPlzFAP)
 
-## 🎬 [Playlist brevi video come affrontare un problema](https://www.youtube.com/playlist?list=PLZ6q66pQKGuLonz_Q3It9SGtLPGLnKpyV)
+## 🎬 [Playlist brevi video su come affrontare il problema](https://www.youtube.com/playlist?list=PLZ6q66pQKGuLonz_Q3It9SGtLPGLnKpyV)
 
-## 🎬 [Playlist video concepire soluzione al problema](https://youtube.com/playlist?list=PLZ6q66pQKGuJTZ4XZxQFCNAcy639TH-S3&si=TFU96Nr4AJ2q-0pL)
+## 🎬 [Playlist video su concepire soluzione al problema](https://youtube.com/playlist?list=PLZ6q66pQKGuJTZ4XZxQFCNAcy639TH-S3&si=TFU96Nr4AJ2q-0pL)
 
 ## 🎬 [Playlist video codifica efficace soluzione problema](https://www.youtube.com/playlist?list=PLZ6q66pQKGuK1Sqjk6oZsWq_Bg7QPy5dj)
 

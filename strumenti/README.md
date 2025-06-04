@@ -21,7 +21,7 @@ Altre piattaforme/collection di problemi che ci sentiamo di consigliare sia per 
 Nonostante questa abbondanza di splendide proposte di cui consiglio di avvalersi (quantomeno date una curiosata), per le nostre esercitazioni, homeworks, e per l'esame, noi utilizzaremo un sistema nostro, per quanto un [progetto open source]() cui chi interessato potrà anche contribuire.
 Tale sistema si basa su una coppia client/server (`rtal`/`rtald`) che vi consente di far girare le vostre soluzioni in locale, facendole dialogare coi servizi di validazione che girano invece sul server.
 
-Il sistema `rtal` è pensato più per la didattica che per le gare, in quanto vi consente di monitorare cosa stia facendo il vostro programma (vi basta stampare su `stder` invece che su `stdout` per fare print debugging, mentre `stdout` e `stdin` restano riservati alla comunicazione col server) e ci sforziamo di darvi un feedback puntuale non appena il vostro programma fornisca risposte non valide (soluzioni non ammissibili, o non ottime, o comunque non come dovrebbero essere sul piano logico - il server chiude invece subito la comunicazione senza aggiungere alcuna spiegazione non appena non rispettate il protocollo inteso per il particolare problema).     
+Essendo pensato per la didattica piuttosto che per le gare, TALight vi consente di monitorare cosa stia facendo il vostro programma: basta stampare su `stderr` invece che su `stdout` per visualizzare sul vostro monitor piuttosto che inviare al server (comodo anche per fare print debugging). Pertanto, `stdout` e `stdin` restano riservati alla comunicazione col server. Cerchiamo inoltre di darvi un feedback puntuale non appena il vostro programma fornisca risposte non valide (soluzioni non ammissibili, o non ottime, o più in generale risposte non valide sul piano logico come da contesto). Tuttavia il server interrompe il canale senza altro aggiungere non appena riscontra un'irreparabile violazione del protocollo di comunicazione come inteso per il particolare problema.     
 
 
 ---
@@ -30,14 +30,15 @@ Il sistema `rtal` è pensato più per la didattica che per le gare, in quanto vi
 Installati ora e comincia ad utilizzare da subito `rtal`. Ti servirà per le esercitazioni, gli homework, e gli appelli in laboratorio del corso.
  
 
-  - [Come ottenere il client `rtal`](#come-ottenere-il-client-rtal)
-  - [Come verificare che `rtal` è installato correttamente](#come-verificare-che-rtal-è-installato-correttamente-e-verificare-la-versione)
-  - [L'help interno di `rtal`](#lhelp-interno-di-rtal)
-  - [Autenticazione e login](#come-loggarmi-ad-un-server-in-caso-richieda-autenticazione)
-  - [Lista dei problemi di un server](#come-vedere-la-lista-dei-problemi-di-una-collectionserver)
-  - [Scarica il testo e i materiali pubblici di un problema](#come-scaricarmi-il-testo-e-gli-altri-materiali-pubblici-di-un-problema)
-  - [Lista dei servizi attivi di un problema](#come-vedere-la-lista-dei-servizi-attivi-di-un-singolo-problema-e-relativi-argomenti)
-  - [Sottometti una tua soluzione o utilizza altri servizi di un problema](#come-sottomettere-la-mia-soluzione-o-avvalermi-di-altri-servizi-disponibili-per-un-problema)
+  - [Come ottenere il client `rtal`](#get_rtal)
+  - [[Verifica che `rtal` è installato correttamente e controllo versione](#check_rtal)
+  - [L'help interno (`rtal help`)](#rtal-help)
+  - [Autenticazione e login (`rtal login`)](#rtal-login)
+  - [Ottieni la lista dei problemi attualmente offerti in una collezione (`rtal-list`)](#rtal-list)
+  - [Scarica il testo e i materiali pubblici di un problema (`rtal get`)](#rtal-get)
+  - [Ottieni liste complete dei servizi attivi per un problema e relativi argomenti (`rtal-list -v <nome problema>`)](#rtal-list-v_problem_name)
+  - [Ottieni spiegazione di un servizio e relativi argomenti opzionali (the `synopsis` univeral service)](#synopsis-universal-service)
+  - [Sottometti una tua soluzione o invoca altri servizi di un problema (`rtal connect`)](#rtal-connect)
 
 <a id="get_rtal"></a>
 ## Come ottenere il client `rtal`
@@ -45,21 +46,22 @@ Installati ora e comincia ad utilizzare da subito `rtal`. Ti servirà per le ese
 <details>
 <summary>scaricare binario già compilato</summary>
 
-Dalla <a href="https://github.com/Guilucand/rtal-algo-client/releases">pagina delle release</a> scaricati la versione di binario `rtal` addatta al tuo PC (ovvero combinazione di sistema operativo e architettura del processore). Decomprimila (con `tar xvf` da command line oppure su Windows puoi usare anche `7-Zip`)
+Dalla <a href="https://github.com/Guilucand/rtal-algo-client/releases">pagina delle release</a> scaricati il binario `rtal` addatto al tuo PC (ti basta conoscerne il Sistema Operativo e solo di massima l'architettura del processore). Decomprimila (con `tar xvf` se da command line oppure puoi usare `7-Zip` se il tuo Sistema Operativo è Windows)
 </details>
 
 <details>
 <summary>compilare dai sorgenti</summary>
 
-Per **ottenere i sorgenti** di `rtal` clona la repo con un singolo comando dalla CLI:
+Puoi **ottenere i sorgenti** di `rtal` clonando la repo con un singolo comando dalla CLI:
 
 ```bash
 git clone https://github.com/Guilucand/rtal-algo-client.git
 ```
 
-Oppure scarica lo `.zip` (e decomprimilo):
+oppure scaricandone lo `.zip` e decomprimendolo:
 ```bash
 wget https://github.com/Guilucand/rtal-algo-client/archive/refs/heads/main.zip
+unzip main.zip
 ```
 In alternativa, per scaricare la repo, pigia il tastone verde <img src="../strumenti/stuff/figs/Git_Code_Green_Button.png" width="100" title="" alt=""> labellato "[< > Code]" che trovi nella [pagina su GitHub](https://github.com/Guilucand/rtal-algo-client), in alto. 
 
@@ -91,18 +93,14 @@ Per maggiori informazioni sulle opzioni disponibili per la compilazione vai alla
  
 
 <a id="check_rtal"></a>
-## Come verificare che `rtal` è installato correttamente
-
-Verifica + controllo di versione:
+## Verifica che `rtal` è installato correttamente e controllo versione
 
 ```bash
 rtal -V
 ```
 
-oppure col comando di primo aiuto discusso next. 
 
-
-<a id="rtal_help"></a>
+<a id="rtal-help"></a>
 ## L'help interno di `rtal`
 
 ```bash
@@ -115,10 +113,10 @@ Per maggiori dettagli su ogni subcommand (help,list,login,logout,get,connect):
 rtal help connect
 ```
 
-<a id="rtal_login"></a>
+<a id="rtal-login"></a>
 ## Come loggarmi ad un server in caso richieda autenticazione
 
-Per i server che richiedono autenticazione(`esame`,`homework`), è abilitata l'autenticazione tramite GIA, quindi prima di poter usare i subcommand `get` o `connect` devi autenticarti con:
+Per i server che richiedono autenticazione (server per homework o per esame), è abilitata l'autenticazione tramite GIA, quindi prima di poter usare i subcommand `get` o `connect` devi autenticarti con:
 
 ```bash
 rtal -s <URL-server> login
@@ -142,8 +140,8 @@ I server principali sono:
 In pratica, per effettuare una sottoposizione è richiesto loggarsi preventivamente al server e allegare i sorgenti della propria soluzione (se più file si alleghi un `.tar` del folder che li contiene) ad ogni sottoposizione tramite il servizio `connect`.
 
 
-<a id="rtal_list"></a>
-## Come vedere la lista dei problemi di una collection/server
+<a id="rtal-list"></a>
+## Visualizzare la lista dei problemi attualmente offerti in una collection/server
 
 
 ```bash
@@ -151,16 +149,16 @@ rtal -s <URL-server> list
 ```
 
 
-<a id="rtal_get"></a>
-## Come scaricarmi il testo e gli altri materiali pubblici di un problema
+<a id="rtal-get"></a>
+## Scarica il testo e gli altri materiali pubblici di un problema
 
 ```bash
 rtal -s <URL-server> get <nome_problema>
 ```
 
 
-<a id="rtal_list_on_problem"></a>
-## Come vedere la lista dei servizi attivi di un problema
+<a id="rtal-list-v_problem_name"></a>
+## Ottieni liste complete dei servizi attivi per un problema e relativi argomenti
 
 ```bash
 rtal -s <URL-server> list <nome_problema>
@@ -174,8 +172,9 @@ rtal -s <URL-server> list -v <nome_problema>
 
 Per questa via, per problemi che non seguano un formato rigido e già conosciuto,  non è comunque possibile ottenere spiegazioni esplicite su quali siano le finalità dei vari servizi elencati e sul ruolo che giocano i loro argomenti. Tutto questo potrebbe infatti dipendere in modo molto libero dal problema specifico; TALight consente infatti molta libertà al problem-maker (il docente).
 
-<a id="rtal_list_on_problem"></a>
- ## Come vedere la lista dei servizi attivi di un singolo problema, e relativi argomenti
+<a id="synopsis-universal-service"></a>
+ ## Ottieni spiegazione di un servizio e relativi argomenti opzionali (the `synopsis` univeral service)
+ 
 Per ottenere questo genere di informazioni devi rivolgerti al servizio `synopsis` del problema di interesse, come segue:
 
 ```bash
@@ -190,12 +189,12 @@ Ad esempio, per conoscere come puoi nel concreto usare il servizio `synopsis` di
 rtal -s <URL-server> connect <nome_problema> synopsis -a service=synopsis
 ```
 
-<a id="rtal_connect"></a>
+<a id="rtal-connect"></a>
 ## Come sottomettere la mia soluzione o avvalermi di altri servizi di un problema
 
 Ci si avvale del subcommand `connect`, più ricco e complesso nell'utilizzo. Ci limitiamo pertanto agli usi principali, vai a [`IT_the-TALight-Problem-Solver-Tutorial1-internet-server.md`](IT_the-TALight-Problem-Solver-Tutorial1-internet-server.md) in questo stesso folder per ulteriori dettagli sia sull'installazione ed uso di `rtal` che sul subcommand `connect`.
 
-L'uso tipico per sottomettere una tua soluzione all'esame oppure come homework (ossia quando vorrai che ti vengano riconosciuti gli eventuali punti totalizzati dalla tua sottoposizione) seguirà grossomodo il seguente formato:
+L'uso tipico per sottomettere una tua soluzione all'esame oppure come homework (ossia quando gli eventuali punti ottenuti dalla tua soluzione ti verrebbero attribuiti) seguirà grossomodo il seguente formato:
 
 ```bash
 rtal -s <URL-server> connect -f source=<PATH-TO-SOURCE-FILE> [-e] <nome_problema> [<ARGS>] -- <MY-EXECUTABLE-SOLUTION>
@@ -224,5 +223,5 @@ Dove:
 > Anche se è solo uno strumento, ti converrà prendere un minimo di dimestichezza nell'uso di `rtal`
 
 > [!TIP]
-> Nel caso degli homework, se non disponi di una macchina adeguata da dove svolgerli e sottometterli puoi avvalerti del servizio VirtualLab dell'ateneo (se da casa serve la VPN per fruire di questo servizio)
+> Per gli homework e i progetti, se non disponi di una macchina adeguata da dove svolgerli e sottometterli puoi avvalerti del servizio VirtualLab dell'ateneo (se da casa serve la VPN per fruire di questo servizio)
 

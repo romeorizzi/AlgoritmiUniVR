@@ -1,6 +1,6 @@
 # Incontro 2025-03-20 (aula T.0.4)
 
-## problema minato
+## problema campo minato
 
 * competenza chiave: programmazione dinamica
 * competenza ausiliaria: pensiero ricorsivo

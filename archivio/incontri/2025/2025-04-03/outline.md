@@ -1,6 +1,6 @@
 # Incontro 2025-04-03 (aula T.04)
 
-## Oggi DFS (su grafi non-diretto)
+## Oggi DFS (su grafo non-diretto)
 
 ### abbiamo visto
 - come si svolge la visita DFS

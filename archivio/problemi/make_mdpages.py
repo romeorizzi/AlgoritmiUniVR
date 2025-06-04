@@ -140,8 +140,8 @@ if __name__ == "__main__":
                         if t not in topics_yaml:
                             print(f"WARNING (FIX THIS FIRST!): the main topic `{t}` of problem `{pcodename}` is not present in the file `.../argomenti/topics.yaml`!", file=stderr)
                             exit(0)
-                    p_topics.append(t)
-                    p_topics_as_strs.append(f"**{t}**")
+                        p_topics.append(t)
+                        p_topics_as_strs.append(f"**{t}**")
                 if len(problem_yaml["topics"]) > 0:
                     for t in problem_yaml["topics"]:
                         if t not in topics_yaml:
