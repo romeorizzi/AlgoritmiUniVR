@@ -2,13 +2,10 @@
 
 Benvenuto nella repository **AlgoritmiUniVR**, punto di riferimento per il corso di "Fondamenti di Algoritmi, Complessità, e Problem Solving"  dell'**Università di Verona**. Per il solo modulo di Complessità trovi dei materiali anche sul moodle di ateneo.
 
-## 🍵 👀 Incontri 2025
+## 🍵 👀 Incontri 2026 (Laboratorio Algoritmi)
 
-puoi partecipare da remoto dalla [stanza Zoom `https://univr.zoom.us/j/94457731757`](https://univr.zoom.us/j/94457731757) (anche se non è la stessa cosa e, di necessità, avrai bassa priorità)
- - gio  (8:30 - 10:30, aula T.04, anche da Zoom)
- - ven (08:30 - 10:30, laboratorio alpha, anche da Zoom)
- - Incontri Complessità: mer + ven (8:30 - 10:30, aula T.04, solo in presenza)
- - Incontri col tutor Andrea Cracco (?? DA CONCORDARE, anche da Zoom)
+ - ven (11:30 - 13:30, laboratorio alpha )
+puoi partecipare da remoto dalla [stanza Zoom `https://univr.zoom.us/j/3518684000`](https://univr.zoom.us/j/3518684000) (anche se non è la stessa cosa, specie considerato che vuole essere un laboratorio; di necessità, avrai bassa priorità)
 
 
 ## 📊 💸 [Portafoglio dei voti](https://github.com/romeorizzi/portafoglioVoti_public.git)
